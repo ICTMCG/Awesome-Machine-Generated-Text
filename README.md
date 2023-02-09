@@ -9,7 +9,15 @@
     - [Biases & Toxicities](#biases--toxicities)
     - [Security Risks](#security-risks)
     - [LM Attacks](#lm-attacks)
-  - [Detection ![](https://img.shields.io/badge/Building-red)](#detection)
+    - [Environment](#environment)
+  - [Detection](#detection)
+    - [Survey](#survey)
+    - [Human Detection](#human-detection)
+    - [Automatic Detection](#automatic-detection)
+    - [Benchmark](#benchmark)
+    - [Tracing Text Provenance & Watermarking](#tracing-text-provenance--watermarking)
+    - [Other Related Work](#other-related-work)
+    
 
 ## Large Scale Pre-training for Language Generation
 > **Note:** #params > 1B only
