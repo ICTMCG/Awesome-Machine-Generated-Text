@@ -338,7 +338,7 @@
 - **Carbon Emissions and Large Neural Network Training.** [[paper]](https://arxiv.org/pdf/2104.10350) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2021.04-blue)
 
   *David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier and Jeff Dean.*
-  > Calculate the energy use and carbon footprint of several recent large models-T5, Meena, GShard, Switch Transformer, and GPT-3..
+  > Calculate the energy use and carbon footprint of several recent large models-T5, Meena, GShard, Switch Transformer, and GPT-3.
 
 ## Detection
 ### Survey
@@ -350,7 +350,7 @@
 
   *Evan Crothers, Nathalie Japkowicz and Herna Viktor.*
 
-- **Deepfake Text Detection: Limitations and Opportunities.** [[paper]](https://arxiv.org/pdf/2210.09421) ![](https://img.shields.io/badge/IEEE%20S&P%202023-orange) ![](https://img.shields.io/badge/2022.10-blue)
+- **Deepfake Text Detection: Limitations and Opportunities.** [[paper]](https://arxiv.org/pdf/2210.09421) ![](https://img.shields.io/badge/S&P%202023-orange) ![](https://img.shields.io/badge/2022.10-blue)
 
   *Jiameng Pu, Zain Sarwar, Sifat Muhammad Abdullah, Abdullah Rehman, Yoonjin Kim, Parantapa Bhattacharya, Mobin Javed and Bimal Viswanath.*
 
@@ -373,6 +373,11 @@
 
   *Liam Dugan, Daphne Ippolito, Arun Kirubarajan, Sherry Shi and Chris Callison-Burch.*
   > Analyze how a variety of variables (model size, decoding strategy, fine-tuning, prompt genre, etc.) affect human detection performance.
+
+- **AI model GPT-3 (dis)informs us better than humans.** [[paper]](https://arxiv.org/pdf/2301.11924) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.01-blue)
+
+  *Giovanni Spitale, Nikola Biller-Andorno and Federico Germani.*
+  > Evaluate whether recruited individuals can distinguish disinformation from accurate information, and determine whether a tweet has been written by a Twitter user or by GPT-3.
 
 ### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
@@ -400,10 +405,20 @@
   *Daphne Ippolito, Daniel Duckworth, Chris Callison-Burch and Douglas Eck.*
   > A comprehensive study of generated text detection systems’ sensitivity to model structure, decoding strategy, and excerpt length.
 
+- **Detecting Cross-Modal Inconsistency to Defend Against Neural Fake News.** [[paper]](https://aclanthology.org/2020.emnlp-main.163.pdf) ![](https://img.shields.io/badge/EMNLP%202020-orange) ![](https://img.shields.io/badge/2020.09-blue)
+
+  *Reuben Tan, Bryan A. Plummer and Kate Saenko.*
+  > Present DIDAN, a approach which exploits possible semantic inconsistencies between the text and image/captions to detect machine-generated articles.
+
 - **Neural Deepfake Detection with Factual Structure of Text.** [[paper]](https://aclanthology.org/2020.emnlp-main.193.pdf) ![](https://img.shields.io/badge/EMNLP%202020-orange) ![](https://img.shields.io/badge/2020.10-blue)
 
   *Wanjun Zhong, Duyu Tang, Zenan Xu, Ruize Wang, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.*
   > Propose a graph-based model that utilizes the factual structure of a document for deepfake detection of text.
+
+- **How Effectively Can Machines Defend Against Machine-Generated Fake News? An Empirical Study.** [[paper]](https://aclanthology.org/2020.insights-1.7.pdf) ![](https://img.shields.io/badge/EMNLP%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.11-blue)
+
+  *Meghana Moorthy Bhat and Srinivasan Parthasarathy.*
+  > Measure the performance of models by looking at accuracy with respect to perturbations introduced in this work. Find that success of style-based classifiers are limited when real articles are perturbed even under extreme modifications.
 
 - **Feature-based detection of automated language models: tackling GPT-2, GPT-3 and Grover.** [[paper]](https://peerj.com/articles/cs-443.pdf) ![](https://img.shields.io/badge/PeerJ%20Computer%20Science%202021-orange) ![](https://img.shields.io/badge/2021.04-blue)
 
@@ -420,10 +435,20 @@
   *Matthias Gallé, Jos Rozen, Germán Kruszewski and Hady Elsahar.*
   > Propose a method to detect those machine-generated documents leveraging repeated higher-order n-grams, which we show over-appear in machine-generated text as compared to human ones.
 
+- **Detecting computer-generated disinformation.** [[paper]](https://link.springer.com/content/pdf/10.1007/s41060-021-00299-5.pdf) ![](https://img.shields.io/badge/IJDSA%202022-orange) ![](https://img.shields.io/badge/2021.12-blue)
+
+  *Harald Stiff and Fredrik Johansson.*
+  > Evaluate promising Transformer-based detection algorithms in a large variety of experiments involving both in-distribution and out-of-distribution test data, as well as evaluation on more realistic in-the-wild data.
+
 - **Adversarial Robustness of Neural-Statistical Features in Detection of Generative Transformers.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892269) ![](https://img.shields.io/badge/IJCNN%202022-orange) ![](https://img.shields.io/badge/2022.03-blue)
 
   *Evan Crothers, Nathalie Japkowicz, Herna Viktor and Paula Branco.*
   > Assess each model’s relative performance at classifying computer-generated text. Evaluat models for robustness in the presence of text adversarial attacks.
+
+- **On pushing DeepFake Tweet Detection capabilities to the limits.** [[paper]](https://dl.acm.org/doi/pdf/10.1145/3501247.3531560) ![](https://img.shields.io/badge/WebSci%202022-orange) ![](https://img.shields.io/badge/2022.06-blue)
+
+  *Margherita Gambini, Tiziano Fagni, Fabrizio Falchi and Maurizio Tesconi.*
+  > Study and improve the performance of the stateof-the-art deepfake tweet detection methods over GPT-2 tweets and the detectors’ capabilities to generalize over tweets generated by GPT-3.
 
 - **Cross-Domain Detection of GPT-2-Generated Technical Text.** [[paper]](https://aclanthology.org/2022.naacl-main.88.pdf) ![](https://img.shields.io/badge/NAACL%202022-orange) ![](https://img.shields.io/badge/2022.07-blue)
 
@@ -454,6 +479,16 @@
 
   *Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D. Manning and Chelsea Finn.*
   > Propose DetectGPT, a zero-shot method for automated machine-generated text detection. To test if a passage came from a source model, DetectGPT compares the log probability of a candidate passage with the average log probability of several perturbations of the passage.
+
+- **ChatGPT or Human? Detect and Explain. Explaining Decisions of Machine Learning Model for Detecting Short ChatGPT-generated Text.** [[paper]](https://arxiv.org/pdf/2301.13852) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.01-blue)
+
+  *Sandra Mitrović, Davide Andreoletti and Omran Ayoub.*
+  > Build Transformer-based model to discriminate between human-written and seemingly human text, focusing on short texts. Give some insights about ChatGPT writing style by SHAP explanations of the predictions.
+
+- **Is This Abstract Generated by AI? A Research for the Gap between AI-generated Scientific Text and Human-written Scientific Text.** [[paper]](https://arxiv.org/pdf/2301.10416) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.01-blue)
+
+  *Yongqiang Ma, Jiawei Liu and Fan Yi.*
+  > Investigate the detection methods from three perspectives: (1) feature-based detection method; (2) fine-tuned pre-trained detection model; (3) explainability of detection model. Further investigate the gap between AI-generated text and human-written text.
 
 ### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
