@@ -539,6 +539,11 @@
   *Gongbo Liang, Jesus Guerrero and Izzat Alsmadi.*
   > Propose character- and word-based mutation operators for generating adversarial samples to attack state-of-the-art natural text detectors.
 
+- **GAN-Based Unsupervised Learning Approach to Generate and Detect Fake News.** [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-22018-0_37) ![](https://img.shields.io/badge/ICSPN%202022-orange) ![](https://img.shields.io/badge/2023.02-blue)
+
+  *Pranjal Bhardwaj, Krishna Yadav, Hind Alsharif and Rania Anwar Aboalela.*
+  > Develop an unsupervised-based approach to generate fake news using autoencoder and GAN. Further describe the use of discriminators in detecting machine-generated fake news.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
