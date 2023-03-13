@@ -6,15 +6,16 @@
   - [Analysis ![](https://img.shields.io/badge/Building-red)](#analysis)
     - [Comprehensive](#comprehensive)
     - [Hallucination & Disinformation](#hallucination--disinformation)
-    - [Biases & Toxicities](#biases--toxicities)
-    - [Security Risks](#security-risks)
-    - [LM Attacks](#lm-attacks)
+    - [Bias & Toxicity](#bias--toxicity)
+    - [Security Risk](#security-risk)
+    - [LM Attack](#lm-attack)
     - [Environment](#environment)
   - [Detection](#detection)
     - [Papers](#papers)
       - [Survey](#survey)
       - [Human Detection](#human-detection)
       - [Automatic Detection](#automatic-detection)
+      - [Detector Attack](#detector-attack)
       - [Benchmark](#benchmark)
       - [Tracing Text Provenance & Watermarking](#tracing-text-provenance--watermarking)
       - [Other Related Work](#other-related-work)
@@ -294,7 +295,7 @@
 - **Temporary policy: ChatGPT is banned.** [[blog]](https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned) ![](https://img.shields.io/badge/2022.12-blue)
   > While the answers which ChatGPT produces have a high rate of being incorrect, they typically look like they might be good and the answers are very easy to produce.
 
-### Biases & Toxicities
+### Bias & Toxicity
 - **On Second Thought, Let's Not Think Step by Step! Bias and Toxicity in Zero-Shot Reasoning.** [[paper]](https://arxiv.org/pdf/2212.08061) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
 
   *Omar Shaikh, Hongxin Zhang, William Held, Michael Bernstein and Diyi Yang.*
@@ -312,7 +313,7 @@
 
 - **OpenAI's new ChatGPT bot: 10 dangerous things it's capable of.** [[blog]](https://www.bleepingcomputer.com/news/technology/openais-new-chatgpt-bot-10-dangerous-things-its-capable-of/) ![](https://img.shields.io/badge/2022.12-blue)
   > As the erudite machinery turns into a viral sensation, humans have started to discover some of the AI's biases, like the desire to wipe out humanity.
-### Security Risks
+### Security Risk
 - **OpwnAI: AI That Can Save the Day or HACK it Away.** [[blog]](https://research.checkpoint.com/2022/opwnai-ai-that-can-save-the-day-or-hack-it-away/) ![](https://img.shields.io/badge/2022.12-blue)
   > AI models can be used to create a full infection flow, from spear-phishing to running a reverse shell.
 
@@ -330,7 +331,7 @@
 - **How hackers might be exploiting ChatGPT.** [[blog]](https://cybernews.com/security/hackers-exploit-chatgpt/) ![](https://img.shields.io/badge/2023.01-blue)
   > The viral AI chatbot ChatGPT might advise threat actors how to hack into networks with ease.
 
-### LM Attacks
+### LM Attack
 - **Extracting Training Data from Large Language Models.** [[paper]](https://arxiv.org/pdf/2012.07805) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2020.12-blue)
 
   *Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea and Colin Raffel.*
@@ -353,6 +354,10 @@
 - **Automatic Detection of Machine Generated Text: A Critical Survey.** [[paper]](https://aclanthology.org/2020.coling-main.208.pdf) ![](https://img.shields.io/badge/COLING%202020-orange) ![](https://img.shields.io/badge/2020.11-blue)
 
   *Ganesh Jawahar, Muhammad Abdul-Mageed and Laks V.S. Lakshmanan.*
+
+- **在线社交网络文本内容对抗技术.** [[paper]](http://cjc.ict.ac.cn/online/onlinepaper/lxm-202286133102.pdf) ![](https://img.shields.io/badge/计算机学报%202022-orange) ![](https://img.shields.io/badge/2022.08-blue)
+
+  *刘晓明, 张兆晗, 杨晨阳, 张宇辰, 沈超, 周亚东 and 管晓宏.*
 
 - **Machine Generated Text: A Comprehensive Survey of Threat Models and Detection Methods.** [[paper]](https://arxiv.org/pdf/2210.07321) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2022.10-blue)
 
@@ -478,11 +483,6 @@
   *Harald Stiff and Fredrik Johansson.*
   > Evaluate promising Transformer-based detection algorithms in a large variety of experiments involving both in-distribution and out-of-distribution test data, as well as evaluation on more realistic in-the-wild data.
 
-- **Adversarial Robustness of Neural-Statistical Features in Detection of Generative Transformers.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892269) ![](https://img.shields.io/badge/IJCNN%202022-orange) ![](https://img.shields.io/badge/2022.03-blue)
-
-  *Evan Crothers, Nathalie Japkowicz, Herna Viktor and Paula Branco.*
-  > Assess each model’s relative performance at classifying computer-generated text. Evaluat models for robustness in the presence of text adversarial attacks.
-
 - **On pushing DeepFake Tweet Detection capabilities to the limits.** [[paper]](https://dl.acm.org/doi/pdf/10.1145/3501247.3531560) ![](https://img.shields.io/badge/WebSci%202022-orange) ![](https://img.shields.io/badge/2022.06-blue)
 
   *Margherita Gambini, Tiziano Fagni, Fabrizio Falchi and Maurizio Tesconi.*
@@ -552,6 +552,17 @@
 
   *Tharindu Kumarage, Joshua Garland, Amrita Bhattacharjee, Kirill Trapeznikov, Scott Ruston and Huan Liu.*
   > Propose two simple architectures to utilize three categories of stylometric features towards 1) discriminating between human-written and AI-generated tweets and 2) detecting if and when an AI starts to generate tweets in a given Twitter timeline.
+
+## Detector Attack
+- **Adversarial Robustness of Neural-Statistical Features in Detection of Generative Transformers.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892269) ![](https://img.shields.io/badge/IJCNN%202022-orange) ![](https://img.shields.io/badge/2022.03-blue)
+
+  *Evan Crothers, Nathalie Japkowicz, Herna Viktor and Paula Branco.*
+  > Assess each model’s relative performance at classifying computer-generated text. Evaluat models for robustness in the presence of text adversarial attacks. Find that statistical features are considerably more robust to adversarial attack than Transformer-derived features.
+
+- **Exploring Semantic Perturbations on Grover.** [[paper]](https://arxiv.org/pdf/2302.00509) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.02-blue)
+
+  *Pranav Kulkarni, Ziqing Ji, Yan Xu, Marko Neskovic and Kevin Nolan.*
+  > Find that Grover-generated substitution, GPT2-generated substitution, length changing, and perturbations informed with the model’s embedding table were all effective to some degree in fooling Grover’s detection.
 
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
