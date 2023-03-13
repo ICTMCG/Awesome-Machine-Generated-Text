@@ -553,7 +553,7 @@
   *Tharindu Kumarage, Joshua Garland, Amrita Bhattacharjee, Kirill Trapeznikov, Scott Ruston and Huan Liu.*
   > Propose two simple architectures to utilize three categories of stylometric features towards 1) discriminating between human-written and AI-generated tweets and 2) detecting if and when an AI starts to generate tweets in a given Twitter timeline.
 
-## Detector Attack
+#### Detector Attack
 - **Adversarial Robustness of Neural-Statistical Features in Detection of Generative Transformers.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892269) ![](https://img.shields.io/badge/IJCNN%202022-orange) ![](https://img.shields.io/badge/2022.03-blue)
 
   *Evan Crothers, Nathalie Japkowicz, Herna Viktor and Paula Branco.*
