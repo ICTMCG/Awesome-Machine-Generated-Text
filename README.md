@@ -570,6 +570,11 @@
   *Pranav Kulkarni, Ziqing Ji, Yan Xu, Marko Neskovic and Kevin Nolan.*
   > Find that Grover-generated substitution, GPT2-generated substitution, length changing, and perturbations informed with the model’s embedding table were all effective to some degree in fooling Grover’s detection.
 
+- **Can AI-Generated Text be Reliably Detected?** [[paper]](https://arxiv.org/pdf/2303.11156) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.03-blue)
+
+  *Vinu Sankar Sadasivan, Aounon Kumar, Sriram Balasubramanian, Wenxiao Wang and Soheil Feizi.*
+  > Show that paraphrasing attacks can break detectors using the watermarking schemes as well as neural network-based detectors and zero-shot classifiers. Even LLMs protected by watermarking schemes can be vulnerable against spoofing attacks.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
@@ -594,13 +599,25 @@
 
   *Geetanjali Bihani, Julia Taylor Rayz.*
 
+- **Protecting Intellectual Property of Language Generation APIs with Lexical Watermark.** [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/21321/21070) ![](https://img.shields.io/badge/AAAI%202022-orange) ![](https://img.shields.io/badge/2022.06-blue)
+
+  *Xuanli He, Qiongkai Xu, Lingjuan Lyu, Fangzhao Wu and Chenguang Wang.*
+
 - **DeepHider: A Covert NLP Watermarking Framework Based on Multi-task Learning.** [[paper]](https://arxiv.org/pdf/2208.04676) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2022.08-blue)
 
   *Long Dai, Jiarong Mao, Xuefeng Fan and Xiaoyi Zhou.*
 
+- **CATER: Intellectual Property Protection on Text Generation APIs via Conditional Watermarks.** [[paper]](https://openreview.net/pdf?id=L7P3IvsoUXY) ![](https://img.shields.io/badge/NeurIPS%202022-orange) ![](https://img.shields.io/badge/2022.09-blue)
+
+  *Xuanli He, Qiongkai Xu, Yi Zeng, Lingjuan Lyu, Fangzhao Wu, Jiwei Li and Ruoxi Jia.*
+
 - **A Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2301.10226) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.01-blue)
 
   *John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers and Tom Goldstein.*
+
+- **Protecting Language Generation Models via Invisible Watermarking.** [[paper]](https://arxiv.org/pdf/2302.03162) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.02-blue)
+
+  *Xuandong Zhao, Yu-Xiang Wang and Lei Li.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
