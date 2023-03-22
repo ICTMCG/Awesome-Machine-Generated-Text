@@ -660,6 +660,8 @@
 - Hive Moderation AI-Generated Content Detection [[demo]](https://hivemoderation.com/ai-generated-content-detection)
 - Smodin Multi-lingual AI Content Detector [[demo]](https://smodin.io/ai-content-detector) 
 - Content at Scale AI Content Detector [[demo]](https://contentatscale.ai/ai-content-detector/) 
+- Writefull GPT Detector [[demo]](https://x.writefull.com/gpt-detector) 
+
 
 
 ### Datasets
