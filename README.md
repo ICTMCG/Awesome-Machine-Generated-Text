@@ -642,17 +642,25 @@
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
+- Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
 - OpenAI GPT-2 Output Detector [[demo]](https://openai-openai-detector.hf.space/) [[repo]](https://github.com/openai/gpt-2-output-dataset/tree/master/detector) ![](https://img.shields.io/badge/2019.11-blue)
 - Writer.com AI Content Detector [[demo]](https://writer.com/ai-content-detector/) ![](https://img.shields.io/badge/2022.10-blue)
 - Originality.AI [[home]](https://originality.ai/) [[blog]](https://originality.ai/can-gpt-3-5-chatgpt-be-detected/) ![](https://img.shields.io/badge/2022.12-blue)
 - Crossplag AI Content Detector [[demo]](https://crossplag.com/ai-content-detector/) ![](https://img.shields.io/badge/2022.12-blue)
 - Copyleaks AI Content Detector [[demo]](https://copyleaks.com/features/ai-content-detector) ![](https://img.shields.io/badge/2023.01-blue)
 - GPTZero [[demo]](https://gptzero.me/) ![](https://img.shields.io/badge/2023.01-blue)
+- ZeroGPT [[demo]](https://www.zerogpt.com/) ![](https://img.shields.io/badge/2023.01-blue)
 - AI Text Classifier [[demo]](https://platform.openai.com/ai-text-classifier) [[blog]](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/) ![](https://img.shields.io/badge/2023.01-blue)
 - DetectGPT [[demo]](https://detectgpt.ericmitchell.ai/) [[repo]](https://github.com/eric-mitchell/detect-gpt) ![](https://img.shields.io/badge/2023.01-blue)
 - ChatGPT-Comparison-Detection Project [[demo]](https://huggingface.co/Hello-SimpleAI) [[repo]](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) ![](https://img.shields.io/badge/2023.01-blue)
 - Percent Human [[home]](https://percenthuman.app/) ![](https://img.shields.io/badge/2023.01-blue)
 - C@S AI Detector [[demo]](https://contentatscale.ai/ai-content-detector/) ![](https://img.shields.io/badge/2023.02-blue)
+- GPTKit [[demo]](https://gptkit.ai/)
+- Sapling AI Content Detector [[demo]](https://sapling.ai/ai-content-detector) 
+- Hive Moderation AI-Generated Content Detection [[demo]](https://hivemoderation.com/ai-generated-content-detection)
+- Smodin Multi-lingual AI Content Detector [[demo]](https://smodin.io/ai-content-detector) 
+- Content at Scale AI Content Detector [[demo]](https://contentatscale.ai/ai-content-detector/) 
+
 
 ### Datasets
 | Dateset | Reference | Release Time | Description | Generation Model | Link |
