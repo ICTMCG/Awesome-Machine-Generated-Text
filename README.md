@@ -509,6 +509,11 @@
   *Artidoro Pagnoni, Martin Graciarena and Yulia Tsvetkov.*
   > Provide an assessment of the current landscape of generated text detection and identify three primary threat scenarios. Establish the minimax strategies that minimize the worst case scenario for the detector.
 
+- **Demystifying Neural Fake News via Linguistic Feature-Based Interpretation.** [[paper]](https://aclanthology.org/2022.coling-1.573.pdf) ![](https://img.shields.io/badge/COLING%202022-orange) ![](https://img.shields.io/badge/2022.10-blue)
+
+  *Ankit Aich, Souvik Bhattacharya and Natalie Parde.*
+  > Conduct a linguistically interpretative examination of the feature vulnerabilities exploited by neural fake news generators. Establish 21 stylistic, complexity, and psychological features for detection.
+
 - **CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data Limitation With Contrastive Learning.** [[paper]](https://arxiv.org/pdf/2212.10341) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2022.12-blue)
 
   *Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Yu Lan and Chao Shen.*
