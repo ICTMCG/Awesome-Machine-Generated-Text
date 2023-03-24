@@ -479,6 +479,11 @@
   *Paras Bhatt and Anthony Rios.*
   > Show that bot-generated text detection methods are more robust across datasets and models if we use information about how people respond to it rather than using the bot’s text directly.
 
+- **Artificial Text Detection via Examining the Topology of Attention Maps.** [[paper]](https://aclanthology.org/2021.emnlp-main.50v2.pdf) ![](https://img.shields.io/badge/EMNLP%202021-orange) ![](https://img.shields.io/badge/2021.09-blue)
+
+  *Laida Kushnareva, Daniil Cherniavskii, Vladislav Mikhailov, Ekaterina Artemova, Serguei Barannikov, Alexander Bernstein, Irina Piontkovskaya, Dmitri Piontkovski and Evgeny Burnaev.*
+  > Propose three novel types of interpretable topological features based on Topological Data Analysis (TDA). The features derived from the BERT model outperform count- and neural-based baselines up to 10% on three common datasets, and tend to be the most robust towards unseen GPT-style generation models as opposed to existing methods.
+
 - **Unsupervised and Distributional Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2111.02878) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2021.11-blue)
 
   *Matthias Gallé, Jos Rozen, Germán Kruszewski and Hady Elsahar.*
