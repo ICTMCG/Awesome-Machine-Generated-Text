@@ -21,6 +21,7 @@
       - [Other Related Work](#other-related-work)
     - [Demos & Products](#demos--products)
     - [Datasets](#datasets)
+    - [Shared Tasks](#shared-tasks)
     
 
 ## Large Scale Pre-training for Language Generation
@@ -695,3 +696,7 @@
 | RoFT Dataset | [[paper]](https://arxiv.org/pdf/2212.12672) | 2022 | 21,646 annotations for human to find the boundary between human-written text and machine-generated text | GPT-3 | [[repo]](https://github.com/liamdugan/human-detection/tree/main/data) |
 | ChatGPT Generated Text Detection Corpus | [[paper]](https://www.researchgate.net/profile/Ercan-Canhasi/publication/366898047_ChatGPT_Generated_Text_Detection/links/63b76718097c7832ca932473/ChatGPT-Generated-Text-Detection.pdf) | 2023 | 126 humans essays and 126 nonhumans essays | ChatGPT | [[repo]](https://github.com/rexshijaku/chatgpt-generated-text-detection-corpus) |
 | Human ChatGPT Comparison Corpus (HC3) | [[paper]](https://arxiv.org/pdf/2301.07597) | 2023 | 58,546 human answers and 26,903 ChatGPT answrers in English, 22,259 human answers and 17,522 ChatGPT answrers in Chinese | ChatGPT | [[repo]](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |
+
+### Shared Tasks
+- RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
+- AuTexTification: Automated Text Identification shared task [[home]](https://sites.google.com/view/autextification/home)
