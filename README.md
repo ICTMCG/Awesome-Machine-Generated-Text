@@ -602,6 +602,11 @@
   *Vijini Liyanage, Davide Buscaldi and Adeline Nazarenko.*
   > Propose two datasets comprised of artificially generated research content: a completely synthetic dataset and a partial text substitution dataset.
 
+- **MGTBench: Benchmarking Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2303.14822) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.03-blue)
+
+  *Xinlei He, Xinyue Shen, Zeyuan Chen, Michael Backes and Yang Zhang.*
+  > Consider 6 metric-based detection methods and 2 model-based detection methods under ChatGPT. And integrate the detection methods as well as datasets into a modular-designed framework named MGTBench.
+
 #### Tracing Text Provenance & Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
 
@@ -701,6 +706,7 @@
 | RoFT Dataset | [[paper]](https://arxiv.org/pdf/2212.12672) | 2022 | 21,646 annotations for human to find the boundary between human-written text and machine-generated text | GPT-3 | [[repo]](https://github.com/liamdugan/human-detection/tree/main/data) |
 | ChatGPT Generated Text Detection Corpus | [[paper]](https://www.researchgate.net/profile/Ercan-Canhasi/publication/366898047_ChatGPT_Generated_Text_Detection/links/63b76718097c7832ca932473/ChatGPT-Generated-Text-Detection.pdf) | 2023 | 126 humans essays and 126 nonhumans essays | ChatGPT | [[repo]](https://github.com/rexshijaku/chatgpt-generated-text-detection-corpus) |
 | Human ChatGPT Comparison Corpus (HC3) | [[paper]](https://arxiv.org/pdf/2301.07597) | 2023 | 58,546 human answers and 26,903 ChatGPT answrers in English, 22,259 human answers and 17,522 ChatGPT answrers in Chinese | ChatGPT | [[repo]](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) |
+| MGTBench | [[paper]](https://arxiv.org/pdf/2303.14822) | 2023 | Human and ChatGPT answers of 817 questions from TruthfulQA, 1,000 questions from SQuAD1 and 1,000 questions from NarrativeQA | ChatGPT | [[repo]](https://github.com/xinleihe/MGTBench) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
