@@ -374,9 +374,13 @@
 
   *Jiameng Pu, Zain Sarwar, Sifat Muhammad Abdullah, Abdullah Rehman, Yoonjin Kim, Parantapa Bhattacharya, Mobin Javed and Bimal Viswanath.*
 
-- **The Scicence of LLM-generated Text Detection.** [[paper]](https://drive.google.com/file/d/1U8oQNU4f-1c4hJG9vdFuV4xfa10mrKXC/view?usp=sharing) ![](https://img.shields.io/badge/2023.02-blue)
+- **The Science of Detecting LLM-Generated Texts.** [[paper]](https://arxiv.org/pdf/2303.07205) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.02-blue)
 
   *Ruixiang Tang, Yu-Neng Chuang and Xia Hu.*
+
+- **To ChatGPT, or not to ChatGPT: That is the question!** [[paper]](https://arxiv.org/pdf/2304.01487) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Alessandro Pegoraro, Kavita Kumari, Hossein Fereidooni and Ahmad-Reza Sadeghi.*
 
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
