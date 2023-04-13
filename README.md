@@ -418,6 +418,11 @@
   *Eric Schwitzgebel, David Schwitzgebel and Anna Strasser.*
   > Fine-tuned the GPT-3 on the corpus of Daniel Dennett, then asked it a series of philosophical questions. Ordinary research participants untrained in philosophy were at or near chance in distinguishing GPT-3’s answers from those of an “actual human philosopher”. .
 
+- **Understanding Individual and Team-based Human Factors in Detecting Deepfake Texts.** [[paper]](https://arxiv.org/pdf/2304.01002) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Adaku Uchendu, Jooyoung Lee, Hua Shen, Thai Le, Ting-Hao 'Kenneth' Huang and Dongwon Lee.*
+  > Find that: (1) expert humans detect deepfake texts significantly better than non-expert humans, (2) synchronous teams on the Upwork detect deepfake texts significantly better than individuals, while asynchronous teams on the AMT detect deepfake texts weakly better than individuals, and (3) among various error categories, examining coherence and consistency in texts is useful in detecting deepfake texts.
+
 #### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
 
@@ -674,6 +679,16 @@
 
   *Jiashu Pu, Ziyi Huang, Yadong Xi, Guandan Chen, Weijie Chen and Rongsheng Zhang.*
   > Reveal characteristics and possible manifestations of artifacts. Locate artifacts mainly based on the performance variation of the classifier against different corruptions.
+
+- **On the Possibilities of AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2304.04736) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Souradip Chakraborty, Amrit Singh Bedi, Sicheng Zhu, Bang An, Dinesh Manocha and Furong Huang.*
+  > Provide evidence that it should almost always be possible to detect the AI-generated text unless the distributions of human and machine generated texts are exactly the same over the entire support.
+
+- **Towards an Understanding and Explanation for Mixed-Initiative Artificial Scientific Text Detection.** [[paper]](https://arxiv.org/pdf/2304.05011) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Luoxuan Weng, Minfeng Zhu, Kam Kwai Wong, Shi Liu, Jiashun Sun, Hang Zhu, Dongming Han and Wei Chen.*
+  >  A formative study that identifies critical distinctions and summarizes design requirements for artificial scientific text detection. Propose a novel workflow and a prototype system that combines human intelligence with machine learning techniques to facilitate artificial text detection.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
