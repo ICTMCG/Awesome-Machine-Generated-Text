@@ -584,6 +584,11 @@
   *Heather Desaire, Aleesa E. Chua, Madeline Isom, Romana Jarosova and David Hua.*
   > With a set of 20 features, build a model that assigned the author, as human or AI, at well over 99% accuracy, resulting in 20 times fewer misclassified documents compared to the field-leading approach.
 
+- **Detection of Fake Generated Scientific Abstracts.** [[paper]](https://arxiv.org/pdf/2304.06148) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Panagiotis C. Theocharopoulos, Panagiotis Anagnostou, Anastasia Tsoukala, Spiros V. Georgakopoulos, Sotiris K. Tasoulis and Vassilis P. Plagianakos.*
+  > Utilize the GPT-3 model to generate scientific paper abstracts through Artificial Intelligence and explore various text representation methods when combined with Machine Learning models with the aim of identifying machine-written text.
+
 #### Detector Attack
 - **Adversarial Robustness of Neural-Statistical Features in Detection of Generative Transformers.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892269) ![](https://img.shields.io/badge/IJCNN%202022-orange) ![](https://img.shields.io/badge/2022.03-blue)
 
