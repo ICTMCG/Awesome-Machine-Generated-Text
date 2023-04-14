@@ -4,12 +4,12 @@
 - [Resource List about Machine Generated Text](#awesome-machine-generated-text)
   - [Large Scale Pre-training for Language Generation](#large-scale-pre-training-for-language-generation)
   - [Analysis ![](https://img.shields.io/badge/Building-red)](#analysis)
-    - [Comprehensive](#comprehensive)
+    <!-- - [Comprehensive](#comprehensive)
     - [Hallucination & Disinformation](#hallucination--disinformation)
     - [Bias & Toxicity](#bias--toxicity)
     - [Security Risk](#security-risk)
     - [LM Attack](#lm-attack)
-    - [Environment](#environment)
+    - [Environment](#environment) -->
   - [Detection](#detection)
     - [Papers](#papers)
       - [Survey](#survey)
@@ -248,6 +248,8 @@
     *Hui Su, Xiao Zhou, Houjin Yu, Yuwen Chen, Zilin Zhu, Yang Yu and Jie Zhou.*
 
 ## Analysis
+<details><summary>Preview</summary>
+
 ### Comprehensive
 - **Holistic Evaluation of Language Models.** [[paper]](https://arxiv.org/pdf/2211.09110) [[blog]](https://crfm.stanford.edu/2022/11/17/helm.html) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2022.11-blue)
 
@@ -354,6 +356,7 @@
 
   *David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier and Jeff Dean.*
   > Calculate the energy use and carbon footprint of several recent large models-T5, Meena, GShard, Switch Transformer, and GPT-3.
+</details>
 
 ## Detection
 ### Papers
@@ -583,6 +586,11 @@
 
   *Heather Desaire, Aleesa E. Chua, Madeline Isom, Romana Jarosova and David Hua.*
   > With a set of 20 features, build a model that assigned the author, as human or AI, at well over 99% accuracy, resulting in 20 times fewer misclassified documents compared to the field-leading approach.
+
+- **Distinguishing ChatGPT(-3.5, -4)-generated and human-written papers through Japanese stylometric analysis.** [[paper]](https://arxiv.org/pdf/2304.05534) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Wataru Zaitsu and Mingzhe Jin.*
+  > Perform multi-dimensional scaling (MDS) to confirm the distributions of 216 texts of three classes (human, GPT-3.5, GPT-4) focusing on the following stylometric features: (1) bigrams of parts-of-speech, (2) bigram of postpositional particle words, (3) positioning of commas, and (4) rate of function words.
 
 - **Detection of Fake Generated Scientific Abstracts.** [[paper]](https://arxiv.org/pdf/2304.06148) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
 
