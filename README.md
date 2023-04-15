@@ -592,6 +592,11 @@
   *Wataru Zaitsu and Mingzhe Jin.*
   > Perform multi-dimensional scaling (MDS) to confirm the distributions of 216 texts of three classes (human, GPT-3.5, GPT-4) focusing on the following stylometric features: (1) bigrams of parts-of-speech, (2) bigram of postpositional particle words, (3) positioning of commas, and (4) rate of function words.
 
+- **Evaluating AIGC Detectors on Code Content.** [[paper]](https://arxiv.org/pdf/2304.05193) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Jian Wang, Shangqing Liu, Xiaofei Xie and Yi Li.*
+  > Present the first empirical study on evaluating existing AIGC detectors in the software domain. Create a comprehensive dataset including 492.5K samples comprising code-related content produced by ChatGPT and evaluate six AIGC detectors on this dataset.
+
 - **Detection of Fake Generated Scientific Abstracts.** [[paper]](https://arxiv.org/pdf/2304.06148) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
 
   *Panagiotis C. Theocharopoulos, Panagiotis Anagnostou, Anastasia Tsoukala, Spiros V. Georgakopoulos, Sotiris K. Tasoulis and Vassilis P. Plagianakos.*
