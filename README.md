@@ -633,6 +633,11 @@
   *Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu and James Zou.*
   > Find that several widely-used GPT detectors consistently misclassify non-native English writing samples as AI-generated, whereas native writing samples are accurately identified. Demonstrate that simple prompting strategies can not only mitigate this bias but also effectively bypass GPT detectors.
 
+- **Stochastic Parrots Looking for Stochastic Parrots: LLMs are Easy to Fine-Tune and Hard to Detect with other LLMs.** [[paper]](https://arxiv.org/pdf/2304.08968) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Da Silva Gameiro Henrique, Andrei Kucharavy and Rachid Guerraoui.*
+  > Show that generative LLM detection with a discriminator LLM is impossible if the attacker has access to the reference "human" dataset used to train the discriminator LLM. Simply fine-tuning the dataset and using prompts from it leads to a complete failure of the discriminator to learn the difference between machine and human-generated texts, even in a setting where all LLM outputs are correctly labeled.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
