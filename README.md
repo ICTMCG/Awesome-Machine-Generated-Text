@@ -591,6 +591,11 @@
   *Heather Desaire, Aleesa E. Chua, Madeline Isom, Romana Jarosova and David Hua.*
   > With a set of 20 features, build a model that assigned the author, as human or AI, at well over 99% accuracy, resulting in 20 times fewer misclassified documents compared to the field-leading approach.
 
+- **Detection of AI-generated Essays in Writing Assessments.** [[paper]](https://www.psychologie-aktuell.com/fileadmin/Redaktion/Journale/ptam_2023-1/PTAM__1-2023_5_kor.pdf) ![](https://img.shields.io/badge/Psychological%20Testing%20and%20Assessment%20Modeling%202023-orange) ![](https://img.shields.io/badge/2023.03-blue)
+
+  *Duanli Yan, Michael Fauss, Jiangang Hao, Wenju Cui.*
+  > Show how AI-generated essays are similar or different from human-written essays based on a set of typical prompts for a sample from a large-scale assessment. Introduce two classifiers that can detect AI-generated essays with a high accuracy of over 95%.
+
 - **Distinguishing ChatGPT(-3.5, -4)-generated and human-written papers through Japanese stylometric analysis.** [[paper]](https://arxiv.org/pdf/2304.05534) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
 
   *Wataru Zaitsu and Mingzhe Jin.*
