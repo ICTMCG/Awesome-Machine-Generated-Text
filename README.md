@@ -641,6 +641,11 @@
   *Peipeng Yu, Jiahan Chen, Xuan Feng and Zhihua Xia.*
   > Present a large-scale CHatGPT-writtEn AbsTract dataset (CHEAT) contains 35,304 synthetic abstracts, with Generation, Polish, and Mix as prominent representatives. Show that ChatGPT-written abstracts are detectable, while the detection difficulty increases with human involvement.
 
+- **Origin Tracing and Detecting of LLMs.** [[paper]](https://arxiv.org/pdf/2304.14072) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Linyang Li, Pengyu Wang, Ke Ren, Tianxiang Sun and Xipeng Qiu.*
+  > First raise the concern of the origin tracing of LLMs and propose an effective method to trace and detect AI-generated contexts. Introduce a novel algorithm that leverages the contrastive features between LLMs and extracts model-wise features to trace the text origins.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -756,6 +761,11 @@
 
   *Luoxuan Weng, Minfeng Zhu, Kam Kwai Wong, Shi Liu, Jiashun Sun, Hang Zhu, Dongming Han and Wei Chen.*
   >  A formative study that identifies critical distinctions and summarizes design requirements for artificial scientific text detection. Propose a novel workflow and a prototype system that combines human intelligence with machine learning techniques to facilitate artificial text detection.
+
+- **AI, write an essay for me: A large-scale comparison of human-written versus ChatGPT-generated essays.** [[paper]](https://arxiv.org/pdf/2304.14276) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Steffen Herbold, Annette Hautli-Janisz, Ute Heuer, Zlata Kikteva and Alexander Trautsch.*
+  >  Compare human-written versus ChatGPT-generated argumentative student essays. The results demonstrate that ChatGPT generates essays that are rated higher for quality than human-written essays. The writing style of the AI models exhibits linguistic characteristics that are different from those of the human-written essays.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
