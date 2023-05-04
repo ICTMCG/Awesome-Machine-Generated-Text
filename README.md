@@ -731,6 +731,10 @@
 
   *Xuandong Zhao, Yu-Xiang Wang and Lei Li.*
 
+- **Robust Natural Language Watermarking through Invariant Features.** [[paper]](https://arxiv.org/pdf/2305.01904) ![](https://img.shields.io/badge/ACL%202023-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *KiYoon Yoo, Wonhyuk Ahn, Jiho Jang and Nojun Kwak.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
