@@ -785,6 +785,7 @@
 - DetectGPT [[demo]](https://detectgpt.ericmitchell.ai/) [[repo]](https://github.com/eric-mitchell/detect-gpt) ![](https://img.shields.io/badge/2023.01-blue)
 - ChatGPT-Comparison-Detection Project [[demo]](https://huggingface.co/Hello-SimpleAI) [[repo]](https://github.com/Hello-SimpleAI/chatgpt-comparison-detection) ![](https://img.shields.io/badge/2023.01-blue)
 - Percent Human [[home]](https://percenthuman.app/) ![](https://img.shields.io/badge/2023.01-blue)
+- AICheatCheck [[home]](https://www.aicheatcheck.com/) ![](https://img.shields.io/badge/2023.01-blue)
 - C@S AI Detector [[demo]](https://contentatscale.ai/ai-content-detector/) ![](https://img.shields.io/badge/2023.02-blue)
 - Winston AI Content Detection [[demo]](https://gowinston.ai/) ![](https://img.shields.io/badge/2023.02-blue)
 - AI Content Detector [[demo]](https://ai-content-detector.online/) ![](https://img.shields.io/badge/2023.03-blue)
