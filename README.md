@@ -430,6 +430,11 @@
   *Adaku Uchendu, Jooyoung Lee, Hua Shen, Thai Le, Ting-Hao 'Kenneth' Huang and Dongwon Lee.*
   > Find that: (1) expert humans detect deepfake texts significantly better than non-expert humans, (2) synchronous teams on the Upwork detect deepfake texts significantly better than individuals, while asynchronous teams on the AMT detect deepfake texts weakly better than individuals, and (3) among various error categories, examining coherence and consistency in texts is useful in detecting deepfake texts.
 
+- **Too Good to Be True? An Empirical Study of ChatGPT Capabilities for Academic Writing and Implications for Academic Misconduct.** [[paper]](https://www.researchgate.net/profile/Peter-Andre-Busch/publication/370106469_Too_Good_to_Be_True_An_Empirical_Study_of_ChatGPT_Capabilities_for_Academic_Writing_and_Implications_for_Academic_Misconduct/links/64403aa91b8d044c6335d7ce/Too-Good-to-Be-True-An-Empirical-Study-of-ChatGPT-Capabilities-for-Academic-Writing-and-Implications-for-Academic-Misconduct.pdf) ![](https://img.shields.io/badge/AMCIS%202023-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Peter André Busch and Geir Inge Hausvik.*
+  > Ask 15 faculty members to assess a total of ten answers (two each) to an actual IS exam question, of which students wrote five, and ChatGPT generated five. Find that ChatGPT can generate answers of generally good quality that may pass as human-written text by examiners.
+
 #### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
 
@@ -645,6 +650,11 @@
 
   *Linyang Li, Pengyu Wang, Ke Ren, Tianxiang Sun and Xipeng Qiu.*
   > First raise the concern of the origin tracing of LLMs and propose an effective method to trace and detect AI-generated contexts. Introduce a novel algorithm that leverages the contrastive features between LLMs and extracts model-wise features to trace the text origins.
+
+- **ChatLog: Recording and Analyzing ChatGPT Across Time.** [[paper]](https://arxiv.org/pdf/2304.14106) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+
+  *Shangqing Tu, Chunyang Li, Jifan Yu, Xiaozhi Wang, Lei Hou and Juanzi Li.*
+  > Collect a coarse-to-fine temporal dataset called ChatLog, consisting of two parts that update monthly and daily. In section 5, explore the application of ChatGPT unchanged features on ChatLog-Daily dataset. Show a preliminary use case: improving the ChatGPT detection model’s robustness.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
