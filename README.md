@@ -781,6 +781,11 @@
   *Steffen Herbold, Annette Hautli-Janisz, Ute Heuer, Zlata Kikteva and Alexander Trautsch.*
   >  Compare human-written versus ChatGPT-generated argumentative student essays. The results demonstrate that ChatGPT generates essays that are rated higher for quality than human-written essays. The writing style of the AI models exhibits linguistic characteristics that are different from those of the human-written essays.
 
+- **Bot or Human? Detecting ChatGPT Imposters with A Single Question.** [[paper]](https://arxiv.org/pdf/2305.06424) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Hong Wang, Xuan Luo, Weizhi Wang and Xifeng Yan.*
+  > Propose a framework named FLAIR, Finding Large Language Model Authenticity via a Single Inquiry and Response, to detect conversational bots in an online manner. The questions that can effectively differentiate human users from bots are divided into two categories: those that are easy for humans but difficult for bots, and those that are easy for bots but difficult for humans.
+
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
 - Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
