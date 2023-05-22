@@ -707,6 +707,11 @@
   *Da Silva Gameiro Henrique, Andrei Kucharavy and Rachid Guerraoui.*
   > Show that generative LLM detection with a discriminator LLM is impossible if the attacker has access to the reference "human" dataset used to train the discriminator LLM. Simply fine-tuning the dataset and using prompts from it leads to a complete failure of the discriminator to learn the difference between machine and human-generated texts, even in a setting where all LLM outputs are correctly labeled.
 
+- **Large Language Models can be Guided to Evade AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2305.10847) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Ning Lu, Shengcai Liu, Rui He, Qi Wang and Ke Tang.*
+  > Reveal that with the aid of carefully crafted prompts, LLMs can effectively evade detection systems. Propose a novel Substitution-based In-Context example Optimization method (SICO) to automatically generate such prompts. On three real-world tasks where LLMs can be misused, SICO successfully enables ChatGPT to evade six existing detectors, causing a significant 0.54 AUC drop on average.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
