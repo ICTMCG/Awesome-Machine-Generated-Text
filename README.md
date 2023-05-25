@@ -659,6 +659,7 @@
 - **Perception, performance, and detectability of conversational artificial intelligence across 32 university courses.** [[paper]](https://arxiv.org/pdf/2305.13934) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   <details><summary>Show Authors</summary><i>Hazem Ibrahim, Fengyuan Liu, Rohail Asim, Balaraju Battu, Sidahmed Benabderrahmane, Bashar Alhafni, Wifag Adnan, Tuka Alhanai, Bedoor AlShebli, Riyadh Baghdadi, Jocelyn J. Bélanger, Elena Beretta, Kemal Celik, Moumena Chaqfeh, Mohammed F. Daqaq, Zaynab El Bernoussi, Daryl Fougnie, Borja Garcia de Soto, Alberto Gandolfi, Andras Gyorgy, Nizar Habash, J. Andrew Harris, Aaron Kaufman, Lefteris Kirousis, Korhan Kocak, Kangsan Lee, Seungah S. Lee, Samreen Malik, Michail Maniatakos, David Melcher, Azzam Mourad, Minsu Park, Mahmoud Rasras, Alicja Reuben, Dania Zantout, Nancy W. Gleason, Kinga Makovi, Talal Rahwan and Yasir Zaki</i></details>
+
   > Compare the performance of ChatGPT against students on 32 university-level courses. Current AI-text classifiers cannot reliably detect ChatGPT’s use in school work, due to their propensity to classify human-written answers as AI-generated, as well as the ease with which AI-generated text can be edited to evade detection.
 
 - **GPT-Sentinel: Distinguishing Human and ChatGPT Generated Content.** [[paper]](https://arxiv.org/pdf/2305.07969) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
