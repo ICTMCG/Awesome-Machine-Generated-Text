@@ -389,6 +389,10 @@
 
   *Alessandro Pegoraro, Kavita Kumari, Hossein Fereidooni and Ahmad-Reza Sadeghi.*
 
+- **REVERSE TURING TEST IN THE AGE OF DEEPFAKE TEXTS.** [[paper]](https://pike.psu.edu/publications/thesis-adaku.pdf) ![](https://img.shields.io/badge/Dissertation-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Adaku Uchendu.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
