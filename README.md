@@ -772,6 +772,11 @@
   *Ning Lu, Shengcai Liu, Rui He, Qi Wang and Ke Tang.*
   > Reveal that with the aid of carefully crafted prompts, LLMs can effectively evade detection systems. Propose a novel Substitution-based In-Context example Optimization method (SICO) to automatically generate such prompts. On three real-world tasks where LLMs can be misused, SICO successfully enables ChatGPT to evade six existing detectors, causing a significant 0.54 AUC drop on average.
 
+- **Red Teaming Language Model Detectors with Language Models.** [[paper]](https://arxiv.org/pdf/2305.19713) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Zhouxing Shi, Yihan Wang, Fan Yin, Xiangning Chen, Kai-Wei Chang and Cho-Jui Hsieh.*
+  > Systematically test the reliability of the existing detectors, by designing two types of attack strategies to fool the detectors: 1) replacing words with their synonyms based on the context; 2) altering the writing style of generated text. Reveal that these attacks effectively compromise the performance of all tested detectors.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
