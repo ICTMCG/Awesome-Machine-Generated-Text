@@ -439,6 +439,11 @@
   *Peter André Busch and Geir Inge Hausvik.*
   > Ask 15 faculty members to assess a total of ten answers (two each) to an actual IS exam question, of which students wrote five, and ChatGPT generated five. Find that ChatGPT can generate answers of generally good quality that may pass as human-written text by examiners.
 
+- **Game of Tones: Faculty detection of GPT-4 generated content in university assessments.** [[paper]](https://arxiv.org/pdf/2305.18081) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Mike Perkins, Jasper Roe, Darius Postma, James McGaughran and Don Hickerson.*
+  > This study explores the robustness of university assessments against the use of Open AI's Generative Pre-Trained Transformer 4 (GPT-4) generated content and evaluates the ability of academic staff to detect its use when supported by the Turnitin Artificial Intelligence (AI) detection tool.
+
 #### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
 
