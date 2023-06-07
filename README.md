@@ -823,7 +823,7 @@
 
   *Xuanli He, Qiongkai Xu, Yi Zeng, Lingjuan Lyu, Fangzhao Wu, Jiwei Li and Ruoxi Jia.*
 
-- **A Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2301.10226) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.01-blue)
+- **A Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2301.10226) ![](https://img.shields.io/badge/ICML%202023-orange) ![](https://img.shields.io/badge/2023.01-blue)
 
   *John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers and Tom Goldstein.*
 
@@ -850,6 +850,14 @@
 - **Who Wrote this Code? Watermarking for Code Generation.** [[paper]](https://arxiv.org/pdf/2305.15060) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *Taehyun Lee, Seokhee Hong, Jaewoo Ahn, Ilgee Hong, Hwaran Lee, Sangdoo Yun, Jamin Shin and Gunhee Kim.*
+
+- **Undetectable Watermarks for Language Models.** [[paper]](https://eprint.iacr.org/2023/763.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Miranda Christ, Sam Gunn and Or Zamir.*
+
+- **Baselines for Identifying Watermarked Large Language Models.** [[paper]](https://arxiv.org/pdf/2305.18456) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Leonard Tang, Gavin Uberti and Tom Shlomi.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
