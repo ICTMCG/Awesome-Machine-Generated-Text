@@ -726,6 +726,11 @@
   *Zhijie Deng, Hongcheng Gao, Yibo Miao and Hao Zhang.*
   > DetectGPT suffers from significant inefficiency issues, as detecting a single candidate requires scoring hundreds of its perturbations with the source LLM. This paper aims to bridge this gap. Technically, propose to incorporate a Bayesian surrogate model, which allows us to select typical samples based on Bayesian uncertainty and interpolate scores from typical samples to other ones, to improve query efficiency.
 
+- **Distinguishing Human Generated Text From ChatGPT Generated Text Using Machine Learning.** [[paper]](https://arxiv.org/pdf/2306.01761) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+
+  *Niful Islam, Debopom Sutradhar, Humaira Noor, Jarin Tasnim Raya, Monowara Tabassum Maisha and Dewan Md Farid.*
+  > Present a machine learning-based solution that can identify the ChatGPT delivered text from the human written text along with the comparative analysis of a total of 11 machine learning and deep learning algorithms in the classification process.
+
 - **Multiscale Positive-Unlabeled Detection of AI-Generated Texts.** [[paper]](https://arxiv.org/pdf/2305.18149) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu and Yunhe Wang.*
