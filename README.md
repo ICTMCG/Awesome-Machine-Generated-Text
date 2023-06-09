@@ -736,6 +736,11 @@
   *Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu and Yunhe Wang.*
   > Mainstream detectors are formulated without considering the factor of corpus length: shorter corpuses are harder to detect compared with longer ones for shortage of informative features. In this paper, a Multiscale Positive-Unlabeled (MPU) training framework is proposed to address the challenge of multiscale text detection.
 
+- **Intrinsic Dimension Estimation for Robust Detection of AI-Generated Texts.** [[paper]](https://arxiv.org/pdf/2306.04723) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Serguei Barannikov, Irina Piontkovskaya, Sergey Nikolenko and Evgeny Burnaev.*
+  > Propose an invariant of human texts, namely the intrinsic dimensionality of the manifold underlying the set of embeddings of a given text sample. We show a clear statistical separation between human-generated and AI-generated distributions. This property allows us to build a score-based artificial text detector, which outperforming SOTA detectors in model-agnostic and cross-domain scenarios by a significant margin.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
