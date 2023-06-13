@@ -760,6 +760,11 @@
 
   *Vijini Liyanage and Davide Buscaldi.*
 
+- **Towards a Robust Detection of Language Model Generated Text: Is ChatGPT that Easy to Detect?.** [[paper]](https://coria-taln-2023.sciencesconf.org/461938/document) ![](https://img.shields.io/badge/CORIA--TALN%202023-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Wissam Antoun, Virginie Mouilleron, Benoît Sagot and Djamé Seddah.*
+  > Proposes a methodology for developing and evaluating ChatGPT detectors for French text, with a focus on investigating their robustness on outof-domain data and against common attack schemes. The proposed method involves translating an English dataset into French and training a classifier on the translated data.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
