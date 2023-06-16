@@ -772,7 +772,7 @@
 
 - **Beyond Black Box AI-Generated Plagiarism Detection: From Sentence to Document Level.** [[paper]](https://arxiv.org/pdf/2306.08122) ![](https://img.shields.io/badge/ACL%202023%20Workshop-orange) ![](https://img.shields.io/badge/2023.06-blue)
 
-  *Zecong Wang, Jiaxi Cheng, Chen Cui and Chenhao Yu.*
+  *Mujahid Ali Quidwai, Chunhui Li and Parijat Dube.*
   > Propose a novel approach offering quantifiable metrics at both sentence. Employs a multi-faceted approach, generating multiple paraphrased versions of a given question and inputting them into the LLM to generate answers. By using a contrastive loss function based on cosine similarity, match generated sentences with those from the student’s response.
 
 #### Detector Attack
