@@ -765,6 +765,16 @@
   *Wissam Antoun, Virginie Mouilleron, Benoît Sagot and Djamé Seddah.*
   > Proposes a methodology for developing and evaluating ChatGPT detectors for French text, with a focus on investigating their robustness on outof-domain data and against common attack schemes. The proposed method involves translating an English dataset into French and training a classifier on the translated data.
 
+- **Implementing BERT and fine-tuned RobertA to detect AI generated news by ChatGPT.** [[paper]](https://arxiv.org/pdf/2306.07401) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Zecong Wang, Jiaxi Cheng, Chen Cui and Chenhao Yu.*
+  > Demonstrate that the BERT and RobertA models with fine-tuning had the best success in detecting AI generated news. With a score of 98%, tweaked RobertA in particular showed excellent precision.
+
+- **Beyond Black Box AI-Generated Plagiarism Detection: From Sentence to Document Level.** [[paper]](https://arxiv.org/pdf/2306.08122) ![](https://img.shields.io/badge/ACL%202023%20Workshop-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Zecong Wang, Jiaxi Cheng, Chen Cui and Chenhao Yu.*
+  > Propose a novel approach offering quantifiable metrics at both sentence. Employs a multi-faceted approach, generating multiple paraphrased versions of a given question and inputting them into the LLM to generate answers. By using a contrastive loss function based on cosine similarity, match generated sentences with those from the student’s response.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
