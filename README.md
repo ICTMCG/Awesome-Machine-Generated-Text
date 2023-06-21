@@ -756,6 +756,11 @@
   *S. M. Seals and Valerie L. Shalin.*
   > Apply psycholinguistic methods to evaluate individual sentences from long-form analogies about biochemical concepts. Perform a supervised classification analysis using 78 features extracted from Coh-metrix that analyze text cohesion, language, and readability. Results illustrate high performance for classifying student-generated and chatGPT-generated analogies.
 
+- **Check Me If You Can: Detecting ChatGPT-Generated Academic Writing using CheckGPT.** [[paper]](https://arxiv.org/pdf/2306.05524) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Zeyan Liu, Zijun Yao, Fengjun Li and Bo Luo.*
+  > Present GPABenchmark, a benchmarking dataset of 600,000 samples of human-written, GPT-written, GPT-completed, and GPT-polished abstracts of research papers in CS, physics, and humanities and social sciences (HSS). Present CheckGPT, a novel LLM-content detector consisting of a general representation module and an attentive-BiLSTM classification module, which is accurate, transferable, and interpretable.
+
 - **La détection de textes générés par des modèles de langue: une tâche complexe? Une étude sur des textes académiques.** [[paper]](https://arts2023.sciencesconf.org/data/pages/proceedings_ARTS_2.pdf#page=79) ![](https://img.shields.io/badge/CORIA--TALN%202023-orange) ![](https://img.shields.io/badge/2023.06-blue)
 
   *Vijini Liyanage and Davide Buscaldi.*
@@ -774,6 +779,11 @@
 
   *Mujahid Ali Quidwai, Chunhui Li and Parijat Dube.*
   > Propose a novel approach offering quantifiable metrics at both sentence. Employs a multi-faceted approach, generating multiple paraphrased versions of a given question and inputting them into the LLM to generate answers. By using a contrastive loss function based on cosine similarity, match generated sentences with those from the student’s response.
+
+- **Detecting Artificially Generated Academic Text: The Importance of Mimicking Human Utilization of Large Language Models.** [[paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-35320-8_42.pdf?pdf=inline%20link) ![](https://img.shields.io/badge/NLDB%202023-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Vijini Liyanage and Davide Buscaldi.*
+  > Examine the detectability of the generated text using DetectGPT and GLTR, and utilize state-of-the-art classification models like SciBERT, RoBERTa, DEBERTa, XLNet, and ELECTRA. Experiments show that the generated text is difficult to detect using existing models when created using a LLM fine-tuned on the remainder of a paper.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
