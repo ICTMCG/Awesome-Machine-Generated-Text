@@ -393,6 +393,10 @@
 
   *Adaku Uchendu.*
 
+- **The Age of Synthetic Realities: Challenges and Opportunities.** [[paper]](https://arxiv.org/pdf/2306.11503) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *João Phillipe Cardenuto, Jing Yang, Rafael Padilha, Renjie Wan, Daniel Moreira, Haoliang Li, Shiqi Wang, Fernanda Andaló, Sébastien Marcel and Anderson Rocha.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
@@ -785,6 +789,16 @@
   *Vijini Liyanage and Davide Buscaldi.*
   > Examine the detectability of the generated text using DetectGPT and GLTR, and utilize state-of-the-art classification models like SciBERT, RoBERTa, DEBERTa, XLNet, and ELECTRA. Experiments show that the generated text is difficult to detect using existing models when created using a LLM fine-tuned on the remainder of a paper.
 
+- **Testing of Detection Tools for AI-Generated Text.** [[paper]](https://arxiv.org/pdf/2306.15666) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Debora Weber-Wulff, Alla Anohina-Naumeca, Sonja Bjelobaba, Tomáš Foltýnek, Jean Guerrero-Dib, Olumide Popoola, Petr Šigut and Lorna Waddington.*
+  > The study seeks to answer research questions about whether existing detection tools can reliably differentiate between human-written text and ChatGPT-generated text, and whether machine translation and content obfuscation techniques affect the detection of AIgenerated text. The research covers 12 publicly available tools and two commercial systems (Turnitin and PlagiarismCheck) that are widely used in the academic setting.
+
+- **Deciphering the Code: Distinguishing ChatGPT-Generated Code from Human-authored Code through Discriminative Feature Analysis and Dataset Optimization.** [[paper]](https://arxiv.org/pdf/2306.14397) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Li Ke, Hong Sheng, Fu Cai, Zhang Yunhe and LiuMing.*
+  > Propose a discriminative feature set yielding high accuracy in differentiating ChatGPT-generated code from human-authored code in binary classification tasks; Devise methods for generating extensive ChatGPT-generated codes; Introduce a dataset cleansing strategy.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1019,6 +1033,7 @@
 | DeepfakeTextDetect | [[paper]](https://arxiv.org/pdf/2305.13242) | 2023 | 154,078 human-written texts and 294,381 machine-generated texts produced by 27 LLMs | varied | [[repo]](https://github.com/yafuly/DeepfakeTextDetect) |
 | M4 | [[paper]](https://arxiv.org/pdf/2305.14902) | 2023 | 122k human–machine parallel data and over 10M non-parallel human-written texts | varied | [[repo]](https://github.com/mbzuai-nlp/M4) |
 | Ghostbuster | [[paper]](https://arxiv.org/abs/2305.15047) | 2023 | All datasets were generated using `gpt-3.5-turbo`, with the exception of the paragraph-level data, which was generated using `text-davinci-003`’s insert feature | GPT-3.5 (`gpt-3.5-turbo`, `text-davinci-003`) | [[repo]](https://github.com/vivek3141/ghostbuster) |
+| SnifferBench | [[paper]](https://arxiv.org/pdf/2304.14072) | 2023 | 6k human written texts, and every 6k texts from GPT2, GPT-Neo, GPT-J, and 12k texts from GPT3 models, which is 36k texts in total | varied | [[repo]](https://github.com/OpenLMLab/Sniffer/tree/main/SnifferBench) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
