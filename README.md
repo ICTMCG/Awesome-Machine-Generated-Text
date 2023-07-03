@@ -765,6 +765,28 @@
   *Zeyan Liu, Zijun Yao, Fengjun Li and Bo Luo.*
   > Present GPABenchmark, a benchmarking dataset of 600,000 samples of human-written, GPT-written, GPT-completed, and GPT-polished abstracts of research papers in CS, physics, and humanities and social sciences (HSS). Present CheckGPT, a novel LLM-content detector consisting of a general representation module and an attentive-BiLSTM classification module, which is accurate, transferable, and interpretable.
 
+- Stanford CS224N Custom Projects
+
+  - **Check Me If You Can: Detecting ChatGPT-Generated Academic Writing using CheckGPT.** [[paper]](http://web.stanford.edu/class/cs224n/final-reports/final-report-169358982.pdf) ![](https://img.shields.io/badge/2023.06-blue)
+
+    *Jeffrey Heo and Simon Kim.*
+
+  - **Looking Under the Hood of DetectGPT.** [[paper]](http://web.stanford.edu/class/cs224n/final-reports/final-report-169403912.pdf) ![](https://img.shields.io/badge/2023.06-blue)
+
+    *Maximilian Du, Ryan Lian and Kaien Yang.*
+
+  - **GPTNo: A Deep Learning LLM to Beat the Turing Test.** [[paper]](http://web.stanford.edu/class/cs224n/final-reports/final-report-169508272.pdf) ![](https://img.shields.io/badge/2023.06-blue)
+
+    *Sri Jaladi, William Li and Abhinav Sinha.*
+
+  - **Human Writing is as Uniform as Machine Writing.** [[paper]](http://web.stanford.edu/class/cs224n/final-reports/final-report-169508494.pdf) ![](https://img.shields.io/badge/2023.06-blue)
+
+    *Ryan Tan, Raghav Garg and Jacob Stavrianos.*
+
+  - **DetectChatGPT: Black-Box Zero-Shot Detection of LLM-Generated Text.** [[paper]](http://web.stanford.edu/class/cs224n/final-reports/final-report-170049587.pdf) ![](https://img.shields.io/badge/2023.06-blue)
+
+    *Julia Park and Armaan Rashid.*
+
 - **La détection de textes générés par des modèles de langue: une tâche complexe? Une étude sur des textes académiques.** [[paper]](https://arts2023.sciencesconf.org/data/pages/proceedings_ARTS_2.pdf#page=79) ![](https://img.shields.io/badge/CORIA--TALN%202023-orange) ![](https://img.shields.io/badge/2023.06-blue)
 
   *Vijini Liyanage and Davide Buscaldi.*
@@ -930,6 +952,10 @@
 - **On the Reliability of Watermarks for Large Language Models.** [[paper]](https://arxiv.org/pdf/2306.04634) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *John Kirchenbauer, Jonas Geiping, Yuxin Wen, Manli Shu, Khalid Saifullah, Kezhi Kong, Kasun Fernando, Aniruddha Saha, Micah Goldblum and Tom Goldstein.*
+
+- **Provable Robust Watermarking for AI-Generated Text.** [[paper]](https://openreview.net/pdf?id=Bwz0fy9Hc9) ![](https://img.shields.io/badge/ICML%202023%20Workshop-orange) ![](https://img.shields.io/badge/2023.06-blue)
+
+  *Xuandong Zhao, Prabhanjan Vijendra Ananth, Lei Li and Yu-Xiang Wang.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
