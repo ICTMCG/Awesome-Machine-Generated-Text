@@ -816,9 +816,9 @@
   *Debora Weber-Wulff, Alla Anohina-Naumeca, Sonja Bjelobaba, Tomáš Foltýnek, Jean Guerrero-Dib, Olumide Popoola, Petr Šigut and Lorna Waddington.*
   > The study seeks to answer research questions about whether existing detection tools can reliably differentiate between human-written text and ChatGPT-generated text, and whether machine translation and content obfuscation techniques affect the detection of AIgenerated text. The research covers 12 publicly available tools and two commercial systems (Turnitin and PlagiarismCheck) that are widely used in the academic setting.
 
-- **Deciphering the Code: Distinguishing ChatGPT-Generated Code from Human-authored Code through Discriminative Feature Analysis and Dataset Optimization.** [[paper]](https://arxiv.org/pdf/2306.14397) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
+- **Discriminating Human-authored from ChatGPT-Generated Code Via Discernable Feature Analysis.** [[paper]](https://arxiv.org/pdf/2306.14397) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.06-blue)
 
-  *Li Ke, Hong Sheng, Fu Cai, Zhang Yunhe and LiuMing.*
+  *Li Ke, Hong Sheng, Fu Cai, Zhang Yunhe and Liu Ming.*
   > Propose a discriminative feature set yielding high accuracy in differentiating ChatGPT-generated code from human-authored code in binary classification tasks; Devise methods for generating extensive ChatGPT-generated codes; Introduce a dataset cleansing strategy.
 
 #### Detector Attack
@@ -866,6 +866,11 @@
 
   *Zhouxing Shi, Yihan Wang, Fan Yin, Xiangning Chen, Kai-Wei Chang and Cho-Jui Hsieh.*
   > Systematically test the reliability of the existing detectors, by designing two types of attack strategies to fool the detectors: 1) replacing words with their synonyms based on the context; 2) altering the writing style of generated text. Reveal that these attacks effectively compromise the performance of all tested detectors.
+
+- **Evade ChatGPT Detectors via A Single Space.** [[paper]](https://arxiv.org/pdf/2307.02599) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Shuyang Cai and Wanyun Cui.*
+  > Find that detectors do not effectively discriminate the semantic and stylistic gaps between human-generated and AI-generated conten. Instead, the “subtle differences”, such as an extra space, become crucial for detection. Based on this discovery, propose the SpaceInfi strategy to evade detection.
 
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
