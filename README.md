@@ -821,6 +821,11 @@
   *Li Ke, Hong Sheng, Fu Cai, Zhang Yunhe and Liu Ming.*
   > Propose a discriminative feature set yielding high accuracy in differentiating ChatGPT-generated code from human-authored code in binary classification tasks; Devise methods for generating extensive ChatGPT-generated codes; Introduce a dataset cleansing strategy.
 
+- **RADAR: Robust AI-Text Detection via Adversarial Learning.** [[paper]](https://arxiv.org/pdf/2307.03838) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Xiaomeng Hu, Pin-Yu Chen and Tsung-Yi Ho.*
+  > Existing works show that current AI-text detectors are not robust to LLM-based paraphrasing, this paper aims to bridge this gap by proposing a new framework called RADAR. RADAR is based on adversarial training of a paraphraser and a detector. The paraphraser’s goal is to generate realistic contents to evade AI-text detection. RADAR uses the feedback from the detector to update the paraphraser, and vice versa.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
