@@ -826,6 +826,11 @@
   *Xiaomeng Hu, Pin-Yu Chen and Tsung-Yi Ho.*
   > Existing works show that current AI-text detectors are not robust to LLM-based paraphrasing, this paper aims to bridge this gap by proposing a new framework called RADAR. RADAR is based on adversarial training of a paraphraser and a detector. The paraphraser’s goal is to generate realistic contents to evade AI-text detection. RADAR uses the feedback from the detector to update the paraphraser, and vice versa.
 
+- **Detecting LLM-Generated Text in Computing Education: A Comparative Study for ChatGPT Cases.** [[paper]](https://arxiv.org/pdf/2307.07411) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Michael Sheinman Orenstrakh, Oscar Karnalim, Carlos Anibal Suarez and Michael Liut.*
+  > Collect 124 submissions from computer science students before the creation of ChatGPT, then generate 40 ChatGPT submissions. Use this data to evaluate eight publicly-available LLM-generated text detectors through the measures of accuracy, false positives, and resilience.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
