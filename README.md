@@ -831,6 +831,16 @@
   *Michael Sheinman Orenstrakh, Oscar Karnalim, Carlos Anibal Suarez and Michael Liut.*
   > Collect 124 submissions from computer science students before the creation of ChatGPT, then generate 40 ChatGPT submissions. Use this data to evaluate eight publicly-available LLM-generated text detectors through the measures of accuracy, false positives, and resilience.
 
+- **Is ChatGPT Involved in Texts? Measure the Polish Ratio to Detect ChatGPT-Generated Text.** [[paper]](https://arxiv.org/pdf/2307.11380) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Lingyi Yang, Feng Jiang and Haizhou Li.*
+  > Introduce a novel dataset termed HPPT (ChatGPT-polished academic abstracts), facilitating the construction of more robust detectors. Propose the "Polish Ratio" method, an innovative measure of ChatGPT’s involvement in text generation based on editing distance. It provides a mechanism to measure the degree of human originality in the resulting text.
+
+- **OUTFOX: LLM-generated Essay Detection through In-context Learning with Adversarially Generated Examples.** [[paper]](https://arxiv.org/pdf/2307.11729) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Ryuto Koike, Masahiro Kaneko and Naoaki Okazaki.*
+  > Propose OUTFOX, a novel framework that improves the robustness of LLM-generated-text detectors by allowing both the detector and the attacker to consider each other’s output and apply this to the domain of student essays.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1075,6 +1085,7 @@
 | M4 | [[paper]](https://arxiv.org/pdf/2305.14902) | 2023 | 122k human–machine parallel data and over 10M non-parallel human-written texts | varied | [[repo]](https://github.com/mbzuai-nlp/M4) |
 | Ghostbuster | [[paper]](https://arxiv.org/abs/2305.15047) | 2023 | All datasets were generated using `gpt-3.5-turbo`, with the exception of the paragraph-level data, which was generated using `text-davinci-003`’s insert feature | GPT-3.5 (`gpt-3.5-turbo`, `text-davinci-003`) | [[repo]](https://github.com/vivek3141/ghostbuster) |
 | SnifferBench | [[paper]](https://arxiv.org/pdf/2304.14072) | 2023 | 6k human written texts, and every 6k texts from GPT2, GPT-Neo, GPT-J, and 12k texts from GPT3 models, which is 36k texts in total | varied | [[repo]](https://github.com/OpenLMLab/Sniffer/tree/main/SnifferBench) |
+| HPPT | [[paper]](https://arxiv.org/pdf/2307.11380) | 2023 | 6050 pairs of abstracts and corresponding polished versions from ACL anthology | ChatGPT | [[repo]](https://github.com/Clement1290/ChatGPT-Detection-PR-HPPT/tree/main/Dataset/HPPT) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
