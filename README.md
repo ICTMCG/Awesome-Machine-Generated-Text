@@ -841,6 +841,16 @@
   *Ryuto Koike, Masahiro Kaneko and Naoaki Okazaki.*
   > Propose OUTFOX, a novel framework that improves the robustness of LLM-generated-text detectors by allowing both the detector and the attacker to consider each other’s output and apply this to the domain of student essays.
 
+- **The Looming Threat of Fake and LLM-generated LinkedIn Profiles: Challenges and Opportunities for Detection and Prevention.** [[paper]](https://arxiv.org/pdf/2307.11864) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Navid Ayoobi, Sadat Shahriar and Arjun Mukherjee.*
+  > Present a novel method for detecting fake and Large Language Model (LLM)-generated profiles in the LinkedIn Online Social Network immediately upon registration and before establishing connections.
+
+- **The Imitation Game: Detecting Human and AI-Generated Texts in the Era of Large Language Models.** [[paper]](https://arxiv.org/pdf/2307.12166) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Kadhim Hayawi, Sakib Shahriar and Sujith Samuel Mathew.*
+  > Introduce a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. Employ several machine learning models to classify the texts.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
