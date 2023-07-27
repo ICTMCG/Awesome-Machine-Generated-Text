@@ -1057,6 +1057,11 @@
   *Siyu Li, Jin Yang and Kui Zhao.*
   > Provide a comprehensive analysis of LLMs-driven social bots. Collect and publicly release the first activity behavior dataset of LLMs-driven social bots, named Masquerade-23.
 
+- **"I Slept Like a Baby": Using Human Traits To Characterize Deceptive ChatGPT and Human Text.** [[paper]](https://sjgiorgi.github.io/publications/giorgi2023islept.pdf) ![](https://img.shields.io/badge/SIGIR%202023%20Workshop-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Salvatore Giorgi, David M. Markowitz, Nikita Soni, Vasudha Varadarajan, Siddharth Mangalik and H. Andrew Schwartz.*
+  > Characterize differences between (a) truthful text written by humans, (b) intentionally deceptive text written by humans, and (c) inherently deceptive text written by state-of-the-art language models (ChatGPT). Building on these differences, train a classifier using only the thirteen human traits to automatically discriminate between truthful and deceptive language, with a classification AUC of up to 0.966.
+
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
 - Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
