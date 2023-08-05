@@ -851,6 +851,16 @@
   *Kadhim Hayawi, Sakib Shahriar and Sujith Samuel Mathew.*
   > Introduce a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. Employ several machine learning models to classify the texts.
 
+- **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text?.** [[paper]](https://arxiv.org/pdf/2308.01284) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Amrita Bhattacharjee and Huan Liu.*
+  > Empirically investigate if ChatGPT is symmetrically effective in detecting AI-generated or human-written text. Provide insight on how ChatGPT and similar LLMs may be leveraged in automated detection pipelines by simply focusing on solving a specific aspect of the problem and deriving the rest from that solution.
+
+- **UPB at IberLEF-2023 AuTexTification: Detection of Machine-Generated Text using Transformer Ensembles.** [[paper]](https://arxiv.org/pdf/2308.01408) ![](https://img.shields.io/badge/IberLEF%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Andrei-Alexandru Preda, Dumitru-Clementin Cercel, Traian Rebedea and Costin-Gabriel Chiru.*
+  > Identify text documents produced by large language models instead of humans. Experiment mostly with deep learning models based on Transformers, as well as training techniques such as multi-task learning and virtual adversarial training to obtain better results. The best-performing model achieved macro F1-scores of 66.63% on the English dataset and 67.10% on the Spanish dataset.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1001,6 +1011,22 @@
 
   *Yu Fu, Deyi Xiong and Yue Dong.*
 
+- **Robust Distortion-free Watermarks for Language Models.** [[paper]](https://arxiv.org/pdf/2307.15593) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Rohith Kuditipudi, John Thickstun, Tatsunori Hashimoto and Percy Liang.*
+
+- **Towards Codable Text Watermarking for Large Language Models.** [[paper]](https://arxiv.org/pdf/2307.15992) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Lean Wang, Wenkai Yang, Deli Chen, Hao Zhou, Yankai Lin, Fandong Meng, Jie Zhou and Xu Sun.*
+
+- **A Private Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2307.16230) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Aiwei Liu, Leyi Pan, Xuming Hu, Shu'ang Li, Lijie Wen, Irwin King and Philip S. Yu.*
+
+- **Advancing Beyond Identification: Multi-bit Watermark for Language Models.** [[paper]](https://arxiv.org/pdf/2308.00221) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *KiYoon Yoo, Wonhyuk Ahn and Nojun Kwak.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -1061,6 +1087,11 @@
 
   *Salvatore Giorgi, David M. Markowitz, Nikita Soni, Vasudha Varadarajan, Siddharth Mangalik and H. Andrew Schwartz.*
   > Characterize differences between (a) truthful text written by humans, (b) intentionally deceptive text written by humans, and (c) inherently deceptive text written by state-of-the-art language models (ChatGPT). Building on these differences, train a classifier using only the thirteen human traits to automatically discriminate between truthful and deceptive language, with a classification AUC of up to 0.966.
+
+- **Anatomy of an AI-powered malicious social botnet.** [[paper]](https://arxiv.org/pdf/2307.16336) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Kai-Cheng Yang and Filippo Menczer.*
+  > Unveil the emergence of LLM-powered social bots. Combine the 1,140 bot accounts with the 1,140 human ones results in a benchmark dataset: the fox8-23 dataset. Apply state-of-the-art LLM-content detectors and find they cannot effectively distinguish between human and LLM-powered bots in the wild.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
