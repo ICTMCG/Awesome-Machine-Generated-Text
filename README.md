@@ -1015,6 +1015,10 @@
 
   *Rohith Kuditipudi, John Thickstun, Tatsunori Hashimoto and Percy Liang.*
 
+- **Three Bricks to Consolidate Watermarks for Large Language Models.** [[paper]](https://arxiv.org/pdf/2308.00113) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Pierre Fernandez, Antoine Chaffin, Karim Tit, Vivien Chappelier and Teddy Furon.*
+
 - **Towards Codable Text Watermarking for Large Language Models.** [[paper]](https://arxiv.org/pdf/2307.15992) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
 
   *Lean Wang, Wenkai Yang, Deli Chen, Hao Zhou, Yankai Lin, Fandong Meng, Jie Zhou and Xu Sun.*
