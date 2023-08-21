@@ -397,6 +397,10 @@
 
   *João Phillipe Cardenuto, Jing Yang, Rafael Padilha, Renjie Wan, Daniel Moreira, Haoliang Li, Shiqi Wang, Fernanda Andaló, Sébastien Marcel and Anderson Rocha.*
 
+- **Detecting Artificial Intelligence: A New Cyberarms Race Begins.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10206065) ![](https://img.shields.io/badge/Computer%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Mark Campbell and Mlađan Jovanović.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
@@ -447,6 +451,11 @@
 
   *Mike Perkins, Jasper Roe, Darius Postma, James McGaughran and Don Hickerson.*
   > This study explores the robustness of university assessments against the use of Open AI's Generative Pre-Trained Transformer 4 (GPT-4) generated content and evaluates the ability of academic staff to detect its use when supported by the Turnitin Artificial Intelligence (AI) detection tool.
+
+- **Can linguists distinguish between ChatGPT/AI and human writing?: A study of research ethics and academic publishing.** [[paper]](https://www.sciencedirect.com/science/article/pii/S2772766123000289/pdfft?md5=40e5bb4675092f7b0002d6a91c84d79b&pid=1-s2.0-S2772766123000289-main.pdf) ![](https://img.shields.io/badge/Research%20Methods%20in%20Applied%20Linguistics%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *J. Elliott Casal and Matt Kessler.*
+  > Investigate: 1) the extent to which linguists/reviewers from top journals can distinguish AI- from human-generated writing, 2) what the basis of reviewers’ decisions are, and 3) the extent to which editors of top Applied Linguistics journals believe AI tools are ethical for research purposes.
 
 #### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
@@ -851,7 +860,7 @@
   *Kadhim Hayawi, Sakib Shahriar and Sujith Samuel Mathew.*
   > Introduce a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. Employ several machine learning models to classify the texts.
 
-- **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text?.** [[paper]](https://arxiv.org/pdf/2308.01284) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+- **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text?.** [[paper]](https://arxiv.org/pdf/2308.01284) ![](https://img.shields.io/badge/SIGKDD%20Explorations%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
 
   *Amrita Bhattacharjee and Huan Liu.*
   > Empirically investigate if ChatGPT is symmetrically effective in detecting AI-generated or human-written text. Provide insight on how ChatGPT and similar LLMs may be leveraged in automated detection pipelines by simply focusing on solving a specific aspect of the problem and deriving the rest from that solution.
@@ -860,6 +869,21 @@
 
   *Andrei-Alexandru Preda, Dumitru-Clementin Cercel, Traian Rebedea and Costin-Gabriel Chiru.*
   > Identify text documents produced by large language models instead of humans. Experiment mostly with deep learning models based on Transformers, as well as training techniques such as multi-task learning and virtual adversarial training to obtain better results. The best-performing model achieved macro F1-scores of 66.63% on the English dataset and 67.10% on the Spanish dataset.
+
+- **A Deep Fusion Model for Human vs. Machine-Generated Essay Classification.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191322) ![](https://img.shields.io/badge/IJCNN%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Roberto Corizzo and Sebastian Leal-Arenas.*
+  > Propose a deep neural network-based model that combines text modeling and linguistic features via data fusion, with the aim to provide robust classification capabilities. Experiments show that it is possible to accurately perform essay classification, and that our model is competitive, even when compared to popular feature-based and neural network-based approaches.
+
+- **MFD: Multi-Feature Detection of LLM-Generated Text.** [[paper]](https://www.researchsquare.com/article/rs-3226684/v1.pdf?c=1691560657000) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Zhendong Wu and Hui Xiang.*
+  > Introduce Multi-Feature Detection (MFD), a new zero-shot method. MFD comprehensively considers log-likelihood, log-rank, entropy, and LLM-Deviation. LLM-Deviation is a new statistical feature proposed in this paper and has a clear distribution difference between texts generated by LLMs and those written by humans. Experiments show MFD is more effective than the existing zero-shot method.
+
+- **Classification of Human- and AI-Generated Texts: Investigating Features for ChatGPT.** [[paper]](https://arxiv.org/pdf/2308.05341) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Lorenz Mindner, Tim Schlippe and Kristina Schaaff.*
+  > Explore traditional and new features to (1) detect text generated by AI from scratch and (2) text rephrased by AI. Results show that the new features substantially help to improve the performance of many classifiers. 
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -937,6 +961,11 @@
 
   *Edoardo Mosca, Mohamed Hesham Ibrahim Abdalla, Paolo Basso, Margherita Musumeci and Georg Groh.*
   > Introduce a novel benchmark dataset, containing human-written and machine-generated scientific papers from SCIgen, GPT-2, GPT-3, ChatGPT, and Galactica. Experiment with four distinct classifiers as a baseline for detecting the authorship of scientific text.
+
+- **Med-MMHL: A Multi-Modal Dataset for Detecting Human- and LLM-Generated Misinformation in the Medical Domain.** [[paper]](https://arxiv.org/pdf/2306.08871) ![](https://img.shields.io/badge/Preprint%202023-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Yanshen Sun, Jianfeng He, Shuo Lei, Limeng Cui and Chang-Tien Lu.*
+  > Present Med-MMHL, a novel multi-modal misinformation detection dataset in a general medical domain encompassing multiple diseases. Med-MMHL not only incorporates human-generated misinformation but also includes misinformation generated by LLMs like ChatGPT.
 
 #### Tracing Text Provenance & Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
@@ -1097,6 +1126,11 @@
   *Kai-Cheng Yang and Filippo Menczer.*
   > Unveil the emergence of LLM-powered social bots. Combine the 1,140 bot accounts with the 1,140 human ones results in a benchmark dataset: the fox8-23 dataset. Apply state-of-the-art LLM-content detectors and find they cannot effectively distinguish between human and LLM-powered bots in the wild.
 
+- **Detecting The Corruption Of Online Questionnaires By Artificial Intelligence.** [[paper]](https://arxiv.org/pdf/2308.07499) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Benjamin Lebrun, Sharon Temtsin, Andrew Vonasch and Christoph Bartneck.*
+  > This study tested if text generated by an AI for the purpose of an online study can be detected by both humans and automatic AI detection systems. While humans were able to correctly identify authorship of text above chance level (76 percent accuracy), their performance was still below what would be required to ensure satisfactory data quality. Researchers currently have to rely on the disinterest of bad actors to successfully use open-ended responses as a useful tool for ensuring data quality.
+
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
 - Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
@@ -1156,6 +1190,7 @@
 | SnifferBench | [[paper]](https://arxiv.org/pdf/2304.14072) | 2023 | 6k human written texts, and every 6k texts from GPT2, GPT-Neo, GPT-J, and 12k texts from GPT3 models, which is 36k texts in total | varied | [[repo]](https://github.com/OpenLMLab/Sniffer/tree/main/SnifferBench) |
 | HPPT | [[paper]](https://arxiv.org/pdf/2307.11380) | 2023 | 6050 pairs of abstracts and corresponding polished versions from ACL anthology | ChatGPT | [[repo]](https://github.com/Clement1290/ChatGPT-Detection-PR-HPPT/tree/main/Dataset/HPPT) |
 | IDMGSP | [[paper]](https://aclanthology.org/2023.trustnlp-1.17.pdf) | 2023 | 16k human-written texts and 13k machine-generated scientific papers | varied | [[repo]](https://huggingface.co/datasets/tum-nlp/IDMGSP) |
+| Med-MMHL | [[paper]](https://arxiv.org/pdf/2306.08871) | 2023 | 41,365 human-written sentences and 17,608 LLM-generated scentences from the medical domain | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/styxsys0927/Med-MMHL) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
