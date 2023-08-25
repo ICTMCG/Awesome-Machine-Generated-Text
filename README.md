@@ -860,6 +860,11 @@
   *Kadhim Hayawi, Sakib Shahriar and Sujith Samuel Mathew.*
   > Introduce a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. Employ several machine learning models to classify the texts.
 
+- **Towards Automatic Boundary Detection for Human-AI Collaborative Hybrid Essay in Education.** [[paper]](https://arxiv.org/pdf/2307.12267) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+
+  *Zijie Zeng, Lele Sha, Yuheng Li, Kaixun Yang, Dragan Gašević and Guanliang Chen.*
+  > Construct a hybrid essay dataset. Propose a two-step detection approach where we (1) separate AI-generated content from human-written content during the encoder training process; and (2) calculate the distances between every two adjacent prototypes and assume that the boundaries exist between the two adjacent prototypes that have the furthest distance from each other.
+
 - **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text?.** [[paper]](https://arxiv.org/pdf/2308.01284) ![](https://img.shields.io/badge/SIGKDD%20Explorations%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
 
   *Amrita Bhattacharjee and Huan Liu.*
