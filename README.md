@@ -401,6 +401,10 @@
 
   *Mark Campbell and Mlađan Jovanović.*
 
+- **Detecting ChatGPT: A Survey of the State of Detecting ChatGPT-Generated Text.** [[paper]](https://arxiv.org/pdf/2309.07689.pdf) ![](https://img.shields.io/badge/RANLP%202023%20Workshop-orange) ![](https://img.shields.io/badge/2023.08-blue)
+
+  *Mahdi Dhaini, Wessel Poelman and Ege Erdogan.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
@@ -935,6 +939,11 @@
   *Areg Mikael Sarvazyan, José Ángel González, Paolo Rosso and Marc Franco-Salvador.*
   > This work studies the generalization capabilities of supervised Machine-Generated Text (MGT) detectors across model families and parameter scales of text generation models. In addition, explore the feasibility of identifying the family and scale of the generator behind an MGT, instead of attributing the text to a particular language model.
 
+- **Generative AI Text Classification using Ensemble LLM Approaches.** [[paper]](https://arxiv.org/pdf/2309.07755.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.09-blue)
+
+  *Harika Abburi, Michael Suesserman, Nirmala Pudota, Balaji Veeramani, Edward Bowen and Sanmitra Bhattacharya.*
+  > Propose an ensemble neural model that generates probabilities from different pre-trained LLMs which are used as features to a Traditional Machine Learning (TML) classifier following it.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1245,3 +1254,4 @@
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
 - AuTexTification: Automated Text Identification shared task [[home]](https://sites.google.com/view/autextification/home)
+- CLIN33 Shared Task [[home]](https://sites.google.com/view/shared-task-clin33/home)
