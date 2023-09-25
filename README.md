@@ -949,6 +949,11 @@
   *Ruopeng An, Yuyi Yang, Fan Yang and Shanshan Wang.*
   > Introduce a method that uses both prompts and essays to differentiate between machine-generated and human-written text. Validate its effectiveness in distinguishing between machine-generated and human-written essays and shows that it outperforms existing approaches based solely on text passages.
 
+- **A Statistical Turing Test for Generative Models.** [[paper]](https://arxiv.org/pdf/2309.08913.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.09-blue)
+
+  *Hayden Helm, Carey E. Priebe and Weiwei Yang.*
+  > Provide a framework in the language of statistical pattern recognition that quantifies the difference between the distributions of human and machinegenerated content conditioned on an evaluation context. Describe current methods in the context of the framework and demonstrate how to use the framework to evaluate the progression of generative models towards human-like capabilities, among many axes of analysis.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
