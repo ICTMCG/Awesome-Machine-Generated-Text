@@ -959,8 +959,6 @@
   *Adaku Uchendu, Thai Le and Dongwon Lee.*
   > Propose TopRoBERTa to improve existing AA solutions by capturing more linguistic patterns in deepfake texts by including a Topological Data Analysis (TDA) layer in the RoBERTa model. Use RoBERTa to capture contextual representations (i.e., semantic and syntactic linguistic features), while using TDA to capture the shape and structure of data (i.e., linguistic structures). Finally, TopRoBERTa, outperforms the vanilla RoBERTa in 2/3 datasets, achieving up to 7% increase in Macro F1 score.
 
-
-
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1132,7 +1130,7 @@
 
   *Aiwei Liu, Leyi Pan, Xuming Hu, Shu'ang Li, Lijie Wen, Irwin King and Philip S. Yu.*
 
-- **Advancing Beyond Identification: Multi-bit Watermark for Language Models.** [[paper]](https://arxiv.org/pdf/2308.00221) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
+- **Advancing Beyond Identification: Multi-bit Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2308.00221) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.08-blue)
 
   *KiYoon Yoo, Wonhyuk Ahn and Nojun Kwak.*
 
