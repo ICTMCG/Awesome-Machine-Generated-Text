@@ -1055,6 +1055,11 @@
 
     *Manex Agirrezabal.*
 
+- **On the Generalization of Training-based ChatGPT Detection Methods.** [[paper]](https://arxiv.org/pdf/2310.01307.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Han Xu, Jie Ren, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu and Jiliang Tang.*
+  > Aim to have a comprehensive investigation on existing methods’ generalization behaviors under distribution shift caused by a wide range of factors, including prompts, text lengths, topics, and language tasks. Collect a new dataset with human and ChatGPT texts, and then conduct extensive studies on the collected dataset.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1366,6 +1371,8 @@
 | HPPT | [[paper]](https://arxiv.org/pdf/2307.11380) | 2023 | 6050 pairs of abstracts and corresponding polished versions from ACL anthology | ChatGPT | [[repo]](https://github.com/Clement1290/ChatGPT-Detection-PR-HPPT/tree/main/Dataset/HPPT) |
 | IDMGSP | [[paper]](https://aclanthology.org/2023.trustnlp-1.17.pdf) | 2023 | 16k human-written texts and 13k machine-generated scientific papers | varied | [[repo]](https://huggingface.co/datasets/tum-nlp/IDMGSP) |
 | Med-MMHL | [[paper]](https://arxiv.org/pdf/2306.08871) | 2023 | 41,365 human-written sentences and 17,608 LLM-generated scentences from the medical domain | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/styxsys0927/Med-MMHL) |
+| OpenGPTText | [[paper]](https://arxiv.org/pdf/2305.07969) | 2023 | A high quality dataset with approximately 30,000 text sample rephrased by gpt-3.5-turbo. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/Hao-Kang/GPT-Sentinel-public) [[file]](https://drive.google.com/drive/folders/1Vnr-_nJWT4VXE-1wK38YSsCD4GcP6mk_) |
+| HC-Var | [[paper]](https://arxiv.org/pdf/2310.01307.pdf) | 2023 | Contains 4 different types of language tasks, each task covers 1 to 4 different topics. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://huggingface.co/datasets/hannxu/hc_var) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
