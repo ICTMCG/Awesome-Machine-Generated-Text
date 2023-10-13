@@ -1411,6 +1411,7 @@
 | Med-MMHL | [[paper]](https://arxiv.org/pdf/2306.08871) | 2023 | 41,365 human-written sentences and 17,608 LLM-generated scentences from the medical domain | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/styxsys0927/Med-MMHL) |
 | OpenGPTText | [[paper]](https://arxiv.org/pdf/2305.07969) | 2023 | A high quality dataset with approximately 30,000 text sample rephrased by gpt-3.5-turbo. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/Hao-Kang/GPT-Sentinel-public) [[file]](https://drive.google.com/drive/folders/1Vnr-_nJWT4VXE-1wK38YSsCD4GcP6mk_) |
 | HC-Var | [[paper]](https://arxiv.org/pdf/2310.01307.pdf) | 2023 | Contains 4 different types of language tasks, each task covers 1 to 4 different topics. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://huggingface.co/datasets/hannxu/hc_var) |
+| SAID | [[paper]](https://arxiv.org/pdf/2310.08240.pdf) | 2023 | 87,215 human-written responses and 131,546 AI-generated responses from Zhihu and Quora | Unknown | [[repo]](https://github.com/SLAM-group/SAID) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
