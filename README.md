@@ -1172,6 +1172,11 @@
   *Arslan Akram.*
   > Create a multidomain dataset for testing the state-of-the-art APIs and tools for detecting artificially generated information used by universities and other research institutions. Six different artificial intelligence (AI) text identification systems, including "GPTkit," "GPTZero," "Originality," "Sapling," "Writer," and "Zylalab," have accuracy rates between 55.29 and 97.0%.
 
+- **Who Said That? Benchmarking Social Media AI Detection.** [[paper]](https://arxiv.org/pdf/2310.08240.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Wanyun Cui, Linqiu Zhang, Qianle Wang and Shuyang Cai.*
+  > Introduce SAID (Social media AI Detection), a novel benchmark developed to assess AI-text detection models' capabilities in real social media platforms. It incorporates real AI-generate text from popular social media platforms like Zhihu and Quora. Present a new user-oriented AI-text detection challenge focusing on the practicality and effectiveness of identifying AI-generated text based on user information and multiple responses.
+
 #### Tracing Text Provenance & Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
 
