@@ -1116,7 +1116,7 @@
   *Vinu Sankar Sadasivan, Aounon Kumar, Sriram Balasubramanian, Wenxiao Wang and Soheil Feizi.*
   > Show that paraphrasing attacks can break detectors using the watermarking schemes as well as neural network-based detectors and zero-shot classifiers. Even LLMs protected by watermarking schemes can be vulnerable against spoofing attacks.
 
-- **Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense.** [[paper]](https://arxiv.org/pdf/2303.13408) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.03-blue)
+- **Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense.** [[paper]](https://arxiv.org/pdf/2303.13408) ![](https://img.shields.io/badge/NeurIPS%202023-orange) ![](https://img.shields.io/badge/2023.03-blue)
 
   *Kalpesh Krishna, Yixiao Song, Marzena Karpinska, John Wieting and Mohit Iyyer.*
   > Present DIPPER, a discourse paraphrase generation model. DIPPER paraphrases easily evade these detectors while approximately preserving input semantics. Propose a retrieval-based mechanism to defend against such paraphrase attacks. Experiments show that this retrieval defense significantly outperforms baseline detectors on paraphrased text, and is effective at scale.
