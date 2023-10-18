@@ -1300,6 +1300,10 @@
 
   *Jingtan Wang, Xinyang Lu, Zitong Zhao, Zhongxiang Dai, Chuan-Sheng Foo, See-Kiong Ng and Bryan Kian Hsiang Low.*
 
+- **Watermarking LLMs with Weight Quantization.** [[paper]](https://arxiv.org/pdf/2310.11237.pdf) ![](https://img.shields.io/badge/EMNLP%202023%20Findings-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Linyang Li, Botian Jiang, Pengyu Wang, Ke Ren, Hang Yan and Xipeng Qiu.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
