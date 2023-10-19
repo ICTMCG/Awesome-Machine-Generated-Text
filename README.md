@@ -1130,6 +1130,11 @@
   *Anonymous authors.*
   > Propose a novel multi-population aware optimization method for MMD called MMD-MP, which can avoid variance increases and thus improve the stability to measure the distributional discrepancy. Relying on MMD-MP, develop two methods for paragraph-based and sentence-based detection, respectively.
 
+- **Using AI-based detectors to control AI-assisted plagiarism in ESL writing: “The Terminator Versus the Machines”.** [[paper]](https://languagetestingasia.springeropen.com/counter/pdf/10.1186/s40468-023-00260-2.pdf) ![](https://img.shields.io/badge/Language%20Testing%20in%20Asia%202023-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Karim Ibrahim.*
+  > To address the challenge of AI-assisted plagiarism in ESL contexts, the present cross-disciplinary descriptive study examined the potential of two RoBERTa-based classifiers to control AI-assisted plagiarism on a dataset of 240 human-written and ChatGPT-generated essays. Data analysis revealed that both platforms could identify AI-generated texts, but their detection accuracy was inconsistent across the dataset.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1354,6 +1359,10 @@
 - **Watermarking LLMs with Weight Quantization.** [[paper]](https://arxiv.org/pdf/2310.11237.pdf) ![](https://img.shields.io/badge/EMNLP%202023%20Findings-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Linyang Li, Botian Jiang, Pengyu Wang, Ke Ren, Hang Yan and Xipeng Qiu.*
+
+- **Embarrassingly Simple Text Watermarks.** [[paper]](https://arxiv.org/pdf/2310.08920.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Ryoma Sato, Yuki Takezawa, Han Bao, Kenta Niwa and Makoto Yamada.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
