@@ -444,7 +444,7 @@
   *Eric Schwitzgebel, David Schwitzgebel and Anna Strasser.*
   > Fine-tuned the GPT-3 on the corpus of Daniel Dennett, then asked it a series of philosophical questions. Ordinary research participants untrained in philosophy were at or near chance in distinguishing GPT-3’s answers from those of an “actual human philosopher”. .
 
-- **Does Human Collaboration Enhance the Accuracy of Identifying LLM-Generated Deepfake Texts?.** [[paper]](https://arxiv.org/pdf/2304.01002) ![](https://img.shields.io/badge/HCOMP%202023-orange) ![](https://img.shields.io/badge/2023.04-blue)
+- **Does Human Collaboration Enhance the Accuracy of Identifying LLM-Generated Deepfake Texts?** [[paper]](https://arxiv.org/pdf/2304.01002) ![](https://img.shields.io/badge/HCOMP%202023-orange) ![](https://img.shields.io/badge/2023.04-blue)
 
   *Adaku Uchendu, Jooyoung Lee, Hua Shen, Thai Le, Ting-Hao 'Kenneth' Huang and Dongwon Lee.*
   > Find that: (1) expert humans detect deepfake texts significantly better than non-expert humans, (2) synchronous teams on the Upwork detect deepfake texts significantly better than individuals, while asynchronous teams on the AMT detect deepfake texts weakly better than individuals, and (3) among various error categories, examining coherence and consistency in texts is useful in detecting deepfake texts.
@@ -817,7 +817,7 @@
 
   *Vijini Liyanage and Davide Buscaldi.*
 
-- **Towards a Robust Detection of Language Model Generated Text: Is ChatGPT that Easy to Detect?.** [[paper]](https://coria-taln-2023.sciencesconf.org/461938/document) ![](https://img.shields.io/badge/CORIA--TALN%202023-orange) ![](https://img.shields.io/badge/2023.06-blue)
+- **Towards a Robust Detection of Language Model Generated Text: Is ChatGPT that Easy to Detect?** [[paper]](https://coria-taln-2023.sciencesconf.org/461938/document) ![](https://img.shields.io/badge/CORIA--TALN%202023-orange) ![](https://img.shields.io/badge/2023.06-blue)
 
   *Wissam Antoun, Virginie Mouilleron, Benoît Sagot and Djamé Seddah.*
   > Proposes a methodology for developing and evaluating ChatGPT detectors for French text, with a focus on investigating their robustness on outof-domain data and against common attack schemes. The proposed method involves translating an English dataset into French and training a classifier on the translated data.
@@ -882,7 +882,7 @@
   *Zijie Zeng, Lele Sha, Yuheng Li, Kaixun Yang, Dragan Gašević and Guanliang Chen.*
   > Construct a hybrid essay dataset. Propose a two-step detection approach where we (1) separate AI-generated content from human-written content during the encoder training process; and (2) calculate the distances between every two adjacent prototypes and assume that the boundaries exist between the two adjacent prototypes that have the furthest distance from each other.
 
-- **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text?.** [[paper]](https://arxiv.org/pdf/2308.01284) ![](https://img.shields.io/badge/SIGKDD%20Explorations%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
+- **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text?** [[paper]](https://arxiv.org/pdf/2308.01284) ![](https://img.shields.io/badge/SIGKDD%20Explorations%202023-orange) ![](https://img.shields.io/badge/2023.08-blue)
 
   *Amrita Bhattacharjee and Huan Liu.*
   > Empirically investigate if ChatGPT is symmetrically effective in detecting AI-generated or human-written text. Provide insight on how ChatGPT and similar LLMs may be leveraged in automated detection pipelines by simply focusing on solving a specific aspect of the problem and deriving the rest from that solution.
@@ -1139,6 +1139,11 @@
   *Karim Ibrahim.*
   > To address the challenge of AI-assisted plagiarism in ESL contexts, the present cross-disciplinary descriptive study examined the potential of two RoBERTa-based classifiers to control AI-assisted plagiarism on a dataset of 240 human-written and ChatGPT-generated essays. Data analysis revealed that both platforms could identify AI-generated texts, but their detection accuracy was inconsistent across the dataset.
 
+- **An Ensemble-Based Approach for Generative Language Model Attribution.** [[paper]](https://link.springer.com/chapter/10.1007/978-981-99-7254-8_54) ![](https://img.shields.io/badge/WISE%202023-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Harika Abburi, Michael Suesserman, Nirmala Pudota, Balaji Veeramani, Edward Bowen and Sanmitra Bhattacharya .*
+  > Propose an ensemble neural model that generates probabilities from multiple pre-trained LLMs, which are then used as features for a traditional machine learning classifier.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1235,6 +1240,11 @@
 
   *Dominik Macko, Robert Moro, Adaku Uchendu, Jason Samuel Lucas, Michiharu Yamashita, Matúš Pikuliak, Ivan Srba, Thai Le, Dongwon Lee, Jakub Simko and Maria Bielikova.*
   > Introduce MULTITuDE, a novel benchmarking dataset for multilingual machine-generated text detection comprising of 74,081 authentic and machine-generated texts in 11 languages (ar, ca, cs, de, en, es, nl, pt, ru, uk, and zh) generated by 8 multilingual LLMs.
+
+- **HANSEN: Human and AI Spoken Text Benchmark for Authorship Analysis.** [[paper]](https://pike.psu.edu/publications/emnlp23-hansen.pdf) ![](https://img.shields.io/badge/EMNLP%202023%20Findings-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Nafis Tripto, Adaku Uchendu, Thai Le, Mattia Setzu, Fosca Giannotti and Dongwon Lee.*
+  > Introduce the largest benchmark for spoken texts - HANSEN (Human ANd ai Spoken tExt beNchmark). HANSEN encompasses meticulous curation of existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. Together, it comprises 17 human datasets, and AI-generated spoken texts created using 3 prominent LLMs: ChatGPT, PaLM2, and Vicuna13B.
 
 #### Tracing Text Provenance & Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
@@ -1513,6 +1523,7 @@
 | SAID | [[paper]](https://arxiv.org/pdf/2310.08240.pdf) | 2023 | 87,215 human-written responses and 131,546 AI-generated responses from Zhihu and Quora | Unknown | [[repo]](https://github.com/SLAM-group/SAID) |
 | SeqXGPT-Bench | [[paper]](https://arxiv.org/pdf/2310.08903.pdf) | 2023 | 30,000 documents generated by GPT-2, GPT-J, GPT-Neo, LLaMA, GPT-3.5-turbo and human. | varied | [[repo]](https://github.com/Jihuai-wpy/SeqXGPT) |
 | MULTITuDE | [[paper]](https://arxiv.org/pdf/2310.13606.pdf) | 2023 | 7992 human-written news texts in 11 languages, accompanied by 66089 texts generated by 8 large language models. | varied | [[repo]](https://zenodo.org/records/10013755) |
+| HANSEN | [[paper]](https://pike.psu.edu/publications/emnlp23-hansen.pdf) | 2023 | Encompass existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. | GPT-3.5 (`gpt-3.5-turbo`), PaLM 2 (`chat-bison@001`), Vicuna 13B | [[repo]](https://huggingface.co/datasets/HANSEN-REPO/HANSEN) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
