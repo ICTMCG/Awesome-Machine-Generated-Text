@@ -1172,6 +1172,11 @@
   *Vijini Liyanage and Davide Buscaldi.*
   > Present some classification models constructed by ensembling transformer models such as SciBERT, DeBERTa and XLNet, with Convolutional Neural Networks (CNNs). The experiments demonstrate that the considered ensemble architectures surpass the performance of the individual transformer models for classification.
 
+- **Detection of news written by the ChatGPT through authorship attribution performed by a Bidirectional LSTM model.** [[paper]](https://arxiv.org/pdf/2310.16685.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Amanda Ferrari Iaquinta and Gustavo Voltani von Atzingen.*
+  > A dataset containing equal amounts of human and ChatGPT written news was assembled and different natural processing language techniques were used to extract features from it that were used to train, validate and test three models built with different techniques. The best performance was produced by the Bidirectional Long Short Term Memory (LSTM) Neural Network model.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
