@@ -1420,6 +1420,10 @@
 
   *Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara and Farinaz Koushanfar.*
 
+- **Publicly Detectable Watermarking for Language Models.** [[paper]](https://eprint.iacr.org/2023/1661.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Jaiden Fairoze, Sanjam Garg, Somesh Jha, Saeed Mahloujifar, Mohammad Mahmoody and Mingyuan Wang.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
