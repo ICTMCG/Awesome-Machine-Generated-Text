@@ -1182,6 +1182,11 @@
   *Duke Nguyen, Khaing Myat Noe Naing and Aditya Joshi.*
   > Use a stacking ensemble of Transformers for the task of AI-generated text detection. The approach is novel in terms of its choice of models in that we use accessible and lightweight models in the ensemble.
 
+- **A Simple yet Efficient Ensemble Approach for AI-generated Text Detection.** [[paper]](https://arxiv.org/pdf/2311.03084.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Harika Abburi, Kalyani Roy, Michael Suesserman, Nirmala Pudota, Balaji Veeramani, Edward Bowen and Sanmitra Bhattacharya.*
+  > Propose a simple yet efficient solution to this problem by ensembling predictions from multiple constituent LLMs. Study the influence that the training data from individual LLMs have on model performance. Find that substituting commercially-restrictive GPT data with data generated from other open language models is a feasible alternative when developing generative text detectors.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1428,6 +1433,10 @@
 - **Publicly Detectable Watermarking for Language Models.** [[paper]](https://eprint.iacr.org/2023/1661.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Jaiden Fairoze, Sanjam Garg, Somesh Jha, Saeed Mahloujifar, Mohammad Mahmoody and Mingyuan Wang.*
+
+- **Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models.** [[paper]](https://arxiv.org/pdf/2311.04378.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Hanlin Zhang, Benjamin L. Edelman, Danilo Francati, Daniele Venturi, Giuseppe Ateniese and Boaz Barak.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
