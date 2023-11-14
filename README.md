@@ -477,6 +477,11 @@
   *J. Elliott Casal and Matt Kessler.*
   > Investigate: 1) the extent to which linguists/reviewers from top journals can distinguish AI- from human-generated writing, 2) what the basis of reviewers’ decisions are, and 3) the extent to which editors of top Applied Linguistics journals believe AI tools are ethical for research purposes.
 
+- **Detection of GPT-4 Generated Text in Higher Education: Combining Academic Judgement and Software to Identify Generative AI Tool Misuse.** [[paper]](https://link.springer.com/content/pdf/10.1007/s10805-023-09492-6.pdf) ![](https://img.shields.io/badge/Journal%20of%20Academic%20Ethics%202023-orange) ![](https://img.shields.io/badge/2023.10-blue)
+
+  *Mike Perkins, Jasper Roe, Darius Postma, James McGaughran and Don Hickerson.*
+  > Explore the capability of academic staff assisted by the Turnitin Artificial Intelligence (AI) detection tool to identify the use of AI-generated content in university assessments.
+
 #### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
 
@@ -1186,6 +1191,11 @@
 
   *Harika Abburi, Kalyani Roy, Michael Suesserman, Nirmala Pudota, Balaji Veeramani, Edward Bowen and Sanmitra Bhattacharya.*
   > Propose a simple yet efficient solution to this problem by ensembling predictions from multiple constituent LLMs. Study the influence that the training data from individual LLMs have on model performance. Find that substituting commercially-restrictive GPT data with data generated from other open language models is a feasible alternative when developing generative text detectors.
+
+- **Detecting and Unmasking AI-Generated Texts through Explainable Artificial Intelligence using Stylistic Features.** [[paper]](https://thesai.org/Downloads/Volume14No10/Paper_110-Detecting_and_Unmasking_AI_Generated_Texts.pdf) ![](https://img.shields.io/badge/IJACSA%202023-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Aditya Shah, Prateek Ranka, Urmi Dedhia, Shruti Prasad, Siddhi Muni and Kiran Bhowmick.*
+  > The research delves into parameters such as syllable count, word length, sentence structure, functional word usage, and punctuation ratios to detect AI-generated text. Furthermore, the research integrates Explainable AI (xAI) techniques—LIME and SHAP—to enhance the interpretability of machine learning model predictions.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
