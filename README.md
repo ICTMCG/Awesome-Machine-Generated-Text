@@ -1212,6 +1212,11 @@
   *Kavita Kumari, Alessandro Pegoraro, Hossein Fereidooni and Ahmad-Reza Sadeghi.*
   > Propose an effective ChatGPT detector named DEMASQ, which accurately identifies ChatGPT-generated content. The method addresses two critical factors: (i) the distinct biases in text composition observed in human- and machinegenerated content and (ii) the alterations made by humans to evade previous detection methods.
 
+- **AuthentiGPT: Detecting Machine-Generated Text via Black-Box Language Models Denoising.** [[paper]](https://arxiv.org/pdf/2311.07700.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Zhen Guo and Shangdi Yu.*
+  > Present AuthentiGPT, an efficient classifier that distinguishes between machine-generated and human-written texts. Under the assumption that humanwritten text resides outside the distribution of machine-generated text, AuthentiGPT leverages a black-box LLM to denoise input text with artificially added noise, and then semantically compares the denoised text with the original to determine if the content is machine-generated.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
