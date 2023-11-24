@@ -1232,6 +1232,21 @@
   *Nafis Irtiza Tripto, Saranya Venkatraman, Dominik Macko, Robert Moro, Ivan Srba, Adaku Uchendu, Thai Le and Dongwon Lee.*
   > Explore the diverse notions of authorship regarding paraphrasing in author attribution and AI text detection, incorporating philosophical concepts like the Ship of Theseus paradox. Suggest that authorship should be task-dependent, and we substantiate our results with relevant theoretical and philosophical perspectives.
 
+- **Spot the Bot: Distinguishing Human-Written and Bot-Generated Texts Using Clustering and Information Theory Techniques.** [[paper]](https://arxiv.org/pdf/2311.11441.pdf) ![](https://img.shields.io/badge/PReMI%202023-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Vasilii Gromov and Quynh Nhu Dang.*
+  > Propose a bot identification algorithm that is based on unsupervised learning techniques and does not depend on a large amount of labelled data. By combining findings in semantic analysis by clustering (crisp and fuzzy) and information techniques, we construct a robust model that detects a generated text for different types of bot.
+
+- **Beyond Turing: A Comparative Analysis of Approaches for Detecting Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2311.12373.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Muhammad Farid Adilazuarda, Nikolaos Nektarios Arkoulis and Oleksii Chumakov.*
+  > Present the IMGTB framework, which simplifies the benchmarking of machine-generated text detection methods by easy integration of custom (new) methods and evaluation datasets.
+
+- **IMGTB: A Framework for Machine-Generated Text Detection Benchmarking.** [[paper]](https://arxiv.org/pdf/2311.12574.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+
+  *Michal Spiegel and Dominik Macko.*
+  > Offer an in-depth evaluation of three distinct methods: traditional shallow learning, Language Model (LM) fine-tuning, and Multilingual Model fine-tuning. These approaches are rigorously tested on a wide range of machine-generated texts, providing a benchmark of their competence in distinguishing between human-authored and machine-authored linguistic constructs.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
