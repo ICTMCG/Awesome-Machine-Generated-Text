@@ -1533,6 +1533,10 @@
 
   *Anirudh Ajith, Sameer Singh and Danish Pruthi.*
 
+- **Mark My Words: Analyzing and Evaluating Language Model Watermarks.** [[paper]](https://arxiv.org/pdf/2312.00273.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
+
+  *Julien Piet, Chawin Sitawarin, Vivian Fang, Norman Mu and David Wagner.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
