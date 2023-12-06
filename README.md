@@ -1277,6 +1277,11 @@
   *Finbarrs Oketunji.*
   > Investigate the use of cutting-edge hybrid deep learning models to accurately differentiate between AI-generated text and human writing. Combining sophisticated neural networks, the custom model enabled it to detect nuanced differences between AI and human content.
 
+- **STADEE: STAtistics-based DEEp Detection of Machine Generated Text.** [[paper]](https://arxiv.org/pdf/2312.01672.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
+
+  *Zheng Chen and Huming Liu.*
+  > Introduce STADEE, a STAtistics-based DEEp detection method that integrates essential statistical features of text with a sequence-based deep classifier. Utilize various statistical features, such as the probability, rank, cumulative probability of each token, as well as the information entropy of the distribution at each position.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
