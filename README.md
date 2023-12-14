@@ -416,6 +416,10 @@
 
   *Xianjun Yang, Liangming Pan, Xuandong Zhao, Haifeng Chen, Linda Petzold, William Yang Wang and Wei Cheng.*
 
+- **A Survey of Text Watermarking in the Era of Large Language Models.** [[paper]](https://arxiv.org/pdf/2312.07913.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
+
+  *Aiwei Liu, Leyi Pan, Yijian Lu, Jingjing Li, Xuming Hu, Lijie Wen, Irwin King and Philip S. Yu.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
@@ -1592,6 +1596,10 @@
 - **Mark My Words: Analyzing and Evaluating Language Model Watermarks.** [[paper]](https://arxiv.org/pdf/2312.00273.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
 
   *Julien Piet, Chawin Sitawarin, Vivian Fang, Norman Mu and David Wagner.*
+
+- **Towards Optimal Statistical Watermarking.** [[paper]](https://arxiv.org/pdf/2312.07930.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
+
+  *Baihe Huang, Banghua Zhu, Hanlin Zhu, Jason D. Lee, Jiantao Jiao and Michael I. Jordan.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
