@@ -17,7 +17,7 @@
       - [Automatic Detection](#automatic-detection)
       - [Detector Attack](#detector-attack)
       - [Benchmark](#benchmark)
-      - [Tracing Text Provenance & Watermarking](#tracing-text-provenance--watermarking)
+      - [Watermarking](#watermarking)
       - [Other Related Work](#other-related-work)
     - [Demos & Products](#demos--products)
     - [Datasets](#datasets)
@@ -773,7 +773,7 @@
   *Christoforos Vasilatos, Manaar Alam, Talal Rahwan, Yasir Zaki and Michail Maniatakos.*
   > Propose a novel multi-level approach to detect AIgenerated text focusing on university student homework. Utilize metadata categorization from an academic dataset to enhance the perplexity metric used to detect whether a given assignment has been studentauthored or AI-generated.
 
-- **DNA-GPT: Divergent N-Gram Analysis for Training-Free Detection of GPT-Generated Text.** [[paper]](https://arxiv.org/pdf/2305.17359) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+- **DNA-GPT: Divergent N-Gram Analysis for Training-Free Detection of GPT-Generated Text.** [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *Xianjun Yang, Wei Cheng, Linda Petzold, William Yang Wang and Haifeng Chen.*
   > Given a text, we first truncate it in the middle and then use only the preceding portion as input to the LLMs to regenerate the new remaining parts. By analyzing the differences between the original and new remaining parts through N-gram analysis in black-box or probability divergence in white-box, we can clearly illustrate significant discrepancies between machine-generated and human-written text.
@@ -788,7 +788,7 @@
   *Niful Islam, Debopom Sutradhar, Humaira Noor, Jarin Tasnim Raya, Monowara Tabassum Maisha and Dewan Md Farid.*
   > Present a machine learning-based solution that can identify the ChatGPT delivered text from the human written text along with the comparative analysis of a total of 11 machine learning and deep learning algorithms in the classification process.
 
-- **Multiscale Positive-Unlabeled Detection of AI-Generated Texts.** [[paper]](https://arxiv.org/pdf/2305.18149) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+- **Multiscale Positive-Unlabeled Detection of AI-Generated Texts.** [[paper]](https://openreview.net/pdf?id=5Lp6qU9hzV) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu and Yunhe Wang.*
   > Mainstream detectors are formulated without considering the factor of corpus length: shorter corpuses are harder to detect compared with longer ones for shortage of informative features. In this paper, a Multiscale Positive-Unlabeled (MPU) training framework is proposed to address the challenge of multiscale text detection.
@@ -899,7 +899,7 @@
   *Kadhim Hayawi, Sakib Shahriar and Sujith Samuel Mathew.*
   > Introduce a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. Employ several machine learning models to classify the texts.
 
-- **Towards Automatic Boundary Detection for Human-AI Collaborative Hybrid Essay in Education.** [[paper]](https://arxiv.org/pdf/2307.12267) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+- **Towards Automatic Boundary Detection for Human-AI Collaborative Hybrid Essay in Education.** [[paper]](https://arxiv.org/pdf/2307.12267) ![](https://img.shields.io/badge/AAAI%20204-orange) ![](https://img.shields.io/badge/2023.07-blue)
 
   *Zijie Zeng, Lele Sha, Yuheng Li, Kaixun Yang, Dragan Gašević and Guanliang Chen.*
   > Construct a hybrid essay dataset. Propose a two-step detection approach where we (1) separate AI-generated content from human-written content during the encoder training process; and (2) calculate the distances between every two adjacent prototypes and assume that the boundaries exist between the two adjacent prototypes that have the furthest distance from each other.
@@ -1096,7 +1096,7 @@
   *Megha Chakraborty, S.M Towhidul Islam Tonmoy, S M Mehedi Zaman, Krish Sharma, Niyar R Barman, Chandan Gupta, Shreya Gautam, Tanay Kumar, Vinija Jain, Aman Chadha, Amit P. Sheth and Amitava Das.*
   > Introduce the Counter Turing Test (CT2), a benchmark consisting of techniques aiming to offer a comprehensive evaluation of the robustness of existing AGTD techniques. Establish a quantifiable spectrum facilitating the evaluation and ranking of LLMs according to their detectability levels, we propose the AI Detectability Index (ADI).
 
-- **Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.** [[paper]](https://arxiv.org/pdf/2310.05130.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature.** [[paper]](https://openreview.net/pdf?id=Bpcgcr8E8Z) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Guangsheng Bao, Yanbin Zhao, Zhiyang Teng, Linyi Yang and Yue Zhang.*
   > Present Fast-DetectGPT, an optimized zero-shot detector, which substitutes DetectGPT’s perturbation step with a more efficient sampling step. The evaluations on various datasets, source models, and test conditions indicate that Fast-DetectGPT not only outperforms DetectGPT in both the whitebox and black-box settings but also accelerates the detection process by a factor of 340.
@@ -1126,37 +1126,32 @@
   *Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang and Xipeng Qiu.*
   > Propose Sequence X (Check) GPT, a novel method that utilizes log probability lists from white-box LLMs as features for sentence-level AIGT detection. These features are composed like waves in speech processing and cannot be studied by LLMs. Build SeqXGPT based on convolution and self-attention networks.
 
-- **Detecting Generated Text via Rewriting.** [[paper]](https://openreview.net/attachment?id=bQWE2UqXmf&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Detecting Generated Text via Rewriting.** [[paper]](https://openreview.net/pdf?id=bQWE2UqXmf) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Anonymous authors.*
   > Find that large language models (LLMs) are more likely to modify human-written text than AI-generated text when tasked with rewriting. Introduce a method to detect AI-generated content by prompting LLMs to rewrite text and calculating the editing distance of the output.
 
-- **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://openreview.net/attachment?id=iARAKITHTH&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://openreview.net/pdf?id=iARAKITHTH) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Anonymous authors.*
   > Propose a novel LLM detector that only requires simple calculations using pre-trained LLMs.  The method, called Binoculars, achieves state-of-the-art accuracy without any training data.
 
-- **On the Possibilities of AI-Generated Text Detection: A Sample Complexity Analysis.** [[paper]](https://openreview.net/attachment?id=oxEER3kZ9M&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
-
-  *Anonymous authors.*
-  > Establish precise sample complexity bounds for detecting AI-generated text. The empirical evaluations across multiple datasets confirm the viability of enhanced detection methods.
-
-- **Human-in-the-loop Detection of AI-generated Text via Grammatical Patterns.** [[paper]](https://openreview.net/attachment?id=UZS6D7GfP1&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Human-in-the-loop Detection of AI-generated Text via Grammatical Patterns.** [[paper]](https://openreview.net/pdf?id=UZS6D7GfP1) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Anonymous authors.*
   > Focus on the problem of detecting AI-generated text in a domain where a training dataset of human-written samples is readily available. Our key insight is to learn interpretable grammatical patterns that are highly indicative of human or AI written text. The most useful of these patterns can then be given to humans as part of a human-in-the-loop approach.
 
-- **Few-Shot Detection of Machine-Generated Text using Style Representations.** [[paper]](https://openreview.net/attachment?id=cWiEN1plhJ&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Few-Shot Detection of Machine-Generated Text using Style Representations.** [[paper]](https://openreview.net/pdf?id=cWiEN1plhJ) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
-  *Anonymous authors.*
+  *Rafael Rivera Soto, Kailin Koch, Aleem Khan, Barry Chen, Marcus Bishop and Nicholas Andrews.*
   > Pursue a approach not relying on samples from language models of concern at training time. Propose to leverage representations of writing style estimated from human-authored text. Find that features effective at distinguishing among human authors are also effective at distinguishing human from machine authors.
 
-- **Metric Learning for Detection of Large Language Model Generated Texts.** [[paper]](https://openreview.net/attachment?id=LKx4rubqkO&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Metric Learning for Detection of Large Language Model Generated Texts.** [[paper]](https://openreview.net/pdf?id=LKx4rubqkO) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Anonymous authors.*
   > Present a new paradigm of metric-based detection for LLM-generated texts that is able to balance among computational costs, accessibility, and performances. Specifically, the detection is performed through evaluating the similarity between a given text to an equivalent example generated by LLMs and through that determining the former's origination.
 
-- **Detecting Machine-Generated Texts by Multi-Population Aware Optimization for Maximum Mean Discrepancy.** [[paper]](https://openreview.net/attachment?id=3fEKavFsnv&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Detecting Machine-Generated Texts by Multi-Population Aware Optimization for Maximum Mean Discrepancy.** [[paper]](https://openreview.net/pdf?id=3fEKavFsnv) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Anonymous authors.*
   > Propose a novel multi-population aware optimization method for MMD called MMD-MP, which can avoid variance increases and thus improve the stability to measure the distributional discrepancy. Relying on MMD-MP, develop two methods for paragraph-based and sentence-based detection, respectively.
@@ -1444,7 +1439,7 @@
   *Nafis Tripto, Adaku Uchendu, Thai Le, Mattia Setzu, Fosca Giannotti and Dongwon Lee.*
   > Introduce the largest benchmark for spoken texts - HANSEN (Human ANd ai Spoken tExt beNchmark). HANSEN encompasses meticulous curation of existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. Together, it comprises 17 human datasets, and AI-generated spoken texts created using 3 prominent LLMs: ChatGPT, PaLM2, and Vicuna13B.
 
-#### Tracing Text Provenance & Watermarking
+#### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
 
   *Sahar Abdelnabi and Mario Fritz.*
@@ -1505,11 +1500,11 @@
 
   *Leonard Tang, Gavin Uberti and Tom Shlomi.*
 
-- **On the Reliability of Watermarks for Large Language Models.** [[paper]](https://arxiv.org/pdf/2306.04634) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+- **On the Reliability of Watermarks for Large Language Models.** [[paper]](https://openreview.net/pdf?id=DEJIDCmWOz) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *John Kirchenbauer, Jonas Geiping, Yuxin Wen, Manli Shu, Khalid Saifullah, Kezhi Kong, Kasun Fernando, Aniruddha Saha, Micah Goldblum and Tom Goldstein.*
 
-- **Provable Robust Watermarking for AI-Generated Text.** [[paper]](https://openreview.net/pdf?id=Bwz0fy9Hc9) ![](https://img.shields.io/badge/ICML%202023%20Workshop-orange) ![](https://img.shields.io/badge/2023.06-blue)
+- **Provable Robust Watermarking for AI-Generated Text.** [[paper]](https://openreview.net/pdf?id=SsmT8aO45L) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.06-blue)
 
   *Xuandong Zhao, Prabhanjan Vijendra Ananth, Lei Li and Yu-Xiang Wang.*
 
@@ -1525,11 +1520,11 @@
 
   *Pierre Fernandez, Antoine Chaffin, Karim Tit, Vivien Chappelier and Teddy Furon.*
 
-- **Towards Codable Text Watermarking for Large Language Models.** [[paper]](https://arxiv.org/pdf/2307.15992) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+- **Towards Codable Text Watermarking for Large Language Models.** [[paper]](https://openreview.net/pdf?id=JYu5Flqm9D) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.07-blue)
 
   *Lean Wang, Wenkai Yang, Deli Chen, Hao Zhou, Yankai Lin, Fandong Meng, Jie Zhou and Xu Sun.*
 
-- **A Private Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2307.16230) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+- **A Private Watermark for Large Language Models.** [[paper]](https://openreview.net/pdf?id=gMLQwKDY3N) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.07-blue)
 
   *Aiwei Liu, Leyi Pan, Xuming Hu, Shu'ang Li, Lijie Wen, Irwin King and Philip S. Yu.*
 
@@ -1537,7 +1532,7 @@
 
   *KiYoon Yoo, Wonhyuk Ahn and Nojun Kwak.*
 
-- **Unbiased Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2310.10669.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.09-blue)
+- **Unbiased Watermark for Large Language Models.** [[paper]](https://openreview.net/pdf?id=uWVC5FVidc) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.09-blue)
 
   *Zhengmian Hu, Lichang Chen, Xidong Wu, Yihan Wu, Hongyang Zhang and Heng Huang.*
 
@@ -1549,7 +1544,7 @@
 
   *Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, Yung-Sung Chuang, Hongwei Wang, Lingfeng Shen, Benjamin Van Durme, Daniel Khashabi and Yulia Tsvetkov.*
 
-- **A Semantic Invariant Robust Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2310.06356.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **A Semantic Invariant Robust Watermark for Large Language Models.** [[paper]](https://openreview.net/pdf?id=6p8lpe4MNf) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Aiwei Liu, Leyi Pan, Xuming Hu, Shiao Meng and Lijie Wen.*
 
@@ -1561,11 +1556,11 @@
 
   *Jingtan Wang, Xinyang Lu, Zitong Zhao, Zhongxiang Dai, Chuan-Sheng Foo, See-Kiong Ng and Bryan Kian Hsiang Low.*
 
-- **On the Learnability of Watermarks for Language Models.** [[paper]](https://arxiv.org/pdf/2312.04469.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **On the Learnability of Watermarks for Language Models.** [[paper]](https://openreview.net/pdf?id=9k0krNzvlV) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Chenchen Gu, Xiang Lisa Li, Percy Liang and Tatsunori Hashimoto.*
 
-- **Double-I Watermark: Protecting Model Copyright for LLM Fine-tuning.** [[paper]](https://openreview.net/attachment?id=ecbRyZZmKG&name=pdf) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Double-I Watermark: Protecting Model Copyright for LLM Fine-tuning.** [[paper]](https://openreview.net/pdf?id=ecbRyZZmKG) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Anonymous authors.*
 
@@ -1763,7 +1758,7 @@
 | SeqXGPT-Bench | [[paper]](https://arxiv.org/pdf/2310.08903.pdf) | 2023 | 30,000 documents generated by GPT-2, GPT-J, GPT-Neo, LLaMA, GPT-3.5-turbo and human. | varied | [[repo]](https://github.com/Jihuai-wpy/SeqXGPT) |
 | MULTITuDE | [[paper]](https://arxiv.org/pdf/2310.13606.pdf) | 2023 | 7992 human-written news texts in 11 languages, accompanied by 66089 texts generated by 8 large language models. | varied | [[repo]](https://zenodo.org/records/10013755) |
 | HANSEN | [[paper]](https://pike.psu.edu/publications/emnlp23-hansen.pdf) | 2023 | Encompass existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. | GPT-3.5 (`gpt-3.5-turbo`), PaLM 2 (`chat-bison@001`), Vicuna 13B | [[repo]](https://huggingface.co/datasets/HANSEN-REPO/HANSEN) |
-| OpenLLMText | [[paper]](https://arxiv.org/pdf/2311.08723.pdf) | 2023 | Approximately 340,000 text samples from five sources. | GPT3.5, PaLM, LLaMA7B, GPT2-1B (GPT2 extra large) | [[repo]](https://zenodo.org/records/8285326) |
+| OpenLLMText | [[paper]](https://arxiv.org/pdf/2311.08723.pdf) | 2023 | Approximately 340,000 text samples from five sources. | GPT-3.5, PaLM, LLaMA7B, GPT2-1B (GPT2 extra large) | [[repo]](https://zenodo.org/records/8285326) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
