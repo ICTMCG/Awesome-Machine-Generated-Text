@@ -1322,6 +1322,16 @@
   *Yi-Fan Zhang, Zhang Zhang, Liang Wang, Tieniu Tan and Rong Jin.*
   > Existing zero-shot detectors, typically designed for specific tasks or topics, often assume uniform testing scenarios, limiting their practicality. Uncover a significant correlation between topics and detection performance. Delve into the influence of topic shifts on zero-shot detectors.
 
+- **Assessing AI Detectors in Identifying AI-Generated Code: Implications for Education.** [[paper]](https://arxiv.org/pdf/2401.03676.pdf) ![](https://img.shields.io/badge/ICSE--SEET%202024-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Wei Hung Pan, Ming Jie Chok, Jonathan Leong Shan Wong, Yung Xin Shin, Yeong Shian Poon, Zhou Yang, Chun Yong Chong, David Lo and Mei Kuan Lim.*
+  > Collect a dataset comprising 5,069 samples, with each sample consisting of a textual description of a coding problem and its corresponding human-written Python solution codes. Results demonstrate that existing AIGC Detectors perform poorly in distinguishing between human-written code and AI-generated code.
+
+- **Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers.** [[paper]](https://arxiv.org/pdf/2401.06461.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Yuling Shi, Hongyu Zhang, Chengcheng Wan and Xiaodong Gu.*
+  > Propose a novel machine-generated code detection method called DetectCodeGPT, which improves DetectGPT by capturing the distinct structural patterns of code. Diverging from conventional techniques that depend on external LLMs for perturbations, DetectCodeGPT perturbs the code corpus by strategically inserting spaces and newlines, ensuring both efficacy and efficiency.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1438,6 +1448,11 @@
 
   *Nafis Tripto, Adaku Uchendu, Thai Le, Mattia Setzu, Fosca Giannotti and Dongwon Lee.*
   > Introduce the largest benchmark for spoken texts - HANSEN (Human ANd ai Spoken tExt beNchmark). HANSEN encompasses meticulous curation of existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. Together, it comprises 17 human datasets, and AI-generated spoken texts created using 3 prominent LLMs: ChatGPT, PaLM2, and Vicuna13B.
+
+- **LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase.** [[paper]](https://arxiv.org/pdf/2401.05952.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Chujie Gao, Dongping Chen, Qihui Zhang, Yue Huang, Yao Wan and Lichao Sun.*
+  > Collect mixcase instances generated from multiple daily text-editing scenarios and composed MixSet, the first dataset dedicated to studying these mixed modification scenarios. Conduct experiments to evaluate the efficacy of popular MGT detectors. Reveal that existing detectors struggle to identify mixcase as a separate class or MGT.
 
 #### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
@@ -1692,6 +1707,16 @@
   *Cesare G. Ardito.*
   > This paper presents a critical analysis of generative Artificial Intelligence (AI) detection tools in higher education assessments. Explore the effectiveness, vulnerabilities, and ethical implications of AI detection tools in the context of preserving academic integrity. This paper advocates for a strategic shift towards robust assessment methods and educational policies that embrace generative AI usage while ensuring academic integrity and authenticity in assessments.
 
+- **Perfect detection of computer-generated text faces fundamental challenges.** [[paper]](https://www.cell.com/cell-reports-physical-science/pdf/S2666-3864(23)00614-8.pdf) ![](https://img.shields.io/badge/Cell%20Reports%20Physical%20Science-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Martin Májovský, Martin Černý, David Netuka and Tomáš Mikolov.*
+  > Propose a focus on ethical guidelines rather than outright prohibitions, emphasizing that technological solutions should complement, not replace, the core ethical principles of scientific publishing.
+
+- **TextMachina: Seamless Generation of Machine-Generated Text Datasets.** [[paper]](https://arxiv.org/pdf/2401.03946.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Areg Mikael Sarvazyan, José Ángel González and Marc Franco-Salvador.*
+  > Introduce TextMachina, a modular and extensible Python framework, designed to aid in the creation of high-quality, unbiased datasets to build robust models for MGT-related tasks such as detection, attribution, or boundary detection.
+
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
 - Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
@@ -1759,6 +1784,7 @@
 | MULTITuDE | [[paper]](https://arxiv.org/pdf/2310.13606.pdf) | 2023 | 7992 human-written news texts in 11 languages, accompanied by 66089 texts generated by 8 large language models. | varied | [[repo]](https://zenodo.org/records/10013755) |
 | HANSEN | [[paper]](https://pike.psu.edu/publications/emnlp23-hansen.pdf) | 2023 | Encompass existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. | GPT-3.5 (`gpt-3.5-turbo`), PaLM 2 (`chat-bison@001`), Vicuna 13B | [[repo]](https://huggingface.co/datasets/HANSEN-REPO/HANSEN) |
 | OpenLLMText | [[paper]](https://arxiv.org/pdf/2311.08723.pdf) | 2023 | Approximately 340,000 text samples from five sources. | GPT-3.5, PaLM, LLaMA7B, GPT2-1B (GPT2 extra large) | [[repo]](https://zenodo.org/records/8285326) |
+| MixSet | [[paper]](https://arxiv.org/pdf/2401.05952.pdf) | 2024 | A total of 3.6k mixcase instances. | GPT-4, LLaMA-2 70B | [[repo]](https://github.com/Dongping-Chen/MixSet) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
