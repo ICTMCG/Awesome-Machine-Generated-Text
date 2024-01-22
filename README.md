@@ -1332,6 +1332,11 @@
   *Yuling Shi, Hongyu Zhang, Chengcheng Wan and Xiaodong Gu.*
   > Propose a novel machine-generated code detection method called DetectCodeGPT, which improves DetectGPT by capturing the distinct structural patterns of code. Diverging from conventional techniques that depend on external LLMs for perturbations, DetectCodeGPT perturbs the code corpus by strategically inserting spaces and newlines, ensuring both efficacy and efficiency.
 
+- **Deciphering Textual Authenticity: A Generalized Strategy through the Lens of Large Language Semantics for Detecting Human vs. Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2401.09407.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Mazal Bethany, Brandon Wherry, Emet Bethany, Nishant Vishwamitra and Peyman Najafirad.*
+  > Undertake a systematic study on the detection of machine-generated text in real-world scenarios. Study the effectiveness of state-of-the-art approaches and find that they are severely limited against text produced by diverse generators and domains in the real world. Introduce a novel system, T5LLMCipher, for detecting machine-generated text using a pretrained T5 encoder combined with LLM embedding sub-clustering to address the text produced by diverse generators and domains in the real world.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1397,6 +1402,11 @@
 
   *Xinlin Peng, Ying Zhou, Ben He, Le Sun and Yingfei Sun.*
   > Construct AIG-ASAP, an AI-generated student essay dataset, employing a range of text perturbation methods that are expected to generate high-quality essays while evading detection. Through empirical experiments, assess the performance of current AIGC detectors on the AIG-ASAP dataset. The results reveal that the existing detectors can be easily circumvented using straightforward automatic adversarial attacks.
+
+- **Authorship Obfuscation in Multilingual Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2401.07867.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Dominik Macko, Robert Moro, Adaku Uchendu, Ivan Srba, Jason Samuel Lucas, Michiharu Yamashita, Nafis Irtiza Tripto, Dongwon Lee, Jakub Simko and Maria Bielikova.*
+  > Machine-generated text (MGT) detection is susceptible to authorship obfuscation (AO) methods, such as paraphrasing. Benchmark the performance of 10 well-known AO methods, attacking 37 MGT detection methods against MGTs in 11 languages. The results indicate that all tested AO methods can cause detection evasion in all tested languages, where homoglyph attacks are especially successful.
 
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
@@ -1630,6 +1640,10 @@
 - **Towards Optimal Statistical Watermarking.** [[paper]](https://arxiv.org/pdf/2312.07930.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
 
   *Baihe Huang, Banghua Zhu, Hanlin Zhu, Jason D. Lee, Jiantao Jiao and Michael I. Jordan.*
+
+- **Cross-Attention Watermarking of Large Language Models.** [[paper]](https://arxiv.org/pdf/2401.06829.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Folco Bertini Baldassini, Huy H. Nguyen, Ching-Chung Chang and Isao Echizen.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
