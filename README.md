@@ -647,6 +647,11 @@
   *Pranjal Bhardwaj, Krishna Yadav, Hind Alsharif and Rania Anwar Aboalela.*
   > Develop an unsupervised-based approach to generate fake news using autoencoder and GAN. Further describe the use of discriminators in detecting machine-generated fake news.
 
+- **Combat AI With AI: Counteract Machine-Generated Fake Restaurant Reviews on Social Media.** [[paper]](https://arxiv.org/pdf/2302.07731.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.02-blue)
+
+  *Alessandro Gambetti and Qiwei Han.*
+  > Propose to leverage the high-quality elite restaurant reviews verified by Yelp to generate fake reviews from the OpenAI GPT review creator and ultimately fine-tune a GPT output detector to predict fake reviews that significantly outperform existing solutions.
+
 - **Accurate Generated Text Detection Based on Deep Layer-wise Relevance Propagation.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10104941) ![](https://img.shields.io/badge/ICBDA%202023-orange) ![](https://img.shields.io/badge/2023.03-blue)
 
   *Mengjie Guo, Limin Liu, Meicheng Guo, Siyuan Liu and Zhiwei Xu.*
@@ -1131,9 +1136,9 @@
   *Anonymous authors.*
   > Find that large language models (LLMs) are more likely to modify human-written text than AI-generated text when tasked with rewriting. Introduce a method to detect AI-generated content by prompting LLMs to rewrite text and calculating the editing distance of the output.
 
-- **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://openreview.net/pdf?id=iARAKITHTH) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2401.12070.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
-  *Anonymous authors.*
+  *Abhimanyu Hans, Avi Schwarzschild, Valeriia Cherepanova, Hamid Kazemi, Aniruddha Saha, Micah Goldblum, Jonas Geiping and Tom Goldstein.*
   > Propose a novel LLM detector that only requires simple calculations using pre-trained LLMs.  The method, called Binoculars, achieves state-of-the-art accuracy without any training data.
 
 - **Human-in-the-loop Detection of AI-generated Text via Grammatical Patterns.** [[paper]](https://openreview.net/pdf?id=UZS6D7GfP1) ![](https://img.shields.io/badge/ICLR%202024%20Submission-orange) ![](https://img.shields.io/badge/2023.10-blue)
@@ -1337,6 +1342,11 @@
   *Mazal Bethany, Brandon Wherry, Emet Bethany, Nishant Vishwamitra and Peyman Najafirad.*
   > Undertake a systematic study on the detection of machine-generated text in real-world scenarios. Study the effectiveness of state-of-the-art approaches and find that they are severely limited against text produced by diverse generators and domains in the real world. Introduce a novel system, T5LLMCipher, for detecting machine-generated text using a pretrained T5 encoder combined with LLM embedding sub-clustering to address the text produced by diverse generators and domains in the real world.
 
+- **ALMs: Authorial Language Models for Authorship Attribution.** [[paper]](https://arxiv.org/pdf/2401.12005.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Weihang Huang, Akira Murakami and Jack Grieve.*
+  > Introduce an authorship attribution method called Authorial Language Models (ALMs) that involves identifying the most likely author of a questioned document based on the perplexity of the questioned document calculated for a set of causal language models fine-tuned on the writings of a set of candidate author.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1463,6 +1473,11 @@
 
   *Chujie Gao, Dongping Chen, Qihui Zhang, Yue Huang, Yao Wan and Lichao Sun.*
   > Collect mixcase instances generated from multiple daily text-editing scenarios and composed MixSet, the first dataset dedicated to studying these mixed modification scenarios. Conduct experiments to evaluate the efficacy of popular MGT detectors. Reveal that existing detectors struggle to identify mixcase as a separate class or MGT.
+
+- **AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media.** [[paper]](https://arxiv.org/pdf/2401.08825.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Alessandro Gambetti and Qiwei Han.*
+  > Leveraging OpenAI's GPT-4-Turbo and DALL-E-2 models, craft AiGen-FoodReview, a multi-modal dataset of 20,144 restaurant review-image pairs divided into authentic and machine-generated. Explore unimodal and multimodal detection models, achieving 99.80% multimodal accuracy with FLAVA.
 
 #### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
