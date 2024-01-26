@@ -1133,7 +1133,9 @@
 
 - **Detecting Generated Text via Rewriting.** [[paper]](https://openreview.net/pdf?id=bQWE2UqXmf) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
-  *Anonymous authors.*
+  **Preprint:** Raidar: geneRative AI Detection viA Rewriting. [[paper]](https://arxiv.org/pdf/2401.12970.pdf)
+
+  *Chengzhi Mao, Carl Vondrick, Hao Wang and Junfeng Yang.*
   > Find that large language models (LLMs) are more likely to modify human-written text than AI-generated text when tasked with rewriting. Introduce a method to detect AI-generated content by prompting LLMs to rewrite text and calculating the editing distance of the output.
 
 - **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2401.12070.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
@@ -1659,6 +1661,10 @@
 - **Cross-Attention Watermarking of Large Language Models.** [[paper]](https://arxiv.org/pdf/2401.06829.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
 
   *Folco Bertini Baldassini, Huy H. Nguyen, Ching-Chung Chang and Isao Echizen.*
+
+- **Adaptive Text Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2401.13927.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Yepeng Liu and Yuheng Bu.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
