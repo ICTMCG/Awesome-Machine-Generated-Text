@@ -1349,6 +1349,16 @@
   *Weihang Huang, Akira Murakami and Jack Grieve.*
   > Introduce an authorship attribution method called Authorial Language Models (ALMs) that involves identifying the most likely author of a questioned document based on the perplexity of the questioned document calculated for a set of causal language models fine-tuned on the writings of a set of candidate author.
 
+- **Beyond Lexical Boundaries: LLM-Generated Text Detection for Romanian Digital Libraries.** [[paper]](https://www.mdpi.com/1999-5903/16/2/41/pdf?version=1706167432) ![](https://img.shields.io/badge/Future%20Internet-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Melania Nitu and Mihai Dascalu.*
+  > Introduce a corpus of approximately 60 k Romanian documents, including human-written samples as well as generated texts using six distinct Large Language Models (LLMs) and three different generation methods. Introduce two techniques for discerning machine-generated texts. The study also includes a text similarity analysis between human-authored and artificially generated texts, coupled with a SHAP analysis.
+
+- **Does DetectGPT Fully Utilize Perturbation? Selective Perturbation on Model-Based Contrastive Learning Detector would be Better.** [[paper]](https://arxiv.org/pdf/2402.00263.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Shengchao Liu, Xiaoming Liu, Yichen Wang, Zehua Cheng, Chengzhengxu Li, Zhaohan Zhang, Yu Lan and Chao Shen.*
+  > DetectGPT's random perturbation strategy might introduce noise, and its logit regression module harms the generalizability and applicability of individual or small-batch inputs. Propose a novel detector, PECOLA, which uses selective strategy perturbation to relieve the important information loss caused by random masking, and multi-pair contrastive learning to capture the implicit pattern information during perturbation, facilitating few-shot performance.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1419,6 +1429,16 @@
 
   *Dominik Macko, Robert Moro, Adaku Uchendu, Ivan Srba, Jason Samuel Lucas, Michiharu Yamashita, Nafis Irtiza Tripto, Dongwon Lee, Jakub Simko and Maria Bielikova.*
   > Machine-generated text (MGT) detection is susceptible to authorship obfuscation (AO) methods, such as paraphrasing. Benchmark the performance of 10 well-known AO methods, attacking 37 MGT detection methods against MGTs in 11 languages. The results indicate that all tested AO methods can cause detection evasion in all tested languages, where homoglyph attacks are especially successful.
+
+- **ALISON: Fast and Effective Stylometric Authorship Obfuscation.** [[paper]](https://arxiv.org/pdf/2402.00835.pdf) ![](https://img.shields.io/badge/AAAI%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Eric Xing, Saranya Venkatraman, Thai Le and Dongwon Lee.*
+  > Propose a practical Authorship Obfuscation method, ALISON. Demonstrate that ALISON can effectively prevent four SOTA AA methods from accurately determining the authorship of ChatGPT-generated texts, all while minimally changing the original text semantics.
+
+- **Hidding the Ghostwriters: An Adversarial Evaluation of AI-Generated Student Essay Detection.** [[paper]](https://arxiv.org/pdf/2402.00412.pdf) ![](https://img.shields.io/badge/EMNLP%202023-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Xinlin Peng, Ying Zhou, Ben He, Le Sun and Yingfei Sun.*
+  > Construct AIG-ASAP, an AI-generated student essay dataset, employing a range of text perturbation methods that are expected to generate high-quality essays while evading detection. Assess the performance of current AIGC detectors on the AIG-ASAP dataset. The results reveal that the existing detectors can be easily circumvented using straightforward automatic adversarial attacks.
 
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
@@ -1751,6 +1771,11 @@
 
   *Areg Mikael Sarvazyan, José Ángel González and Marc Franco-Salvador.*
   > Introduce TextMachina, a modular and extensible Python framework, designed to aid in the creation of high-quality, unbiased datasets to build robust models for MGT-related tasks such as detection, attribution, or boundary detection.
+
+- **To Burst or Not to Burst: Generating and Quantifying Improbable Text.** [[paper]](https://arxiv.org/pdf/2401.15476.pdf) ![](https://img.shields.io/badge/EMNLP%202023%20Workshop-orange) ![](https://img.shields.io/badge/2024.01-blue)
+
+  *Kuleen Sasse, Samuel Barham, Efsun Sarioglu Kayi and Edward W. Staley.*
+  > While large language models (LLMs) are extremely capable at text generation, their outputs are still distinguishable from human-authored text. Introduce a new metric, recoverability, to highlight differences between human and machine text; and propose a new sampling technique, burst sampling, designed to close this gap.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
