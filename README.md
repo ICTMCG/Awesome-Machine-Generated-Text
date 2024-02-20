@@ -1147,9 +1147,7 @@
   *Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang and Xipeng Qiu.*
   > Propose Sequence X (Check) GPT, a novel method that utilizes log probability lists from white-box LLMs as features for sentence-level AIGT detection. These features are composed like waves in speech processing and cannot be studied by LLMs. Build SeqXGPT based on convolution and self-attention networks.
 
-- **Detecting Generated Text via Rewriting.** [[paper]](https://openreview.net/pdf?id=bQWE2UqXmf) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
-
-  **Preprint:** Raidar: geneRative AI Detection viA Rewriting. [[paper]](https://arxiv.org/pdf/2401.12970.pdf)
+- **Raidar: geneRative AI Detection viA Rewriting.** [[paper]](https://openreview.net/pdf?id=bQWE2UqXmf) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Chengzhi Mao, Carl Vondrick, Hao Wang and Junfeng Yang.*
   > Find that large language models (LLMs) are more likely to modify human-written text than AI-generated text when tasked with rewriting. Introduce a method to detect AI-generated content by prompting LLMs to rewrite text and calculating the editing distance of the output.
@@ -1384,6 +1382,11 @@
 
   *Yuhui Shi, Qiang Sheng, Juan Cao, Hao Mi, Beizhe Hu and Danding Wang.*
   > Propose to estimate word generation probabilities as pseudo white-box features via multiple re-sampling to help improve AIGT detection under the black-box setting. Design POGER, a proxy-guided efficient re-sampling method, which selects a small subset of representative words for performing multiple re-sampling in black-box AIGT detection.
+
+- **Threads of Subtlety: Detecting Machine-Generated Texts Through Discourse Motifs.** [[paper]](https://arxiv.org/pdf/2402.10586.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja and Dongyeop Kang.*
+  > This paper delves into the inquiry of identifying discernible and unique linguistic properties in texts that were written by humans, particularly uncovering the underlying discourse structures of texts beyond their surface structures. Introducing a novel methodology, we leverage hierarchical parse trees and recursive hypergraphs to unveil distinctive discourse patterns in texts produced by both LLMs and humans.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -1684,9 +1687,9 @@
 
   *Jie Ren, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin and Jiliang Tang.*
 
-- **X-Mark: Towards Lossless Watermarking Through Lexical Redundancy.** [[paper]](https://arxiv.org/pdf/2311.09832.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+- **WatME: Towards Lossless Watermarking Through Lexical Redundancy.** [[paper]](https://arxiv.org/pdf/2311.09832.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
 
-  *Liang Chen, Yatao Bian, Yang Deng, Shuaiyi Li, Bingzhe Wu, Peilin Zhao and Kam-fai Wong.*
+  *Liang Chen, Yatao Bian, Yang Deng, Deng Cai, Shuaiyi Li, Peilin Zhao and Kam-fai Wong.*
 
 - **Improving the Generation Quality of Watermarked Large Language Models via Word Importance Scoring.** [[paper]](https://arxiv.org/pdf/2311.09668.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
 
@@ -1727,6 +1730,10 @@
 - **Resilient Watermarking for LLM-Generated Codes.** [[paper]](https://arxiv.org/pdf/2402.07518.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Boquan Li, Mengdi Zhang, Peixin Zhang, Jun Sun and Xingmei Wang.*
+
+- **Proving membership in LLM pretraining data via data watermarks.** [[paper]](https://arxiv.org/pdf/2402.10892.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Johnny Tian-Zheng Wei, Ryan Yixiang Wang and Robin Jia.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
