@@ -1388,6 +1388,21 @@
   *Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja and Dongyeop Kang.*
   > This paper delves into the inquiry of identifying discernible and unique linguistic properties in texts that were written by humans, particularly uncovering the underlying discourse structures of texts beyond their surface structures. Introducing a novel methodology, we leverage hierarchical parse trees and recursive hypergraphs to unveil distinctive discourse patterns in texts produced by both LLMs and humans.
 
+- **Team QUST at SemEval-2024 Task 8: A Comprehensive Study of Monolingual and Multilingual Approaches for Detecting AI-generated Text.** [[paper]](https://arxiv.org/pdf/2402.11934.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Xiaoman Xu, Xiangrun Li, Taihang Wang, Jianxiang Tian and Ye Jiang.*
+  > This paper presents the participation of team QUST in Task 8 SemEval 2024. Evaluate traditional deep-learning methods, multiscale positive-unlabeled framework (MPU), fine-tuning, adapters and ensemble methods.
+
+- **HU at SemEval-2024 Task 8A: Can Contrastive Learning Learn Embeddings to Detect Machine-Generated Text?** [[paper]](https://arxiv.org/pdf/2402.11815.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Shubhashis Roy Dipta and Sadat Shahriar.*
+  > Propose a single model based on contrastive learning, which uses ~40% of the baseline's parameters but shows a comparable performance on the test dataset. The key finding is that even without an ensemble of multiple models, a single base model can have comparable performance with the help of data augmentation and contrastive learning.
+
+- **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Zhongping Zhang, Wenda Qin and Bryan A. Plummer.*
+  > Provide the first in-depth study of MGT that localizes the portions of a document that were machine generated. A key challenge in the MGT localization task is that short spans of text, e.g., a single sentence, provides little information indicating if it is machine generated due to its short length. Leverage contextual information, where we predict whether multiple sentences are machine or human written at once.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1469,6 +1484,16 @@
   *Xinlin Peng, Ying Zhou, Ben He, Le Sun and Yingfei Sun.*
   > Construct AIG-ASAP, an AI-generated student essay dataset, employing a range of text perturbation methods that are expected to generate high-quality essays while evading detection. Assess the performance of current AIGC detectors on the AIG-ASAP dataset. The results reveal that the existing detectors can be easily circumvented using straightforward automatic adversarial attacks.
 
+- **Stumbling Blocks: Stress Testing the Robustness of Machine-Generated Text Detectors Under Attacks.** [[paper]](https://arxiv.org/pdf/2402.11638.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Yichen Wang, Shangbin Feng, Abe Bohan Hou, Xiao Pu, Chao Shen, Xiaoming Liu, Yulia Tsvetkov and Tianxing He.*
+  > The goal of our study is to stress test the detectors' robustness to malicious attacks under realistic scenarios. We comprehensively study the robustness of popular machine-generated text detectors under attacks from diverse categories: editing, paraphrasing, prompting, and co-generating. Our attacks assume limited access to the generator LLMs, and we compare the performance of detectors on different attacks under different budget levels. Our experiments reveal that almost none of the existing detectors remain robust under all the attacks, and all detectors exhibit different loopholes. Averaging all detectors, the performance drops by 35% across all attacks.
+
+- **Token-Ensemble Text Generation: On Attacking the Automatic AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.11167.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Fan Huang, Haewoon Kwak and Jisun An.*
+  > Propose a novel token-ensemble generation strategy to challenge the robustness of current AI-content detection approaches. Explore the ensemble attack strategy by completing the prompt with the next token generated from random candidate LLMs. Find the token-ensemble approach significantly drops the performance of AI-content detection models.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
@@ -1529,6 +1554,11 @@
 
   *Alessandro Gambetti and Qiwei Han.*
   > Leveraging OpenAI's GPT-4-Turbo and DALL-E-2 models, craft AiGen-FoodReview, a multi-modal dataset of 20,144 restaurant review-image pairs divided into authentic and machine-generated. Explore unimodal and multimodal detection models, achieving 99.80% multimodal accuracy with FLAVA.
+
+- **M4GT-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.11175.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohanned Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, Alham Fikri Aji, Nizar Habash, Iryna Gurevych and Preslav Nakov.*
+  > Address this problem by introducing a new benchmark involving multilingual, multi-domain and multi-generator for MGT detection -- M4GT-Bench. It is collected for three task formulations: (1) mono-lingual and multi-lingual binary MGT detection; (2) multi-way detection identifies which particular model generates the text; and (3) human-machine mixed text detection, where a word boundary delimiting MGT from human-written content should be determined.
 
 #### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
@@ -1735,6 +1765,10 @@
 
   *Johnny Tian-Zheng Wei, Ryan Yixiang Wang and Robin Jia.*
 
+- **k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2402.11399.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi and Tianxing He.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -1905,3 +1939,4 @@
 - AuTexTification: Automated Text Identification shared task [[home]](https://sites.google.com/view/autextification/home)
 - CLIN33 Shared Task [[home]](https://sites.google.com/view/shared-task-clin33/home)
 - ALTA Shared Task 2023 [[home]](https://www.alta.asn.au/events/sharedtask2023/description.html) [[home]](https://codalab.lisn.upsaclay.fr/competitions/14327)
+- SemEval-2024 Task 8 [[home]](https://github.com/mbzuai-nlp/SemEval2024-task8)
