@@ -1828,6 +1828,14 @@
 
   *Massieh Kordi Boroujeny, Ya Jiang, Kai Zeng and Brian Mark.*
 
+- **EmMark: Robust Watermarks for IP Protection of Embedded Quantized Large Language Models.** [[paper]](https://arxiv.org/pdf/2402.17938.pdf) ![](https://img.shields.io/badge/DAC%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Ruisi Zhang and Farinaz Koushanfar.*
+
+- **Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models.** [[paper]](https://arxiv.org/pdf/2402.18059.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+
+  *Mingjia Huo, Sai Ashish Somayajula, Youwei Liang, Ruisi Zhang, Farinaz Koushanfar and Pengtao Xie.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
