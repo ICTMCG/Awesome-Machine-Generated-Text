@@ -1449,6 +1449,11 @@
   *Bushra Alhijawi, Rawan Jarrar, Aseel AbuAlRub and Arwa Bader.*
   > Present a novel ChatGPT-generated scientific text detection method, AI-Catcher. AI-Catcher integrates two deep learning models, multilayer perceptron (MLP) and convolutional neural networks (CNN). In addition, a new ChatGPT-Generated scientific text dataset is collected to enhance AI-generated text detection tools, AIGTxt.
 
+- **Towards Detecting AI-Generated Text within Human-AI Collaborative Hybrid Texts.** [[paper]](https://arxiv.org/pdf/2403.03506) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Zijie Zeng, Shiqi Liu, Lele Sha, Zhuang Li, Kaixun Yang, Sannyuya Liu, Dragan Gašević and Guanliang Chen.*
+  > Explore the challenge of sentence-level AI-generated text detection within human-AI collaborative hybrid texts. Utilize the CoAuthor dataset, which includes diverse, realistic hybrid texts generated through the collaboration between human writers and an intelligent writing system in multi-turn interactions. Adopt a two-step, segmentation-based pipeline: (i) detect segments within a given hybrid text where each segment contains sentences of consistent authorship, and (ii) classify the authorship of each identified segment.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
