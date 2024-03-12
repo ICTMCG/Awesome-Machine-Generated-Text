@@ -440,6 +440,10 @@
 
   *Tharindu Kumarage, Garima Agrawal, Paras Sheth, Raha Moraffah, Aman Chadha, Joshua Garland and Huan Liu.*
 
+- **Decoding the AI Pen: Techniques and Challenges in Detecting AI-Generated Text.** [[paper]](https://arxiv.org/pdf/2403.05750) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Sara Abdali, Richard Anarfi, CJ Barberan and Jia He.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
