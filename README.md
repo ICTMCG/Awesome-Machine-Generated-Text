@@ -1868,9 +1868,9 @@
 
   *Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi and Tianxing He.*
 
-- **Duwak: Dual Watermarks in Large Language Models.** [[paper]](https://openreview.net/pdf?id=AAe6eQjLOQ) ![](https://img.shields.io/badge/ARR%202024%20February%20Submission-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Duwak: Dual Watermarks in Large Language Models.** [[paper]](https://arxiv.org/pdf/2403.13000) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
-  *Anonymous authors.*
+  *Chaoyi Zhu, Jeroen Galjaard, Pin-Yu Chen and Lydia Y. Chen.*
 
 - **Bypassing LLM Watermarks with Color-Aware Substitutions.** [[paper]](https://openreview.net/pdf?id=fhpfI-t4NFg) ![](https://img.shields.io/badge/ARR%202024%20February%20Submission-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
@@ -1903,6 +1903,10 @@
 - **Lost in Overlap: Exploring Watermark Collision in LLMs.** [[paper]](https://arxiv.org/pdf/2403.10020) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
   *Yiyang Luo, Ke Lin and Chao Gu.*
+
+- **An Entropy-based Text Watermarking Detection Method.** [[paper]](https://arxiv.org/pdf/2403.13485) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Yijian Lu, Aiwei Liu, Dianzhi Yu, Jingjing Li and Irwin King.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
