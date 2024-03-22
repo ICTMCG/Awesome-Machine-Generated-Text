@@ -1904,6 +1904,10 @@
 
   *Yiyang Luo, Ke Lin and Chao Gu.*
 
+- **Learning to Watermark LLM-generated Text via Reinforcement Learning.** [[paper]](https://arxiv.org/pdf/2403.10553) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Xiaojun Xu, Yuanshun Yao and Yang Liu.*
+
 - **An Entropy-based Text Watermarking Detection Method.** [[paper]](https://arxiv.org/pdf/2403.13485) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
   *Yijian Lu, Aiwei Liu, Dianzhi Yu, Jingjing Li and Irwin King.*
@@ -2013,6 +2017,12 @@
 
   *Weixin Liang, Zachary Izzo, Yaohui Zhang, Haley Lepp, Hancheng Cao, Xuandong Zhao, Lingjiao Chen, Haotian Ye, Sheng Liu, Zhi Huang, Daniel A. McFarland and James Y. Zou.*
   > Present an approach for estimating the fraction of text in a large corpus which is likely to be substantially modified or produced by a large language model (LLM). Apply this approach to a case study of scientific peer review in AI conferences that took place after the release of ChatGPT: ICLR 2024, NeurIPS 2023, CoRL 2023 and EMNLP 2023. Results suggest that between 6.5% and 16.9% of text submitted as peer reviews to these conferences could have been substantially modified by LLMs.
+
+- **Quantitative Analysis of AI-Generated Texts in Academic Research: A Study of AI Presence in Arxiv Submissions using AI Detection Tool.** [[paper]](https://arxiv.org/pdf/2403.13812) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Arslan Akram.*
+  > This study analyze a method that can see purposely manufactured content that academic organizations use to post on Arxiv. A dataset was created using physics, mathematics, and computer science articles. The statistical analysis shows that Originality.ai is very accurate, with a rate of 98%.
+
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
