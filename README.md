@@ -1478,6 +1478,11 @@
   *Zijie Zeng, Shiqi Liu, Lele Sha, Zhuang Li, Kaixun Yang, Sannyuya Liu, Dragan Gašević and Guanliang Chen.*
   > Explore the challenge of sentence-level AI-generated text detection within human-AI collaborative hybrid texts. Utilize the CoAuthor dataset, which includes diverse, realistic hybrid texts generated through the collaboration between human writers and an intelligent writing system in multi-turn interactions. Adopt a two-step, segmentation-based pipeline: (i) detect segments within a given hybrid text where each segment contains sentences of consistent authorship, and (ii) classify the authorship of each identified segment.
 
+- **TowarAdaptive Ensembles of Fine-Tuned Transformers for LLM-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2403.13335) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Zhixin Lai, Xuesheng Zhang and Suiyao Chen.*
+  > Reveal that single transformer-based classifiers achieved decent performance on in-distribution dataset but limited generalization ability on out-of-distribution dataset. To improve it, combine the individual classifiers models using adaptive ensemble algorithms. The results indicate the effectiveness, good generalization ability, and great potential of adaptive ensemble algorithms in LLM-generated text detection.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1907,6 +1912,10 @@
 - **Learning to Watermark LLM-generated Text via Reinforcement Learning.** [[paper]](https://arxiv.org/pdf/2403.10553) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
   *Xiaojun Xu, Yuanshun Yao and Yang Liu.*
+
+- **Towards Better Statistical Understanding of Watermarking LLMs.** [[paper]](https://arxiv.org/pdf/2403.13027) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Zhongze Cai, Shang Liu, Hanzhao Wang, Huaiyang Zhong and Xiaocheng Li.*
 
 - **An Entropy-based Text Watermarking Detection Method.** [[paper]](https://arxiv.org/pdf/2403.13485) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
