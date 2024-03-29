@@ -1461,6 +1461,10 @@
 
   *Ashok Urlana, Aditya Saibewar, Bala Mallikarjunarao Garlapati, Charaka Vinayak Kumar, Ajeet Kumar Singh and Srinivasa Rao Chalamala.*
 
+  - **AIpom at SemEval-2024 Task 8: Detecting AI-produced Outputs in M4.** [[paper]](https://arxiv.org/pdf/2403.19354) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Alexander Shirnin, Nikita Andreev, Vladislav Mikhailov and Ekaterina Artemova.*
+
 - **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zhongping Zhang, Wenda Qin and Bryan A. Plummer.*
@@ -1943,6 +1947,10 @@
 - **An Entropy-based Text Watermarking Detection Method.** [[paper]](https://arxiv.org/pdf/2403.13485) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
   *Yijian Lu, Aiwei Liu, Dianzhi Yu, Jingjing Li and Irwin King.*
+
+- **WaterJudge: Quality-Detection Trade-off when Watermarking Large Language Models.** [[paper]](https://arxiv.org/pdf/2403.19548) ![](https://img.shields.io/badge/NAACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Piotr Molenda, Adian Liusie and Mark J. F. Gales.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
