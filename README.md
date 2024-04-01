@@ -1443,27 +1443,27 @@
 
   - **KInIT at SemEval-2024 Task 8: Fine-tuned LLMs for Multilingual Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.13671.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
-  *Michal Spiegel and Dominik Macko.*
+    *Michal Spiegel and Dominik Macko.*
 
   - **RFBES at SemEval-2024 Task 8: Investigating Syntactic and Semantic Features for Distinguishing AI-Generated and Human-Written Texts.** [[paper]](https://arxiv.org/pdf/2402.14838.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
-  *Mohammad Heydari Rad, Farhan Farsi, Shayan Bali, Romina Etezadi and Mehrnoush Shamsfard.*
+    *Mohammad Heydari Rad, Farhan Farsi, Shayan Bali, Romina Etezadi and Mehrnoush Shamsfard.*
 
   - **SemEval-2024 Task 8: Weighted Layer Averaging RoBERTa for Black-Box Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.15873.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
-  *Ayan Datta, Aryan Chandramania and Radhika Mamidi.*
+    *Ayan Datta, Aryan Chandramania and Radhika Mamidi.*
 
   - **MasonTigers at SemEval-2024 Task 8: Performance Analysis of Transformer-based Models on Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2403.14989) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
-  *Sadiya Sayara Chowdhury Puspo, Md Nishat Raihan, Dhiman Goswami, Al Nahian Bin Emran, Amrita Ganguly and Ozlem Uzuner.*
+    *Sadiya Sayara Chowdhury Puspo, Md Nishat Raihan, Dhiman Goswami, Al Nahian Bin Emran, Amrita Ganguly and Ozlem Uzuner.*
 
   - **TrustAI at SemEval-2024 Task 8: A Comprehensive Analysis of Multi-domain Machine Generated Text Detection Techniques.** [[paper]](https://arxiv.org/pdf/2403.16592) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
-  *Ashok Urlana, Aditya Saibewar, Bala Mallikarjunarao Garlapati, Charaka Vinayak Kumar, Ajeet Kumar Singh and Srinivasa Rao Chalamala.*
+    *Ashok Urlana, Aditya Saibewar, Bala Mallikarjunarao Garlapati, Charaka Vinayak Kumar, Ajeet Kumar Singh and Srinivasa Rao Chalamala.*
 
   - **AIpom at SemEval-2024 Task 8: Detecting AI-produced Outputs in M4.** [[paper]](https://arxiv.org/pdf/2403.19354) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
-  *Alexander Shirnin, Nikita Andreev, Vladislav Mikhailov and Ekaterina Artemova.*
+    *Alexander Shirnin, Nikita Andreev, Vladislav Mikhailov and Ekaterina Artemova.*
 
 - **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
@@ -2063,6 +2063,10 @@
   *Arslan Akram.*
   > This study analyze a method that can see purposely manufactured content that academic organizations use to post on Arxiv. A dataset was created using physics, mathematics, and computer science articles. The statistical analysis shows that Originality.ai is very accurate, with a rate of 98%.
 
+- **GenAI Detection Tools, Adversarial Techniques and Implications for Inclusivity in Higher Education.** [[paper]](https://arxiv.org/pdf/2403.19148) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Mike Perkins, Jasper Roe, Binh H. Vu, Darius Postma, Don Hickerson, James McGaughran and Huy Q. Khuat.*
+  > Investigate the efficacy of six major Generative AI (GenAI) text detectors when confronted with machine-generated content that has been modified using techniques designed to evade detection by these tools (n=805). The results demonstrate that the detectors' already low accuracy rates (39.5%) show major reductions in accuracy (17.4%) when faced with manipulated content, with some techniques proving more effective than others in evading detection.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
