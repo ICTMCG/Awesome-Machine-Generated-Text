@@ -1465,6 +1465,14 @@
 
     *Alexander Shirnin, Nikita Andreev, Vladislav Mikhailov and Ekaterina Artemova.*
 
+  - **TM-TREK at SemEval-2024 Task 8: Towards LLM-Based Automatic Boundary Detection for Human-Machine Mixed Text.** [[paper]](https://arxiv.org/pdf/2404.00899) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+    *Xiaoyan Qu and Xiangfeng Meng.*
+
+  - **AISPACE at SemEval-2024 task 8: A Class-balanced Soft-voting System for Detecting Multi-generator Machine-generated Text.** [[paper]](https://arxiv.org/pdf/2404.00950) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+    *Renhua Gu and Xiangfeng Meng.*
+
 - **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zhongping Zhang, Wenda Qin and Bryan A. Plummer.*
@@ -1956,6 +1964,10 @@
 - **WaterJudge: Quality-Detection Trade-off when Watermarking Large Language Models.** [[paper]](https://arxiv.org/pdf/2403.19548) ![](https://img.shields.io/badge/NAACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
   *Piotr Molenda, Adian Liusie and Mark J. F. Gales.*
+
+- **A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules.** [[paper]](https://arxiv.org/pdf/2404.01245) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Xiang Li, Feng Ruan, Huiyuan Wang, Qi Long and Weijie J. Su.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
