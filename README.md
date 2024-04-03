@@ -1629,6 +1629,11 @@
   *Qi Pang, Shengyuan Hu, Wenting Zheng and Virginia Smith.*
   > Show that desirable properties shared by existing LLM watermarking systems such as quality preservation, robustness, and public detection APIs can in turn make these systems vulnerable to various attacks. Rigorously study potential attacks in terms of common watermark design choices, and propose best practices and defenses for mitigation -- establishing a set of practical guidelines for embedding and detection of LLM watermarks.
 
+- **Humanizing Machine-Generated Content: Evading AI-Text Detection through Adversarial Attack.** [[paper]](https://arxiv.org/pdf/2404.01907) ![](https://img.shields.io/badge/COLING%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Ying Zhou, Ben He and Le Sun.*
+  > Propose a framework for a broader class of adversarial attacks, designed to perform minor perturbations in machine-generated content to evade detection. Consider two attack settings: white-box and black-box, and employ adversarial learning in dynamic scenarios to assess the potential enhancement of the current detection model's robustness against such attacks.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
@@ -1968,6 +1973,10 @@
 - **A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules.** [[paper]](https://arxiv.org/pdf/2404.01245) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
 
   *Xiang Li, Feng Ruan, Huiyuan Wang, Qi Long and Weijie J. Su.*
+
+- **Topic-based Watermarks for LLM-Generated Text.** [[paper]](https://arxiv.org/pdf/2404.02138) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Alexander Nemecek, Yuzhou Jiang and Erman Ayday.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
