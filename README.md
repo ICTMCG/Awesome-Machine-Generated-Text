@@ -1482,6 +1482,10 @@
 
     *Kseniia Petukhova, Roman Kazakov and Ekaterina Kochmar.*
 
+  - **SemEval-2024 Task 8: Multidomain, Multimodel and Multilingual Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2404.14183) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+    *Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohammed Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, Chenxi Whitehouse, Alham Fikri Aji, Nizar Habash, Iryna Gurevych and Preslav Nakov.*
+
 - **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zhongping Zhang, Wenda Qin and Bryan A. Plummer.*
@@ -1532,6 +1536,11 @@
   *Yaqi Xie, Anjali Rawal, Yujing Cen, Dixuan Zhao, Sunil K Narang and Shanu Sushmita.*
   > Undertake a comparative evaluation of eight traditional machine-learning algorithms to distinguish between machine-generated and human-generated data across three diverse datasets: Poems, Abstracts, and Essays.
 
+- **AI-Generated Text Detector for Arabic Language Using Encoder-Based Transformer Architecture.** [[paper]](https://www.mdpi.com/2504-2289/8/3/32/pdf?version=1710745584) ![](https://img.shields.io/badge/Big%20Data%20and%20Cognitive%20Computing%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
+
+  *Hamed Alshammari,Ahmed El-Sayed and Khaled Elleithy.*
+  > Introduce a novel AI text classifier designed specifically for Arabic. Utilized and fine-tuned two Transformer-based models, AraELECTRA and XLM-R, by training them on two distinct datasets: a large dataset comprising 43,958 examples and a custom dataset with 3078 examples that contain HWT and AI-generated texts (AIGTs) from various sources, including ChatGPT 3.5, ChatGPT-4, and BARD.
+
 - **The Impact of Prompts on Zero-Shot Detection of AI-Generated Text.** [[paper]](https://arxiv.org/pdf/2403.20127) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
 
   *Kaito Taguchi, Yujie Gu and Kouichi Sakurai.*
@@ -1541,6 +1550,21 @@
 
   *Manish Prajapati, Santos Kumar Baliarsingh, Chinmayee Dora, Ashutosh Bhoi, Jhalak Hota and Jasaswi Prasad Mohanty.*
   > Leverage the machine learning (ML) models to reliably identify whether an essay is authored by a human being or by an LLM. Using diverse texts and unknown generative models, we replicate typical scenarios to encourage feature learning across models.
+
+- **Sentiment analysis and random forest to classify LLM versus human source applied to Scientific Texts.** [[paper]](https://arxiv.org/pdf/2404.08673) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Javier J. Sanchez-Medina.*
+  > Propose a new methodology to classify texts coming from an automatic text production engine or a human, based on Sentiment Analysis as a source for feature engineering independent variables and then train with them a Random Forest classification algorithm. Using four different sentiment lexicons, a number of new features where produced, and then fed to a machine learning random forest methodology, to train such a model.
+
+- **Detecting AI Generated Text Based on NLP and Machine Learning Approaches.** [[paper]](https://arxiv.org/pdf/2404.10032) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Nuzhat Prova.*
+  > Offer an accurate AI detector model that can differentiate between electronically produced text and human-written text. The approach includes machine learning methods such as XGB Classifier, SVM, BERT architecture deep learning models.
+
+- **EDMAL - ENHANCED DETECTION OF AI GENERATED TEXT USING MACHINE LEARNING.** [[paper]](https://www.dsta.gov.sg/staticfile/ydsp/projects/files/reports/EDMAL-ENHANCED_DETECTION_OF_AI_GENERATED_TEXT_USING_MACHINE_LEARNING.pdf) ![](https://img.shields.io/badge/Report-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Ang Jun Ray and Chieu Hai Leong.*
+  > Aim to enhance existing AI text detection technologies and thus focused on the Divergent N-Gram Analysis’s (DNA-GPT’s) approach. Propose 4 methods to replace the 3rd step in DNA-GPT’s detection process, where texts are compared and scored.  The results indicate that the machine-learning based methods, especially the random forest classifier, outperforms the original approach by DNA-GPT.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -1997,6 +2021,10 @@
 
   *Alexander Nemecek, Yuzhou Jiang and Erman Ayday.*
 
+- **CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code.** [[paper]](https://arxiv.org/pdf/2404.15639) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Batu Guan, Yao Wan, Zhangqian Bi, Zheng Wang, Hongyu Zhang, Yulei Sui, Pan Zhou and Lichao Sun.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -2127,6 +2155,26 @@
 
   *Francesco Greco, Giuseppe Desolda, Andrea Esposito and Alessandro Carelli.*
   > Detecting whether an email is generated by LLMs is critical. This work aims to address this problem using traditional, lightweight machine learning models that are easy to interpret and require fewer computational resources. This approach allows users to understand why an email is AI-generated, improving their decision-making in the case of phishing emails.
+
+- **DUPE: Detection Undermining via Prompt Engineering for Deepfake Text.** [[paper]](https://arxiv.org/pdf/2404.11408) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *James Weichert and Chinecherem Dimobi.*
+  > Evaluate three different AI text detectors-Kirchenbauer et al. watermarks, ZeroGPT, and GPTZero-against human and AI-generated essays. Find that watermarking results in a high false positive rate, and that ZeroGPT has both high false positive and false negative rates. Further, we are able to significantly increase the false negative rate of all detectors by using ChatGPT 3.5 to paraphrase the original AI-generated texts, thereby effectively bypassing the detectors.
+
+- **Cross-cultural Inspiration Detection and Analysis in Real and LLM-generated Social Media Data.** [[paper]](https://arxiv.org/pdf/2404.12933) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Oana Ignat, Gayathri Ganesh Lakshmy and Rada Mihalcea.*
+  > Aim to identify and analyze real and AI-generated cross-cultural inspiring posts. Compile and make publicly available the InspAIred dataset, which consists of 2,000 real inspiring posts, 2,000 real non-inspiring posts, and 2,000 generated inspiring posts evenly distributed across India and the UK. The real posts are sourced from Reddit, while the generated posts are created using the GPT-4 model.
+
+- **MAiDE-up: Multilingual Deception Detection of GPT-generated Hotel Reviews.** [[paper]](https://arxiv.org/pdf/2404.12938) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Oana Ignat, Xiaomeng Xu, Rada Mihalcea.*
+  > Compile and make publicly available the MAiDE-up dataset, consisting of 10,000 real and 10,000 AI-generated fake hotel reviews, balanced across ten languages. Conduct extensive linguistic analyses to (1) compare the AI fake hotel reviews to real hotel reviews, and (2) identify the factors that influence the deception detection model performance.
+
+- **Classifying Human-Generated and AI-Generated Election Claims in Social Media.** [[paper]](https://arxiv.org/pdf/2404.16116) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Alphaeus Dmonte, Marcos Zampieri, Kevin Lybarger, Massimiliano Albanese and Genya Coulter.*
+  > Present a novel taxonomy for characterizing election-related claims. Introduce ElectAI, a novel benchmark dataset that consists of 9,900 tweets. Explore the capabilities of LLMs in extracting the taxonomy attributes and trained various machine learning models using ElectAI to distinguish between human- and AI-generated posts and identify the specific LLM variant.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
