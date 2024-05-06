@@ -2025,6 +2025,10 @@
 
   *Batu Guan, Yao Wan, Zhangqian Bi, Zheng Wang, Hongyu Zhang, Yulei Sui, Pan Zhou and Lichao Sun.*
 
+- **Learnable Linguistic Watermarks for Tracing Model Extraction Attacks on Large Language Models.** [[paper]](https://arxiv.org/pdf/2405.01509) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Minhao Bai, Kaiyi Pang and Yongfeng Huang.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
