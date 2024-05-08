@@ -1566,6 +1566,11 @@
   *Ang Jun Ray and Chieu Hai Leong.*
   > Aim to enhance existing AI text detection technologies and thus focused on the Divergent N-Gram Analysis’s (DNA-GPT’s) approach. Propose 4 methods to replace the 3rd step in DNA-GPT’s detection process, where texts are compared and scored.  The results indicate that the machine-learning based methods, especially the random forest classifier, outperforms the original approach by DNA-GPT.
 
+- **Who Wrote This? The Key to Zero-Shot LLM-Generated Text Detection Is GECScore.** [[paper]](https://arxiv.org/pdf/2405.04286) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Junchao Wu, Runzhe Zhan, Derek F. Wong, Shu Yang, Xuebo Liu, Lidia S. Chao and Min Zhang.*
+  > Propose an simple but effective black-box zero-shot detection approach, predicated on the observation that human-written texts typically contain more grammatical errors than LLM-generated texts. This approach entails computing the Grammar Error Correction Score (GECScore) for the given text to distinguish between human-written and LLM-generated text.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
