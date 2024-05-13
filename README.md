@@ -913,7 +913,7 @@
   *Li Ke, Hong Sheng, Fu Cai, Zhang Yunhe and Liu Ming.*
   > Propose a discriminative feature set yielding high accuracy in differentiating ChatGPT-generated code from human-authored code in binary classification tasks; Devise methods for generating extensive ChatGPT-generated codes; Introduce a dataset cleansing strategy.
 
-- **RADAR: Robust AI-Text Detection via Adversarial Learning.** [[paper]](https://arxiv.org/pdf/2307.03838) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.07-blue)
+- **RADAR: Robust AI-Text Detection via Adversarial Learning.** [[paper]](https://arxiv.org/pdf/2307.03838) ![](https://img.shields.io/badge/NeurIPS%202023-orange) ![](https://img.shields.io/badge/2023.07-blue)
 
   *Xiaomeng Hu, Pin-Yu Chen and Tsung-Yi Ho.*
   > Existing works show that current AI-text detectors are not robust to LLM-based paraphrasing, this paper aims to bridge this gap by proposing a new framework called RADAR. RADAR is based on adversarial training of a paraphraser and a detector. The paraphraser’s goal is to generate realistic contents to evade AI-text detection. RADAR uses the feedback from the detector to update the paraphraser, and vice versa.
@@ -1175,7 +1175,7 @@
   *Chengzhi Mao, Carl Vondrick, Hao Wang and Junfeng Yang.*
   > Find that large language models (LLMs) are more likely to modify human-written text than AI-generated text when tasked with rewriting. Introduce a method to detect AI-generated content by prompting LLMs to rewrite text and calculating the editing distance of the output.
 
-- **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2401.12070.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2401.12070.pdf) ![](https://img.shields.io/badge/ICML%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
   *Abhimanyu Hans, Avi Schwarzschild, Valeriia Cherepanova, Hamid Kazemi, Aniruddha Saha, Micah Goldblum, Jonas Geiping and Tom Goldstein.*
   > Propose a novel LLM detector that only requires simple calculations using pre-trained LLMs.  The method, called Binoculars, achieves state-of-the-art accuracy without any training data.
@@ -1566,10 +1566,30 @@
   *Ang Jun Ray and Chieu Hai Leong.*
   > Aim to enhance existing AI text detection technologies and thus focused on the Divergent N-Gram Analysis’s (DNA-GPT’s) approach. Propose 4 methods to replace the 3rd step in DNA-GPT’s detection process, where texts are compared and scored.  The results indicate that the machine-learning based methods, especially the random forest classifier, outperforms the original approach by DNA-GPT.
 
+- **C-Net: A Compression-Based Lightweight Network for Machine-Generated Text Detection.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10508945) ![](https://img.shields.io/badge/IEEE%20Signal%20Processing%20Letters%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Yinghan Zhou, Juan Wen, Jianghao Jia, Liting Gao and Ziwei Zhang.*
+  > Propose a compression-based lightweight network for MGT detection that leverages the ability of lossless compression to effectively extract features between categories. With fewer parameters, the framework achieves state-of-the-art performance in MGT detection under black box conditions.
+
 - **Who Wrote This? The Key to Zero-Shot LLM-Generated Text Detection Is GECScore.** [[paper]](https://arxiv.org/pdf/2405.04286) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
 
   *Junchao Wu, Runzhe Zhan, Derek F. Wong, Shu Yang, Xuebo Liu, Lidia S. Chao and Min Zhang.*
   > Propose an simple but effective black-box zero-shot detection approach, predicated on the observation that human-written texts typically contain more grammatical errors than LLM-generated texts. This approach entails computing the Grammar Error Correction Score (GECScore) for the given text to distinguish between human-written and LLM-generated text.
+
+- **Enhancing Machine-Generated Text Detection: Adversarial Fine-Tuning of Pre-Trained Language Models.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10520300) ![](https://img.shields.io/badge/IEEE%20Access%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Dong Hee Lee and Beakcheol Jang.*
+  > Propose a new method for effectively detecting machine-generated text by applying adversarial training (AT) to pre-trained language models (PLMs), such as Bidirectional Encoder Representations from Transformers (BERT). Generate adversarial examples that appeared to have been modified by humans and applied them to the PLMs to improve the model’s detection capabilities.
+
+- **Performance Analysis of Deepfake Text Detection Techniques on Social-media.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10515626) ![](https://img.shields.io/badge/ICDCOT%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Adamya Gaur, Sanjay Kumar Singh and Pranshu Saxena.*
+  > The study emphasizes on detection of deepfake text on social media platform X (formerly Twitter). Present the performance of machine learning classifiers LR, XGB classifier, and AdaBoost classifier. Deep learning methods such as DNN, Bi-LSTM, CNN, BERT, DistilBERT & RoBERTa are also a part of study.
+
+- **Unmasking the AI Hand: A Machine Learning Approach to Deciphering Authorship.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10512010) ![](https://img.shields.io/badge/INOCON%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Abhay Bhandarkar, Mushtaq Ahmed D.M, Vishwachetan D, Arfaat Mushtaq, Dhrithi Kadam and Salaj Saxena.*
+  > Introduce an AI-driven model within the Model-View-Controller (MVC) architecture, categorising text as AI-generated or human-authored. Leveraging supervised learning, the model uses Count Vectorizers and Multinomial Naive Bayes algorithm for training and classification. The proposed model shows a good accuracy of 86.2%.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -2055,7 +2075,7 @@
   *Jiashu Pu, Ziyi Huang, Yadong Xi, Guandan Chen, Weijie Chen and Rongsheng Zhang.*
   > Reveal characteristics and possible manifestations of artifacts. Locate artifacts mainly based on the performance variation of the classifier against different corruptions.
 
-- **On the Possibilities of AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2304.04736) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.04-blue)
+- **Position Paper: On the Possibilities of AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2304.04736) ![](https://img.shields.io/badge/ICML%202024-orange) ![](https://img.shields.io/badge/2023.04-blue)
 
   *Souradip Chakraborty, Amrit Singh Bedi, Sicheng Zhu, Bang An, Dinesh Manocha and Furong Huang.*
   > Provide evidence that it should almost always be possible to detect the AI-generated text unless the distributions of human and machine generated texts are exactly the same over the entire support.
@@ -2184,6 +2204,21 @@
 
   *Alphaeus Dmonte, Marcos Zampieri, Kevin Lybarger, Massimiliano Albanese and Genya Coulter.*
   > Present a novel taxonomy for characterizing election-related claims. Introduce ElectAI, a novel benchmark dataset that consists of 9,900 tweets. Explore the capabilities of LLMs in extracting the taxonomy attributes and trained various machine learning models using ElectAI to distinguish between human- and AI-generated posts and identify the specific LLM variant.
+
+- **The AI Review Lottery: Widespread AI-Assisted Peer Reviews Boost Paper Scores and Acceptance Rates.** [[paper]](https://arxiv.org/pdf/2405.02150) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Giuseppe Russo Latona, Manoel Horta Ribeiro, Tim R. Davidson, Veniamin Veselovsky and Robert West.*
+  > Obtain a lower bound for the prevalence of AI-assisted reviews at ICLR 2024 using the GPTZero LLM detector, estimating that at least 15.8% of reviews were written with AI assistance. Estimate the impact of AI-assisted reviews on submission scores. Assess the impact of receiving an AI-assisted peer review on submission acceptance.
+
+- **Investigating Wit, Creativity, and Detectability of Large Language Models in Domain-Specific Writing Style Adaptation of Reddit's Showerthoughts.** [[paper]](https://arxiv.org/pdf/2405.01660) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Tolga Buz, Benjamin Frost, Nikola Genchev, Moritz Schneider, Lucie-Aimée Kaffee and Gerard de Melo.*
+  > Investigate the ability of differently-sized LLMs to replicate human writing style in short, creative texts in the domain of Showerthoughts, thoughts that may occur during mundane activities. Compare GPT-2 and GPT-Neo fine-tuned on Reddit data as well as GPT-3.5 invoked in a zero-shot manner, against human-authored texts. Measure human preference on the texts across the specific dimensions that account for the quality of creative, witty texts. Compare the ability of humans versus fine-tuned RoBERTa classifiers to detect AI-generated texts.
+
+- **Detecting ChatGPT-generated essays in a large-scale writing assessment: Is there a bias against non-native English speakers?** [[paper]](https://www.sciencedirect.com/science/article/pii/S0360131524000848/pdfft?md5=10c4ca29a26f1611b89eac822ec25f5d&pid=1-s2.0-S0360131524000848-main.pdf) ![](https://img.shields.io/badge/Computers%20&%20Education%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Yang Jiang, Jiangang Hao, Michael Fauss and Chen Li.*
+  > Research has shown that publicly available detectors are more likely to misclassify essays written by non-native English speakers as AI-generated than those written by native English speakers. Develop multiple detectors of ChatGPT-generated essays based on linguistic features from the ETS e-rater engine and text perplexity features, and investigated their performance and potential bias. Results showed no evidence of bias disadvantaging non-native English speakers.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
