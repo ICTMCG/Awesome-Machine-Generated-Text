@@ -1556,6 +1556,11 @@
   *Javier J. Sanchez-Medina.*
   > Propose a new methodology to classify texts coming from an automatic text production engine or a human, based on Sentiment Analysis as a source for feature engineering independent variables and then train with them a Random Forest classification algorithm. Using four different sentiment lexicons, a number of new features where produced, and then fed to a machine learning random forest methodology, to train such a model.
 
+- **Large Language Model (LLM) AI text generation detection based on transformer deep learning algorithm.** [[paper]](https://arxiv.org/pdf/2405.06652) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
+
+  *Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu and Zhenglin Li.*
+  > In this paper, a tool for detecting LLM AI text generation is developed based on the Transformer model, aiming to improve the accuracy of AI text generation detection and provide reference for subsequent research.
+
 - **Detecting AI Generated Text Based on NLP and Machine Learning Approaches.** [[paper]](https://arxiv.org/pdf/2404.10032) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.04-blue)
 
   *Nuzhat Prova.*
@@ -1772,6 +1777,11 @@
 
   *Zubair Qazi, William Shiao and Evangelos E. Papalexakis.*
   > Present GPT Reddit Dataset (GRiD), a novel Generative Pretrained Transformer (GPT)-generated text detection dataset designed to assess the performance of detection models in identifying generated responses from ChatGPT. The dataset consists of a diverse collection of context-prompt pairs based on Reddit, with human-generated and ChatGPT-generated responses. Propose GpTen, a novel tensor-based GPT text detection method.
+
+- **RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors.** [[paper]](https://arxiv.org/pdf/2405.07940) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Liam Dugan, Alyssa Hwang, Filip Trhlik, Josh Magnus Ludan, Andrew Zhu, Hainiu Xu, Daphne Ippolito and Chris Callison-Burch.*
+  > Present RAID: the largest and most challenging benchmark dataset for machine-generated text detection. RAID includes over 6 million generations spanning 11 models, 8 domains, 11 adversarial attacks and 4 decoding strategies. Evaluate the out-of-domain and adversarial robustness of 8 open- and 4 closed-source detectors and find that current detectors are easily fooled by adversarial attacks, variations in sampling strategies, repetition penalties, and unseen generative models.
 
 #### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
