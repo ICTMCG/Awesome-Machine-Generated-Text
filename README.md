@@ -525,6 +525,11 @@
   *Xi Chen, Jun Li and Yuting Ye.*
   > Compare 148 ChatGPT-generated conversations with 82 human-written ones and 354 human evaluations of these conversations. The data are analysed using various methods, including traditional speech strategy coding, four computational methods developed in NLP, and four statistical tests.
 
+- **People cannot distinguish GPT-4 from a human in a Turing test.** [[paper]](https://arxiv.org/pdf/2405.08007) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Cameron R. Jones and Benjamin K. Bergen.*
+  > Evaluate 3 systems (ELIZA, GPT-3.5 and GPT-4) in a randomized, controlled, and preregistered Turing test. Human participants had a 5 minute conversation with either a human or an AI, and judged whether or not they thought their interlocutor was human. GPT-4 was judged to be a human 54% of the time, outperforming ELIZA (22%) but lagging behind actual humans (67%).
+
 #### Automatic Detection
 - **Defending Against Neural Fake News.** [[paper]](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202019-orange) ![](https://img.shields.io/badge/2019.05-blue)
 
@@ -1596,6 +1601,11 @@
   *Abhay Bhandarkar, Mushtaq Ahmed D.M, Vishwachetan D, Arfaat Mushtaq, Dhrithi Kadam and Salaj Saxena.*
   > Introduce an AI-driven model within the Model-View-Controller (MVC) architecture, categorising text as AI-generated or human-authored. Leveraging supervised learning, the model uses Count Vectorizers and Multinomial Naive Bayes algorithm for training and classification. The proposed model shows a good accuracy of 86.2%.
 
+- **StyloAI: Distinguishing AI-Generated Content with Stylometric Analysis.** [[paper]](https://arxiv.org/pdf/2405.10129) ![](https://img.shields.io/badge/AIED%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Chidimma Opara.*
+  > Propose StyloAI, a data-driven model that uses 31 stylometric features to identify AI-generated texts by applying a Random Forest classifier on two multi-domain datasets. StyloAI achieves accuracy rates of 81% and 98% on the test set of the AuTextification dataset and the Education dataset, respectively.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1677,7 +1687,7 @@
   *Xinlin Peng, Ying Zhou, Ben He, Le Sun and Yingfei Sun.*
   > Construct AIG-ASAP, an AI-generated student essay dataset, employing a range of text perturbation methods that are expected to generate high-quality essays while evading detection. Assess the performance of current AIGC detectors on the AIG-ASAP dataset. The results reveal that the existing detectors can be easily circumvented using straightforward automatic adversarial attacks.
 
-- **Stumbling Blocks: Stress Testing the Robustness of Machine-Generated Text Detectors Under Attacks.** [[paper]](https://arxiv.org/pdf/2402.11638.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Stumbling Blocks: Stress Testing the Robustness of Machine-Generated Text Detectors Under Attacks.** [[paper]](https://arxiv.org/pdf/2402.11638.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Yichen Wang, Shangbin Feng, Abe Bohan Hou, Xiao Pu, Chao Shen, Xiaoming Liu, Yulia Tsvetkov and Tianxing He.*
   > The goal of our study is to stress test the detectors' robustness to malicious attacks under realistic scenarios. We comprehensively study the robustness of popular machine-generated text detectors under attacks from diverse categories: editing, paraphrasing, prompting, and co-generating. Our attacks assume limited access to the generator LLMs, and we compare the performance of detectors on different attacks under different budget levels. Our experiments reveal that almost none of the existing detectors remain robust under all the attacks, and all detectors exhibit different loopholes. Averaging all detectors, the performance drops by 35% across all attacks.
@@ -1687,7 +1697,7 @@
   *Fan Huang, Haewoon Kwak and Jisun An.*
   > Propose a novel token-ensemble generation strategy to challenge the robustness of current AI-content detection approaches. Explore the ensemble attack strategy by completing the prompt with the next token generated from random candidate LLMs. Find the token-ensemble approach significantly drops the performance of AI-content detection models.
 
-- **Navigating the Shadows: Unveiling Effective Disturbances for Modern AI Content Detectors.** [[paper]](https://openreview.net/pdf?id=-PumjO4BxKG) ![](https://img.shields.io/badge/ARR%202024%20February%20Submission-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Navigating the Shadows: Unveiling Effective Disturbances for Modern AI Content Detectors.** [[paper]](https://openreview.net/pdf?id=-PumjO4BxKG) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Anonymous authors.*
   > Simulate real-world scenarios in both informal and professional writing, exploring the out-of-the-box performance of current detectors. Construct 12 black-box text perturbation methods to assess the robustness of current detection models across various perturbation granularities. Through adversarial learning experiments, investigate the impact of perturbation data augmentation on the robustness of AI-text detectors.
@@ -2068,6 +2078,10 @@
 
   *Georg Niess and Roman Kern.*
 
+- **MarkLLM: An Open-Source Toolkit for LLM Watermarking.** [[paper]](https://arxiv.org/pdf/2405.10051) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Leyi Pan, Aiwei Liu, Zhiwei He, Zitian Gao, Xuandong Zhao, Yijian Lu, Binglin Zhou, Shuliang Liu, Xuming Hu, Lijie Wen and Irwin King.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -2233,6 +2247,11 @@
 
   *Yang Jiang, Jiangang Hao, Michael Fauss and Chen Li.*
   > Research has shown that publicly available detectors are more likely to misclassify essays written by non-native English speakers as AI-generated than those written by native English speakers. Develop multiple detectors of ChatGPT-generated essays based on linguistic features from the ETS e-rater engine and text perplexity features, and investigated their performance and potential bias. Results showed no evidence of bias disadvantaging non-native English speakers.
+
+- **Detecting Generative AI Usage in Application Essays.** [[paper]](https://generativeaiandhci.github.io/papers/2024/genaichi2024_9.pdf) ![](https://img.shields.io/badge/GenAICHI%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Neil Natarajan, Elías Sánchez Hanno and Logangittelson.*
+  > Present a case study exploring the efficacy and implications of using one such detection product, GPTZero, in the selection process for an anonymous talent identification program that finds promising young people and provides them with opportunities that allow them to work together to serve others. Conclude that GPTZero does not perform sufficiently well to merit disqualifying applicants on its basis, but that it yields valuable insights into generative AI’s impact on application processes.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
