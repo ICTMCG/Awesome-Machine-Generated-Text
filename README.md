@@ -1441,9 +1441,9 @@
   *Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja and Dongyeop Kang.*
   > This paper delves into the inquiry of identifying discernible and unique linguistic properties in texts that were written by humans, particularly uncovering the underlying discourse structures of texts beyond their surface structures. Introducing a novel methodology, we leverage hierarchical parse trees and recursive hypergraphs to unveil distinctive discourse patterns in texts produced by both LLMs and humans.
 
-- **Spotting AI’s Touch: Identifying LLM-Paraphrased Spans in Text.** [[paper]](https://openreview.net/pdf?id=-rPKjbeWaT) ![](https://img.shields.io/badge/ARR%202024%20February%20Submission-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Spotting AI's Touch: Identifying LLM-Paraphrased Spans in Text.** [[paper]](https://arxiv.org/pdf/2405.12689) ![](https://img.shields.io/badge/ARR%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
-  *Anonymous authors.*
+  *Yafu Li, Zhilin Wang, Leyang Cui, Wei Bi, Shuming Shi and Yue Zhang.*
   > Propose a novel detection framework, paraphrased text span detection (PTD), aiming to identify paraphrased text spans within a text. Different from text-level detection, PTD takes in the full text and assigns each of the sentences with a score indicating the paraphrasing degree. Construct a dedicated dataset, PASTED, for paraphrased text span detection.
 
 - **Who is the Writer?Identifying the Generative Model by Writing Style.** [[paper]](https://openreview.net/pdf?id=GGXg_3ulv7) ![](https://img.shields.io/badge/ARR%202024%20February%20Submission-orange) ![](https://img.shields.io/badge/2024.02-blue)
@@ -1504,6 +1504,10 @@
   - **DeepPavlov at SemEval-2024 Task 8: Leveraging Transfer Learning for Detecting Boundaries of Machine-Generated Texts.** [[paper]](https://arxiv.org/pdf/2405.10629) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
 
     *Anastasia Voznyuk, Vasily Konovalov.*
+
+  - **Transformer and Hybrid Deep Learning Based Models for Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2405.17964) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+    *Teodor-George Marchitan, Claudiu Creanga and Liviu P. Dinu.*
 
 - **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
@@ -1634,6 +1638,21 @@
 
   *Aquia Richburg, Calvin Bao and Marine Carpuat.*
   > Investigate the extent to which existing AI detection and authorship analysis models can perform classification on data generated in human-AI collaborative writing sessions. Results show that, for AI text detection in the cowriting setting, classifiers based on authorship embeddings outperform classifiers used in prior work distinguishing AI vs. human text generated independently.
+
+- **AI-Generated Text Detection and Classification Based on BERT Deep Learning Algorithm.** [[paper]](https://arxiv.org/pdf/2405.16422) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Hao Wang, Jianwei Li and Zhengyu Li.*
+  > Develop an efficient AI-generated text detection model based on the BERT algorithm, which provides new ideas and methods for solving related problems.
+
+- **ReMoDetect: Reward Models Recognize Aligned LLM's Generations.** [[paper]](https://arxiv.org/pdf/2405.17382) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Hyunseok Lee, Jihoon Tack and Jinwoo Shin.*
+  > Find that as the aligned LLMs are trained to maximize the human preferences, they generate texts with higher estimated preferences even than human-written texts; thus, such texts are easily detected by using the reward model. Based on this finding, propose two training schemes to further improve the detection ability of the reward model. 
+
+- **Who Writes the Review, Human or AI?** [[paper]](https://arxiv.org/pdf/2405.20285) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Panagiotis C. Theocharopoulos, Spiros V. Georgakopoulos, Sotiris K. Tasoulis and Vassilis P. Plagianakos.*
+  > Propose a methodology to accurately distinguish AI-generated and human-written book reviews. The approach utilizes transfer learning, enabling the model to identify generated text across different topics while improving its ability to detect variations in writing style and vocabulary.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -2111,6 +2130,18 @@
 
   *Leyi Pan, Aiwei Liu, Zhiwei He, Zitian Gao, Xuandong Zhao, Yijian Lu, Binglin Zhou, Shuliang Liu, Xuming Hu, Lijie Wen and Irwin King.*
 
+- **Enhancing Watermarked Language Models to Identify Users.** [[paper]](https://arxiv.org/pdf/2405.11109) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Aloni Cohen, Alexander Hoover and Gabe Schoenbach.*
+
+- **A Watermark for Low-entropy and Unbiased Generation in Large Language Models.** [[paper]](https://arxiv.org/pdf/2405.14604) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Minjia Mao, Dongjun Wei, Zeyu Chen, Xiao Fang and Michael Chau.*
+
+- **WaterPool: A Watermark Mitigating Trade-offs among Imperceptibility, Efficacy and Robustness.** [[paper]](https://arxiv.org/pdf/2405.13517) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Baizhou Huang and Xiaojun Wan.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -2281,6 +2312,11 @@
 
   *Neil Natarajan, Elías Sánchez Hanno and Logangittelson.*
   > Present a case study exploring the efficacy and implications of using one such detection product, GPTZero, in the selection process for an anonymous talent identification program that finds promising young people and provides them with opportunities that allow them to work together to serve others. Conclude that GPTZero does not perform sufficiently well to merit disqualifying applicants on its basis, but that it yields valuable insights into generative AI’s impact on application processes.
+
+- **Simulation, Modelling and Classification of Wiki Contributors: Spotting The Good, The Bad, and The Ugly.** [[paper]](https://arxiv.org/pdf/2405.18845) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.05-blue)
+
+  *Silvia García Méndez, Fátima Leal, Benedita Malheiro, Juan Carlos Burguillo Rial, Bruno Veloso, Adriana E. Chis and Horacio González Vélez.*
+  > Data crowdsourcing is a data acquisition process where groups of voluntary contributors feed platforms with highly relevant data ranging from news, comments, and media to knowledge and classifications. Present a simulation, modelling, and classification approach to automatically identify human and non-human (bots) as well as benign and malign contributors by using data fabrication to balance classes within experimental data sets, data stream modelling to build and update contributor profiles and, finally, autonomic data stream classification.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
