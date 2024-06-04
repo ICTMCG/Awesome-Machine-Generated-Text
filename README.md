@@ -1441,7 +1441,7 @@
   *Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja and Dongyeop Kang.*
   > This paper delves into the inquiry of identifying discernible and unique linguistic properties in texts that were written by humans, particularly uncovering the underlying discourse structures of texts beyond their surface structures. Introducing a novel methodology, we leverage hierarchical parse trees and recursive hypergraphs to unveil distinctive discourse patterns in texts produced by both LLMs and humans.
 
-- **Spotting AI's Touch: Identifying LLM-Paraphrased Spans in Text.** [[paper]](https://arxiv.org/pdf/2405.12689) ![](https://img.shields.io/badge/ARR%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Spotting AI's Touch: Identifying LLM-Paraphrased Spans in Text.** [[paper]](https://arxiv.org/pdf/2405.12689) ![](https://img.shields.io/badge/ACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Yafu Li, Zhilin Wang, Leyang Cui, Wei Bi, Shuming Shi and Yue Zhang.*
   > Propose a novel detection framework, paraphrased text span detection (PTD), aiming to identify paraphrased text spans within a text. Different from text-level detection, PTD takes in the full text and assigns each of the sentences with a score indicating the paraphrasing degree. Construct a dedicated dataset, PASTED, for paraphrased text span detection.
