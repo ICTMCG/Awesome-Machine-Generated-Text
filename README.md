@@ -1689,6 +1689,21 @@
   *Ye Zhang, Qian Leng, Mengran Zhu, Rui Ding, Yue Wu, Jintong Song and Yulu Gong.*
   > Propose a novel hybrid approach that combines traditional TF-IDF techniques with advanced machine learning models, including Bayesian classifiers, Stochastic Gradient Descent (SGD), Categorical Gradient Boosting (CatBoost), and 12 instances of Deberta-v3-large models. The approach aims to address the challenges associated with detecting AI-generated text by leveraging the strengths of both traditional feature extraction methods and state-of-the-art deep learning models.
 
+- **Detecting Synthetic Lyrics with Few-Shot Inference.** [[paper]](https://arxiv.org/pdf/2406.15231) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Yanis Labrak, Gabriel Meseguer-Brocal and Elena V. Epure.*
+  > Curate the first dataset of high-quality synthetic lyrics and conducted a comprehensive quantitative evaluation of various few-shot content detection approaches, testing their generalization capabilities and complementing this with a human evaluation. Our best few-shot detector, based on LLM2Vec, surpasses stylistic and statistical methods, which are shown competitive in other domains at distinguishing human-written from machine-generated content.
+
+- **Exploring the Limitations of Detecting Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2406.11073) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Jad Doughman, Osama Mohammed Afzal, Hawau Olamide Toyin, Shady Shehata, Preslav Nakov and Zeerak Talat.*
+  > Critically examine the classification performance for detecting machine-generated text by evaluating on texts with varying writing styles. Find that classifiers are highly sensitive to stylistic changes and differences in text complexity, and in some cases degrade entirely to random classifiers. Further find that detection systems are particularly susceptible to misclassify easy-to-read texts while they have high performance for complex texts.
+
+- **Applying Ensemble Methods to Model-Agnostic Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2406.12570) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Ivan Ong and Boon King Quek.*
+  > Apply ensembling methods to the outputs from DetectGPT classifiers. Find that simple summary statistics of DetectGPT sub-model outputs yield an AUROC of 0.73 (relative to 0.61) while retaining its zero-shot nature, and that supervised learning methods sharply boost the accuracy to an AUROC of 0.94 but require a training dataset.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1780,9 +1795,9 @@
   *Fan Huang, Haewoon Kwak and Jisun An.*
   > Propose a novel token-ensemble generation strategy to challenge the robustness of current AI-content detection approaches. Explore the ensemble attack strategy by completing the prompt with the next token generated from random candidate LLMs. Find the token-ensemble approach significantly drops the performance of AI-content detection models.
 
-- **Navigating the Shadows: Unveiling Effective Disturbances for Modern AI Content Detectors.** [[paper]](https://openreview.net/pdf?id=-PumjO4BxKG) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Navigating the Shadows: Unveiling Effective Disturbances for Modern AI Content Detectors.** [[paper]](https://arxiv.org/pdf/2406.08922) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
-  *Anonymous authors.*
+  *Ying Zhou, Ben He and Le Sun.*
   > Simulate real-world scenarios in both informal and professional writing, exploring the out-of-the-box performance of current detectors. Construct 12 black-box text perturbation methods to assess the robustness of current detection models across various perturbation granularities. Through adversarial learning experiments, investigate the impact of perturbation data augmentation on the robustness of AI-text detectors.
 
 - **Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2402.14007.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
@@ -1880,6 +1895,21 @@
 
   *Liam Dugan, Alyssa Hwang, Filip Trhlik, Josh Magnus Ludan, Andrew Zhu, Hainiu Xu, Daphne Ippolito and Chris Callison-Burch.*
   > Present RAID: the largest and most challenging benchmark dataset for machine-generated text detection. RAID includes over 6 million generations spanning 11 models, 8 domains, 11 adversarial attacks and 4 decoding strategies. Evaluate the out-of-domain and adversarial robustness of 8 open- and 4 closed-source detectors and find that current detectors are easily fooled by adversarial attacks, variations in sampling strategies, repetition penalties, and unseen generative models.
+
+- **CUDRT: Benchmarking the Detection of Human vs. Large Language Models Generated Texts.** [[paper]](https://arxiv.org/pdf/2406.09056) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Zhen Tao, Zhiyu Li, Dinghao Xi and Wei Xu.*
+  > Construct a comprehensive bilingual benchmark in both Chinese and English to evaluate mainstream AI-generated text detectors. Categorize LLM text generation into five distinct operations: Create, Update, Delete, Rewrite, and Translate (CUDRT), encompassing all current LLMs activities. Establish a robust benchmark evaluation framework to support scalable and reproducible experiments.
+
+- **Benchmarking of LLM Detection: Comparing Two Competing Approaches.** [[paper]](https://arxiv.org/pdf/2406.11670) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Thorsten Pröhl, Erik Putzier and Rüdiger Zarnekow.*
+  > This article gives an overview of the field of LLM text recognition. Different approaches and implemented detectors for the recognition of LLM-generated text are presented. In addition to discussing the implementations, the article focuses on benchmarking the detectors.
+
+- **MultiSocial: Multilingual Benchmark of Machine-Generated Text Detection of Social-Media Texts.** [[paper]](https://arxiv.org/pdf/2406.12549) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Dominik Macko, Jakub Kopal, Robert Moro and Ivan Srba.*
+  > Propose the first multilingual (22 languages) and multi-platform (5 social media platforms) dataset for benchmarking machine-generated text detection in the social-media domain, called MultiSocial. It contains 472,097 texts, of which about 58k are human-written and approximately the same amount is generated by each of 7 multilingual LLMs.
 
 #### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
@@ -2186,6 +2216,10 @@
 
   *Tong Zhou, Xuandong Zhao, Xiaolin Xu and Shaolei Ren.*
 
+- **PostMark: A Robust Blackbox Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2406.14517) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Yapei Chang, Kalpesh Krishna, Amir Houmansadr, John Wieting and Mohit Iyyer.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -2437,6 +2471,8 @@
 | CHEAT | [[paper]](https://arxiv.org/pdf/2304.12008.pdf) | 2023 | 35,304 synthetic abstracts, with Generation, Polish, and Fusion as prominent representatives. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/botianzhe/CHEAT) |
 | MixSet | [[paper]](https://arxiv.org/pdf/2401.05952.pdf) | 2024 | A total of 3.6k mixcase instances. | GPT-4, LLaMA-2 70B | [[repo]](https://github.com/Dongping-Chen/MixSet) |
 | GRiD | [[paper]](https://arxiv.org/pdf/2403.07321) | 2024 | 1368 samples generated by GPT-3.5-turbo, whereas 5145 samples authored by human contributors. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/madlab-ucr/GriD) |
+| CUDRT | [[paper]](https://arxiv.org/pdf/2406.09056) | 2024 | a Chinese and English dataset with 480,000 samples. | varied | [[repo]](https://github.com/TaoZhen1110/CUDRT_Benchmark) |
+| MultiSocial | [[paper]](https://arxiv.org/pdf/2406.12549) | 2024 | 58k human-written texts and 414k machine-generated texts. | varied | [[repo]](https://anonymous.4open.science/r/multisocial/) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
