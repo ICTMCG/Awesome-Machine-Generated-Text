@@ -1795,6 +1795,16 @@
   *Choonghyun Park, Hyuhng Joon Kim, Junyeob Kim, Youna Kim, Taeuk Kim, Hyunsoo Cho, Hwiyeol Jo, Sang-goo Lee and Kang Min Yoo.*
   > AI Generated Text (AIGT) detectors are developed with texts from humans and LLMs of common tasks. The lack of prompt variation can introduce prompt-specific shortcut features that exist in data collected with the chosen prompt, but do not generalize to others. Propose Feedback-based Adversarial Instruction List Optimization (FAILOpt), an attack that searches for instructions deceptive to AIGT detectors exploiting prompt-specific shortcuts.
 
+- **Exploring Causal Mechanisms for Machine Text Detection Methods.** [[paper]](https://aclanthology.org/2024.trustnlp-1.7.pdf) ![](https://img.shields.io/badge/TrustNLP%202024-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Kiyoon Yoo, Wonhyuk Ahn, Yeji Song and Nojun Kwak.*
+  > Provide preliminary evidence that the scores computed by existing zero-shot and supervised machine-generated text detection methods are not solely determined by the generated texts, but are affected by prompts and real texts as well. Using techniques from causal inference, show the existence of backdoor paths that confounds the relationships between text and its detection score and how the confounding bias can be partially mitigated.
+
+- **Evading AI-Generated Content Detectors using Homoglyphs.** [[paper]](https://arxiv.org/pdf/2406.11239) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Aldan Creo and Shushanta Pudasaini.*
+  > homoglyph-based (a→α) attacks that can be used to circumvent existing LLM detectors are presented. The efficacy of the attacks is illustrated by analizing how homoglyphs shift the tokenization of the text, and thus its token loglikelihoods.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
