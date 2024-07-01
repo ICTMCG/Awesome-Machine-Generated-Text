@@ -444,6 +444,14 @@
 
   *Sara Abdali, Richard Anarfi, CJ Barberan and Jia He.*
 
+- **Detecting AI-Generated Text: Factors Influencing Detectability with Current Methods.** [[paper]](https://arxiv.org/pdf/2406.15583) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Kathleen C. Fraser, Hillary Dawkins and Svetlana Kiritchenko.*
+
+- **From Intentions to Techniques: A Comprehensive Taxonomy and Challenges in Text Watermarking for Large Language Models.** [[paper]](https://arxiv.org/pdf/2406.11106) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Harsh Nishant Lalai, Aashish Anantha Ramakrishnan, Raj Sanjay Shah and Dongwon Lee.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
@@ -1451,64 +1459,6 @@
   *Anonymous authors.*
   > Present the Identify the Writer by Writing Style (IWWS) model, a novel approach designed to identify the writing styles of human and generative model. Propose a comprehensive dataset, HumanGenTextify. The IWWS model not only achieves high accuracy in text source identification but also provides insights into the distinctive writing styles that characterize human and model-generated texts.
 
-- SemEval-2024 Task 8
-
-  - **Team QUST at SemEval-2024 Task 8: A Comprehensive Study of Monolingual and Multilingual Approaches for Detecting AI-generated Text.** [[paper]](https://arxiv.org/pdf/2402.11934.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
-
-    *Xiaoman Xu, Xiangrun Li, Taihang Wang, Jianxiang Tian and Ye Jiang.*
-
-  - **HU at SemEval-2024 Task 8A: Can Contrastive Learning Learn Embeddings to Detect Machine-Generated Text?** [[paper]](https://arxiv.org/pdf/2402.11815.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
-
-    *Shubhashis Roy Dipta and Sadat Shahriar.*
-
-  - **KInIT at SemEval-2024 Task 8: Fine-tuned LLMs for Multilingual Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.13671.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
-
-    *Michal Spiegel and Dominik Macko.*
-
-  - **RFBES at SemEval-2024 Task 8: Investigating Syntactic and Semantic Features for Distinguishing AI-Generated and Human-Written Texts.** [[paper]](https://arxiv.org/pdf/2402.14838.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
-
-    *Mohammad Heydari Rad, Farhan Farsi, Shayan Bali, Romina Etezadi and Mehrnoush Shamsfard.*
-
-  - **SemEval-2024 Task 8: Weighted Layer Averaging RoBERTa for Black-Box Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.15873.pdf) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
-
-    *Ayan Datta, Aryan Chandramania and Radhika Mamidi.*
-
-  - **MasonTigers at SemEval-2024 Task 8: Performance Analysis of Transformer-based Models on Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2403.14989) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
-
-    *Sadiya Sayara Chowdhury Puspo, Md Nishat Raihan, Dhiman Goswami, Al Nahian Bin Emran, Amrita Ganguly and Ozlem Uzuner.*
-
-  - **TrustAI at SemEval-2024 Task 8: A Comprehensive Analysis of Multi-domain Machine Generated Text Detection Techniques.** [[paper]](https://arxiv.org/pdf/2403.16592) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
-
-    *Ashok Urlana, Aditya Saibewar, Bala Mallikarjunarao Garlapati, Charaka Vinayak Kumar, Ajeet Kumar Singh and Srinivasa Rao Chalamala.*
-
-  - **AIpom at SemEval-2024 Task 8: Detecting AI-produced Outputs in M4.** [[paper]](https://arxiv.org/pdf/2403.19354) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
-
-    *Alexander Shirnin, Nikita Andreev, Vladislav Mikhailov and Ekaterina Artemova.*
-
-  - **TM-TREK at SemEval-2024 Task 8: Towards LLM-Based Automatic Boundary Detection for Human-Machine Mixed Text.** [[paper]](https://arxiv.org/pdf/2404.00899) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
-
-    *Xiaoyan Qu and Xiangfeng Meng.*
-
-  - **AISPACE at SemEval-2024 task 8: A Class-balanced Soft-voting System for Detecting Multi-generator Machine-generated Text.** [[paper]](https://arxiv.org/pdf/2404.00950) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
-
-    *Renhua Gu and Xiangfeng Meng.*
-
-  - **PetKaz at SemEval-2024 Task 8: Can Linguistics Capture the Specifics of LLM-generated Text?.** [[paper]](https://arxiv.org/pdf/2404.05483) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
-
-    *Kseniia Petukhova, Roman Kazakov and Ekaterina Kochmar.*
-
-  - **SemEval-2024 Task 8: Multidomain, Multimodel and Multilingual Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2404.14183) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.04-blue)
-
-    *Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohammed Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, Chenxi Whitehouse, Alham Fikri Aji, Nizar Habash, Iryna Gurevych and Preslav Nakov.*
-
-  - **DeepPavlov at SemEval-2024 Task 8: Leveraging Transfer Learning for Detecting Boundaries of Machine-Generated Texts.** [[paper]](https://arxiv.org/pdf/2405.10629) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
-
-    *Anastasia Voznyuk, Vasily Konovalov.*
-
-  - **Transformer and Hybrid Deep Learning Based Models for Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2405.17964) ![](https://img.shields.io/badge/SemEval%202024-orange) ![](https://img.shields.io/badge/2024.05-blue)
-
-    *Teodor-George Marchitan, Claudiu Creanga and Liviu P. Dinu.*
-
 - **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zhongping Zhang, Wenda Qin and Bryan A. Plummer.*
@@ -1704,6 +1654,26 @@
   *Ivan Ong and Boon King Quek.*
   > Apply ensembling methods to the outputs from DetectGPT classifiers. Find that simple summary statistics of DetectGPT sub-model outputs yield an AUROC of 0.73 (relative to 0.61) while retaining its zero-shot nature, and that supervised learning methods sharply boost the accuracy to an AUROC of 0.94 but require a training dataset.
 
+- **Deepfake tweets automatic detection.** [[paper]](https://arxiv.org/pdf/2406.16489) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Adam Frej, Adrian Kaminski, Piotr Marciniak, Szymon Szmajdzinski, Soveatin Kuntur and Anna Wroblewska.*
+  > This study addresses the critical challenge of detecting DeepFake tweets to distinguish between genuine and AI-generated texts. Given the increasing prevalence of misinformation, our research utilizes the TweepFake dataset to train and evaluate various machine learning models.
+
+- **Unmasking the Imposters: In-Domain Detection of Human vs. Machine-Generated Tweets.** [[paper]](https://arxiv.org/pdf/2406.17967) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Bryan E. Tuck and Rakesh M. Verma.*
+  > Present a methodology using Twitter datasets to examine the generative capabilities of four LLMs. Evaluate 7B and 8B parameter base-instruction models of the three open-source LLMs and validate the impact of further fine-tuning and "uncensored" versions. Find that "uncensored" models with additional in-domain fine-tuning dramatically reduce the effectiveness of automated detection methods.
+
+- **Detecting Machine-Generated Texts: Not Just "AI vs Humans" and Explainability is Complicated.** [[paper]](https://arxiv.org/pdf/2406.18259) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Jiazhou Ji, Ruizhe Li, Shujun Li, Jie Guo, Weidong Qiu, Zheng Huang, Chiyu Chen, Xiaoyu Jiang and Xinru Lu.*
+  > Challenge the current practice of considering LLM-generated text detection a binary classification task of differentiating human from AI. Introduce a novel ternary text classification scheme, adding an "undecided" category for texts that could be attributed to either source, and show that this new category is crucial to understand how to make the detection result more explainable to lay users.
+
+- **A Method for Distinguishing Model Generated Text and Human Written Text.** [[paper]](https://www.jait.us/articles/2024/JAIT-V15N6-714.pdf) ![](https://img.shields.io/badge/Journal%20of%20Advances%20in%20Information%20Technology%202024-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Hinari Shimada and Masaomi Kimura.*
+  > Propose a new approach that captures text from two different perspectives using log likelihoods and sentence embeddings with multiple LLMs.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -1820,6 +1790,11 @@
   *Zhaoxi Zhang, Xiaomei Zhang, Yanjun Zhang, Leo Yu Zhang, Chao Chen, Shengshan Hu, Asif Gill and Shirui Pan.*
   > Propose a novel green list stealing attack against the state-of-the-art LLM watermark scheme and systematically examine its vulnerability to this attack. Formalize the attack as a mixed integer programming problem with constraints. Extensive experiments on LLMs, such as OPT and LLaMA, demonstrate that the attack can successfully steal the green list and remove the watermark across all settings.
 
+- **Investigating the Influence of Prompt-Specific Shortcuts in AI Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2406.16275) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Choonghyun Park, Hyuhng Joon Kim, Junyeob Kim, Youna Kim, Taeuk Kim, Hyunsoo Cho, Hwiyeol Jo, Sang-goo Lee and Kang Min Yoo.*
+  > AI Generated Text (AIGT) detectors are developed with texts from humans and LLMs of common tasks. The lack of prompt variation can introduce prompt-specific shortcut features that exist in data collected with the chosen prompt, but do not generalize to others. Propose Feedback-based Adversarial Instruction List Optimization (FAILOpt), an attack that searches for instructions deceptive to AIGT detectors exploiting prompt-specific shortcuts.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
@@ -1871,9 +1846,9 @@
   *Nafis Tripto, Adaku Uchendu, Thai Le, Mattia Setzu, Fosca Giannotti and Dongwon Lee.*
   > Introduce the largest benchmark for spoken texts - HANSEN (Human ANd ai Spoken tExt beNchmark). HANSEN encompasses meticulous curation of existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. Together, it comprises 17 human datasets, and AI-generated spoken texts created using 3 prominent LLMs: ChatGPT, PaLM2, and Vicuna13B.
 
-- **LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase.** [[paper]](https://arxiv.org/pdf/2401.05952.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+- **LLM-as-a-Coauthor: Can Mixed Human-Written and Machine-Generated Text Be Detected?** [[paper]](https://arxiv.org/pdf/2401.05952.pdf) ![](https://img.shields.io/badge/NAACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.01-blue)
 
-  *Chujie Gao, Dongping Chen, Qihui Zhang, Yue Huang, Yao Wan and Lichao Sun.*
+  *Qihui Zhang, Chujie Gao, Dongping Chen, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan and Lichao Sun.*
   > Collect mixcase instances generated from multiple daily text-editing scenarios and composed MixSet, the first dataset dedicated to studying these mixed modification scenarios. Conduct experiments to evaluate the efficacy of popular MGT detectors. Reveal that existing detectors struggle to identify mixcase as a separate class or MGT.
 
 - **AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media.** [[paper]](https://arxiv.org/pdf/2401.08825.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
@@ -1910,6 +1885,11 @@
 
   *Dominik Macko, Jakub Kopal, Robert Moro and Ivan Srba.*
   > Propose the first multilingual (22 languages) and multi-platform (5 social media platforms) dataset for benchmarking machine-generated text detection in the social-media domain, called MultiSocial. It contains 472,097 texts, of which about 58k are human-written and approximately the same amount is generated by each of 7 multilingual LLMs.
+
+- **BUST: Benchmark for the evaluation of detectors of LLM-Generated Text.** [[paper]](https://aclanthology.org/2024.naacl-long.444.pdf) ![](https://img.shields.io/badge/NAACL%202024-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Joseph Cornelius, Oscar Lithgow-Serrano, Sandra Mitrovic, Ljiljana Dolamic and Fabio Rinaldi.*
+  > Introduce BUST, a comprehensive benchmark designed to evaluate detectors of texts generated by instruction-tuned large language models (LLMs). The benchmark dataset consists of 25K texts from humans and 7 LLMs responding to instructions across 10 tasks from 3 diverse sources.
 
 #### Watermarking
 - **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding.** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519400) ![](https://img.shields.io/badge/S&P%202021-orange) ![](https://img.shields.io/badge/2020.09-blue)
@@ -2024,9 +2004,9 @@
 
   *Aiwei Liu, Leyi Pan, Xuming Hu, Shiao Meng and Lijie Wen.*
 
-- **DiPmark: A Stealthy, Efficient and Resilient Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2310.07710.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
+- **A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2310.07710.pdf) ![](https://img.shields.io/badge/ICML%202024-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
-  *Yihan Wu, Zhengmian Hu, Hongyang Zhang and Heng Huang.*
+  *Yihan Wu, Zhengmian Hu, Junfeng Guo, Hongyang Zhang and Heng Huang.*
 
 - **WASA: WAtermark-based Source Attribution for Large Language Model-Generated Data.** [[paper]](https://arxiv.org/pdf/2310.00646.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.10-blue)
 
@@ -2241,7 +2221,7 @@
   *Jiashu Pu, Ziyi Huang, Yadong Xi, Guandan Chen, Weijie Chen and Rongsheng Zhang.*
   > Reveal characteristics and possible manifestations of artifacts. Locate artifacts mainly based on the performance variation of the classifier against different corruptions.
 
-- **Position Paper: On the Possibilities of AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2304.04736) ![](https://img.shields.io/badge/ICML%202024-orange) ![](https://img.shields.io/badge/2023.04-blue)
+- **Position: On the Possibilities of AI-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2304.04736) ![](https://img.shields.io/badge/ICML%202024-orange) ![](https://img.shields.io/badge/2023.04-blue)
 
   *Souradip Chakraborty, Amrit Singh Bedi, Sicheng Zhu, Bang An, Dinesh Manocha and Furong Huang.*
   > Provide evidence that it should almost always be possible to detect the AI-generated text unless the distributions of human and machine generated texts are exactly the same over the entire support.
@@ -2401,6 +2381,21 @@
   *Davide Buscaldi and Vijini Liyanage.*
   > Opinion spamming is the posting of fake opinions or reviews to promote or discredit target products, services, or individuals. The concern surrounding this activity has grown steadily especially because of the development of automated bots for this purpose (“spambots”). Carry out a study on LLM-generated reviews, in particular hotel reviews as chose the well-known Opinion Spam corpus by Myle Ott as the seed for the dataset. Generate a set of fake reviews with various models and applied different classification algorithms to verify how difficult is it to detect this kind of generated content.
 
+- **Catch Me If You GPT: Tutorial on Deepfake Texts.** [[paper]](https://aclanthology.org/2024.naacl-tutorials.1.pdf) ![](https://img.shields.io/badge/NAACL%202024%20Tutorials-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Adaku Uchendu, Saranya Venkatraman, Thai Le and Dongwon Lee.*
+  > Two new computational problems emerge: (1) Deepfake Text Attribution (DTA) and (2) Deepfake Text Obfuscation (DTO) problems, where the DTA problem is concerned with attributing the authorship of a given text to one of k NLG methods, while the DTO problem is to evade the authorship of a given text by modifying parts of the text.
+
+- **AI "News" Content Farms Are Easy to Make and Hard to Detect: A Case Study in Italian.** [[paper]](https://arxiv.org/pdf/2406.12128) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Giovanni Puccetti, Anna Rogers, Chiara Alzetta, Felice Dell'Orletta and Andrea Esuli.*
+  > Large Language Models (LLMs) are increasingly used as "content farm" models (CFMs), to generate synthetic text that could pass for real news articles. Investigate three LLMs and three methods of detecting synthetic texts, finding that they all perform better than human raters, but they are all impractical in the real world.
+
+- **PlagBench: Exploring the Duality of Large Language Models in Plagiarism Generation and Detection.** [[paper]](https://arxiv.org/pdf/2406.16288) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Jooyoung Lee, Toshini Agrawal, Adaku Uchendu, Thai Le, Jinghui Chen and Dongwon Lee.*
+  > In response to possible malicious use of LLMs in plagiarism, introduce PlagBench, a comprehensive dataset consisting of 46.5K synthetic plagiarism cases generated using three instruction-tuned LLMs across three writing domains. Leverage the proposed dataset to evaluate the plagiarism detection performance of five modern LLMs and three specialized plagiarism checkers.
+
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
 - Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
@@ -2473,10 +2468,11 @@
 | GRiD | [[paper]](https://arxiv.org/pdf/2403.07321) | 2024 | 1368 samples generated by GPT-3.5-turbo, whereas 5145 samples authored by human contributors. | GPT-3.5 (`gpt-3.5-turbo`) | [[repo]](https://github.com/madlab-ucr/GriD) |
 | CUDRT | [[paper]](https://arxiv.org/pdf/2406.09056) | 2024 | a Chinese and English dataset with 480,000 samples. | varied | [[repo]](https://github.com/TaoZhen1110/CUDRT_Benchmark) |
 | MultiSocial | [[paper]](https://arxiv.org/pdf/2406.12549) | 2024 | 58k human-written texts and 414k machine-generated texts. | varied | [[repo]](https://anonymous.4open.science/r/multisocial/) |
+| BUST | [[paper]](https://aclanthology.org/2024.naacl-long.444.pdf) | 2024 | 25K texts from humans and 7 LLMs responding to instructions across 10 tasks from 3 diverse sources. | varied | [[home]](https://bust.nlp.idsia.ch/) [[repo]](https://github.com/IDSIA-NLP/BUST) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
 - AuTexTification: Automated Text Identification shared task [[home]](https://sites.google.com/view/autextification/home)
 - CLIN33 Shared Task [[home]](https://sites.google.com/view/shared-task-clin33/home)
 - ALTA Shared Task 2023 [[home]](https://www.alta.asn.au/events/sharedtask2023/description.html) [[home]](https://codalab.lisn.upsaclay.fr/competitions/14327)
-- SemEval-2024 Task 8 [[home]](https://github.com/mbzuai-nlp/SemEval2024-task8)
+- SemEval-2024 Task 8 [[home]](https://github.com/mbzuai-nlp/SemEval2024-task8) [[papers]](https://aclanthology.org/volumes/2024.semeval-1/)
