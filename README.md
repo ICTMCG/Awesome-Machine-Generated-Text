@@ -1674,6 +1674,11 @@
   *Hinari Shimada and Masaomi Kimura.*
   > Propose a new approach that captures text from two different perspectives using log likelihoods and sentence embeddings with multiple LLMs.
 
+- **Detecting Subtle Differences between Human and Model Languages Using Spectrum of Relative Likelihood.** [[paper]](https://arxiv.org/pdf/2406.19874) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Yang Xu, Yu Wang, Hao An, Zhichen Liu and Yongyuan Li.*
+  > Provides a new perspective by using the relative likelihood values instead of absolute ones, and extracting useful features from the spectrum-view of likelihood for the human-model text detection task. Propose a detection procedure with two classification methods, supervised and heuristic-based, respectively, which results in competitive performances with previous zero-shot detection methods and a new state-of-the-art on short-text detection.
+
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
 
@@ -2086,7 +2091,7 @@
 
   *Folco Bertini Baldassini, Huy H. Nguyen, Ching-Chung Chang and Isao Echizen.*
 
-- **Adaptive Text Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2401.13927.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.01-blue)
+- **Adaptive Text Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2401.13927.pdf) ![](https://img.shields.io/badge/ICML%202024-orange) ![](https://img.shields.io/badge/2024.01-blue)
 
   *Yepeng Liu and Yuheng Bu.*
 
