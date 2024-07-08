@@ -2215,6 +2215,10 @@
 
   *Yapei Chang, Kalpesh Krishna, Amir Houmansadr, John Wieting and Mohit Iyyer.*
 
+- **Waterfall: Framework for Robust and Scalable Text Watermarking.** [[paper]](https://arxiv.org/pdf/2407.04411) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.07-blue)
+
+  *Gregory Kang Ruey Lau, Xinyuan Niu, Hieu Dao, Jiangwei Chen, Chuan-Sheng Foo and Bryan Kian Hsiang Low.*
+
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
 
@@ -2410,6 +2414,11 @@
 
   *Jooyoung Lee, Toshini Agrawal, Adaku Uchendu, Thai Le, Jinghui Chen and Dongwon Lee.*
   > In response to possible malicious use of LLMs in plagiarism, introduce PlagBench, a comprehensive dataset consisting of 46.5K synthetic plagiarism cases generated using three instruction-tuned LLMs across three writing domains. Leverage the proposed dataset to evaluate the plagiarism detection performance of five modern LLMs and three specialized plagiarism checkers.
+
+- **Differentiating between human-written and AI-generated texts using linguistic features automatically extracted from an online computational tool.** [[paper]](https://arxiv.org/pdf/2407.03646) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.07-blue)
+
+  *Georgios P. Georgiou.*
+  > Aim to investigate how various linguistic components are represented in both types of texts, assessing the ability of AI to emulate human writing. Despite AI-generated texts appearing to mimic human speech, the results revealed significant differences across multiple linguistic features such as consonants, word stress, nouns, verbs, pronouns, direct objects, prepositional modifiers, and use of difficult words among others.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
