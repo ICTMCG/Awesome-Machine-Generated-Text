@@ -1810,6 +1810,11 @@
   *Aldan Creo and Shushanta Pudasaini.*
   > homoglyph-based (a→α) attacks that can be used to circumvent existing LLM detectors are presented. The efficacy of the attacks is illustrated by analizing how homoglyphs shift the tokenization of the text, and thus its token loglikelihoods.
 
+- **On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks.** [[paper]](https://arxiv.org/pdf/2407.04794) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.07-blue)
+
+  *Zesen Liu, Tianshuo Cong, Xinlei He and Qi Li.*
+  > Systematically comb the mainstream watermarking schemes and removal attacks on machine-generated texts, and then categorize them into pre-text (before text generation) and post-text (after text generation) classes. Evaluate eight watermarks (five pre-text, three post-text) and twelve attacks (two pre-text, ten post-text) across 87 scenarios.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
