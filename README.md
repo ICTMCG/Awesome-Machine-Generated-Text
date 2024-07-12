@@ -800,10 +800,10 @@
   *Fatemehsadat Mireshghallah, Justus Mattern, Sicun Gao, Reza Shokri and Taylor Berg-Kirkpatrick.*
   > Explore whether models other than the generator can be used to differentiate between machinegenerated and human-written text. Find that overall, smaller and partially-trained models are better universal text detectors. Interestingly, we find that whether the detector and generator were trained on the same data is not critically important to the detection success.
 
-- **GPT Paternity Test: GPT Generated Text Detection with GPT Genetic Inheritance.** [[paper]](https://arxiv.org/pdf/2305.12519) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+- **DPIC: Decoupling Prompt and Intrinsic Characteristics for LLM Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2305.12519) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
-  *Xiao Yu, Yuang Qi, Kejiang Chen, Guoqiang Chen, Xi Yang, Pengyuan Zhu, Weiming Zhang and Nenghai Yu.*
-  > Introduce GPT Paternity Test (GPT-Pat), which reliably detects machine-generated text across varied datasets. Given a text under scrutiny, we leverage ChatGPT to generate a corresponding question and provide a re-answer to the question. By comparing the similarity between the original text and the generated re-answered text, it can be determined whether the text is machine-generated.
+  *Xiao Yu, Yuang Qi, Kejiang Chen, Guoqiang Chen, Xi Yang, Pengyuan Zhu, Xiuwei Shang, Weiming Zhang and Nenghai Yu.*
+  > Propose to decouple prompt and intrinsic characteristics (DPIC) for LLM-generated text detection method. Specifically, given a candidate text, DPIC employs an auxiliary LLM to reconstruct the prompt corresponding to the candidate text, then uses the prompt to regenerate text by the auxiliary LLM. Then, the similarity between the candidate text and the regenerated text is used as a detection feature.
 
 - **G3Detector: General GPT-Generated Text Detector.** [[paper]](https://arxiv.org/pdf/2305.12680) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
