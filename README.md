@@ -2430,6 +2430,11 @@
   *Georgios P. Georgiou.*
   > Aim to investigate how various linguistic components are represented in both types of texts, assessing the ability of AI to emulate human writing. Despite AI-generated texts appearing to mimic human speech, the results revealed significant differences across multiple linguistic features such as consonants, word stress, nouns, verbs, pronouns, direct objects, prepositional modifiers, and use of difficult words among others.
 
+- **GPT-4 is judged more human than humans in displaced and inverted Turing tests.** [[paper]](https://arxiv.org/pdf/2407.08853) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.07-blue)
+
+  *Ishika Rathi, Sydney Taylor, Benjamin K. Bergen and Cameron R. Jones.*
+  > Measure how well people and large language models can discriminate using two modified versions of the Turing test: inverted and displaced. GPT-3.5, GPT-4, and displaced human adjudicators judged whether an agent was human or AI on the basis of a Turing test transcript. The result suggests that both humans and current LLMs struggle to distinguish between the two when they are not actively interrogating the person, underscoring an urgent need for more accurate tools to detect AI in conversations.
+
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
 - Giant Language model Test Room [[demo]](http://gltr.io/dist/index.html) ![](https://img.shields.io/badge/2019.06-blue)
