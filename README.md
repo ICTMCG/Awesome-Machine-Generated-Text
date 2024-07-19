@@ -1046,7 +1046,7 @@
   *Wissam Antoun, Benoît Sagot and Djamé Seddah.*
   > Investigate "Cross-Model Detection," evaluating whether a classifier trained to distinguish between source LLM-generated and humanwritten text can also detect text from a target LLM without further training. The study comprehensively explores various LLM sizes and families, and assesses the impact of conversational fine-tuning techniques on classifier generalization. The research also delves into Model Attribution, encompassing source model identification, model family classification, and model size classification.
 
-- **Can LLM-Generated Misinformation Be Detected?** [[paper]](https://arxiv.org/pdf/2309.13788.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.09-blue)
+- **Can LLM-Generated Misinformation Be Detected?** [[paper]](https://arxiv.org/pdf/2309.13788.pdf) ![](https://img.shields.io/badge/ICLR%202024-orange) ![](https://img.shields.io/badge/2023.09-blue)
 
   *Canyu Chen and Kai Shu.*
   > Build a taxonomy of LLM-generated misinformation. Categorize and validate the potential real-world methods for generating misinformation with LLMs. Discover that LLM-generated misinformation can be harder to detect for humans and detectors compared to human-written misinformation with the same semantics.
