@@ -1441,7 +1441,7 @@
   *Melania Nitu and Mihai Dascalu.*
   > Introduce a corpus of approximately 60 k Romanian documents, including human-written samples as well as generated texts using six distinct Large Language Models (LLMs) and three different generation methods. Introduce two techniques for discerning machine-generated texts. The study also includes a text similarity analysis between human-authored and artificially generated texts, coupled with a SHAP analysis.
 
-- **Does DetectGPT Fully Utilize Perturbation? Selective Perturbation on Model-Based Contrastive Learning Detector would be Better.** [[paper]](https://arxiv.org/pdf/2402.00263.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Does DetectGPT Fully Utilize Perturbation? Selective Perturbation on Model-Based Contrastive Learning Detector would be Better.** [[paper]](https://arxiv.org/pdf/2402.00263.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Shengchao Liu, Xiaoming Liu, Yichen Wang, Zehua Cheng, Chengzhengxu Li, Zhaohan Zhang, Yu Lan and Chao Shen.*
   > DetectGPT's random perturbation strategy might introduce noise, and its logit regression module harms the generalizability and applicability of individual or small-batch inputs. Propose a novel detector, PECOLA, which uses selective strategy perturbation to relieve the important information loss caused by random masking, and multi-pair contrastive learning to capture the implicit pattern information during perturbation, facilitating few-shot performance.
@@ -2160,7 +2160,7 @@
 
   *Jie Ren, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin and Jiliang Tang.*
 
-- **WatME: Towards Lossless Watermarking Through Lexical Redundancy.** [[paper]](https://arxiv.org/pdf/2311.09832.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+- **WatME: Towards Lossless Watermarking Through Lexical Redundancy.** [[paper]](https://arxiv.org/pdf/2311.09832.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2023.11-blue)
 
   *Liang Chen, Yatao Bian, Yang Deng, Deng Cai, Shuaiyi Li, Peilin Zhao and Kam-fai Wong.*
 
@@ -2323,6 +2323,10 @@
 - **MCGMark: An Encodable and Robust Online Watermark for LLM-Generated Malicious Code.** [[paper]](https://arxiv.org/pdf/2408.01354) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.08-blue)
 
   *Kaiwen Ning, Jiachi Chen, Qingyuan Zhong, Tao Zhang, Yanlin Wang, Wei Li, Yu Zhang, Weizhe Zhang and Zibin Zheng.*
+
+- **Subtle Signatures, Strong Shields: Advancing Robust and Imperceptible Watermarking in Large Language Models.** [[paper]](https://aclanthology.org/2024.findings-acl.327.pdf) ![](https://img.shields.io/badge/ACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.08-blue)
+
+  *Yubing Ren, Ping Guo, Yanan Cao and Wei Ma.*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
