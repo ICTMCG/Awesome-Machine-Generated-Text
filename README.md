@@ -857,7 +857,7 @@
   *Xianjun Yang, Wei Cheng, Linda Petzold, William Yang Wang and Haifeng Chen.*
   > Given a text, we first truncate it in the middle and then use only the preceding portion as input to the LLMs to regenerate the new remaining parts. By analyzing the differences between the original and new remaining parts through N-gram analysis in black-box or probability divergence in white-box, we can clearly illustrate significant discrepancies between machine-generated and human-written text.
 
-- **Efficient Detection of LLM-generated Texts with a Bayesian Surrogate Model.** [[paper]](https://arxiv.org/pdf/2305.16617) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+- **Efficient Detection of LLM-generated Texts with a Bayesian Surrogate Model.** [[paper]](https://arxiv.org/pdf/2305.16617) ![](https://img.shields.io/badge/ACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *Zhijie Deng, Hongcheng Gao, Yibo Miao and Hao Zhang.*
   > DetectGPT suffers from significant inefficiency issues, as detecting a single candidate requires scoring hundreds of its perturbations with the source LLM. This paper aims to bridge this gap. Technically, propose to incorporate a Bayesian surrogate model, which allows us to select typical samples based on Bayesian uncertainty and interpolate scores from typical samples to other ones, to improve query efficiency.
@@ -1310,7 +1310,7 @@
   *Dekun Chen.*
   > Present a method to show the contribution of words to model predictions. Specifically, this study considers information from classification weight vectors, semantic vectors, and embedded input word vectors for a more complete interpretation of detector LLM.
 
-- **A Ship of Theseus: Curious Cases of Paraphrasing in LLM-Generated Texts.** [[paper]](https://arxiv.org/pdf/2311.08374.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+- **A Ship of Theseus: Curious Cases of Paraphrasing in LLM-Generated Texts.** [[paper]](https://arxiv.org/pdf/2311.08374.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2023.11-blue)
 
   *Nafis Irtiza Tripto, Saranya Venkatraman, Dominik Macko, Robert Moro, Ivan Srba, Adaku Uchendu, Thai Le and Dongwon Lee.*
   > Explore the diverse notions of authorship regarding paraphrasing in author attribution and AI text detection, incorporating philosophical concepts like the Ship of Theseus paradox. Suggest that authorship should be task-dependent, and we substantiate our results with relevant theoretical and philosophical perspectives.
@@ -1325,7 +1325,7 @@
   *Muhammad Farid Adilazuarda, Nikolaos Nektarios Arkoulis and Oleksii Chumakov.*
   > Present the IMGTB framework, which simplifies the benchmarking of machine-generated text detection methods by easy integration of custom (new) methods and evaluation datasets.
 
-- **IMGTB: A Framework for Machine-Generated Text Detection Benchmarking.** [[paper]](https://arxiv.org/pdf/2311.12574.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+- **IMGTB: A Framework for Machine-Generated Text Detection Benchmarking.** [[paper]](https://arxiv.org/pdf/2311.12574.pdf) ![](https://img.shields.io/badge/ACL%202024%20Demos-orange) ![](https://img.shields.io/badge/2023.11-blue)
 
   *Michal Spiegel and Dominik Macko.*
   > Offer an in-depth evaluation of three distinct methods: traditional shallow learning, Language Model (LM) fine-tuning, and Multilingual Model fine-tuning. These approaches are rigorously tested on a wide range of machine-generated texts, providing a benchmark of their competence in distinguishing between human-authored and machine-authored linguistic constructs.
@@ -1461,7 +1461,7 @@
   *Yuhui Shi, Qiang Sheng, Juan Cao, Hao Mi, Beizhe Hu and Danding Wang.*
   > Propose to estimate word generation probabilities as pseudo white-box features via multiple re-sampling to help improve AIGT detection under the black-box setting. Design POGER, a proxy-guided efficient re-sampling method, which selects a small subset of representative words for performing multiple re-sampling in black-box AIGT detection.
 
-- **Threads of Subtlety: Detecting Machine-Generated Texts Through Discourse Motifs.** [[paper]](https://arxiv.org/pdf/2402.10586.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Threads of Subtlety: Detecting Machine-Generated Texts Through Discourse Motifs.** [[paper]](https://arxiv.org/pdf/2402.10586.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja and Dongyeop Kang.*
   > This paper delves into the inquiry of identifying discernible and unique linguistic properties in texts that were written by humans, particularly uncovering the underlying discourse structures of texts beyond their surface structures. Introducing a novel methodology, we leverage hierarchical parse trees and recursive hypergraphs to unveil distinctive discourse patterns in texts produced by both LLMs and humans.
@@ -1476,7 +1476,7 @@
   *Anonymous authors.*
   > Present the Identify the Writer by Writing Style (IWWS) model, a novel approach designed to identify the writing styles of human and generative model. Propose a comprehensive dataset, HumanGenTextify. The IWWS model not only achieves high accuracy in text source identification but also provides insights into the distinctive writing styles that characterize human and model-generated texts.
 
-- **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Machine-generated Text Localization.** [[paper]](https://arxiv.org/pdf/2402.11744.pdf) ![](https://img.shields.io/badge/ACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zhongping Zhang, Wenda Qin and Bryan A. Plummer.*
   > Provide the first in-depth study of MGT that localizes the portions of a document that were machine generated. A key challenge in the MGT localization task is that short spans of text, e.g., a single sentence, provides little information indicating if it is machine generated due to its short length. Leverage contextual information, where we predict whether multiple sentences are machine or human written at once.
@@ -1641,7 +1641,7 @@
   *Edouard Yvinec and Gabriel Kasser.*
   > Define trust as the ability to know if an input text was generated by a LLM or a human. To do so, design SPOT, an efficient method, that classifies the source of any, standalone, text input based on originality score. This score is derived from the prediction of a given LLM to detect other LLMs.
 
-- **Are AI-Generated Text Detectors Robust to Adversarial Perturbations?** [[paper]](https://arxiv.org/pdf/2406.01179) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+- **Are AI-Generated Text Detectors Robust to Adversarial Perturbations?** [[paper]](https://arxiv.org/pdf/2406.01179) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.06-blue)
 
   *Guanhua Huang, Yuchen Zhang, Zhe Li, Yongjian You, Mingze Wang and Zhouwang Yang.*
   > Investigates the robustness of existing AIGT detection methods and introduces a novel detector, the Siamese Calibrated Reconstruction Network (SCRN). The SCRN employs a reconstruction network to add and remove noise from text, extracting a semantic representation that is robust to local perturbations. Propose a siamese calibration technique to train the model to make equally confidence predictions under different noise, which improves the model's robustness against adversarial perturbations.
@@ -1853,7 +1853,7 @@
   *Ying Zhou, Ben He and Le Sun.*
   > Simulate real-world scenarios in both informal and professional writing, exploring the out-of-the-box performance of current detectors. Construct 12 black-box text perturbation methods to assess the robustness of current detection models across various perturbation granularities. Through adversarial learning experiments, investigate the impact of perturbation data augmentation on the robustness of AI-text detectors.
 
-- **Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2402.14007.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models.** [[paper]](https://arxiv.org/pdf/2402.14007.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Zhiwei He, Binglin Zhou, Hongkun Hao, Aiwei Liu, Xing Wang, Zhaopeng Tu, Zhuosheng Zhang and Rui Wang.*
   > Introduce the concept of ''cross-lingual consistency'' in text watermarking, which assesses the ability of text watermarks to maintain their effectiveness after being translated into other languages. Propose a Cross-lingual Watermark Removal Attack (CWRA) to bypass watermarking by first obtaining a response from an LLM in a pivot language, which is then translated into the target language.
@@ -1964,7 +1964,7 @@
   *Alessandro Gambetti and Qiwei Han.*
   > Leveraging OpenAI's GPT-4-Turbo and DALL-E-2 models, craft AiGen-FoodReview, a multi-modal dataset of 20,144 restaurant review-image pairs divided into authentic and machine-generated. Explore unimodal and multimodal detection models, achieving 99.80% multimodal accuracy with FLAVA.
 
-- **M4GT-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.11175.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **M4GT-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2402.11175.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun, Osama Mohanned Afzal, Tarek Mahmoud, Giovanni Puccetti, Thomas Arnold, Alham Fikri Aji, Nizar Habash, Iryna Gurevych and Preslav Nakov.*
   > Address this problem by introducing a new benchmark involving multilingual, multi-domain and multi-generator for MGT detection -- M4GT-Bench. It is collected for three task formulations: (1) mono-lingual and multi-lingual binary MGT detection; (2) multi-way detection identifies which particular model generates the text; and (3) human-machine mixed text detection, where a word boundary delimiting MGT from human-written content should be determined.
@@ -2052,7 +2052,7 @@
 
   *Yixin Liu, Hongsheng Hu, Xuyun Zhang and Lichao Sun.*
 
-- **Who Wrote this Code? Watermarking for Code Generation.** [[paper]](https://arxiv.org/pdf/2305.15060) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.05-blue)
+- **Who Wrote this Code? Watermarking for Code Generation.** [[paper]](https://arxiv.org/pdf/2305.15060) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2023.05-blue)
 
   *Taehyun Lee, Seokhee Hong, Jaewoo Ahn, Ilgee Hong, Hwaran Lee, Sangdoo Yun, Jamin Shin and Gunhee Kim.*
 
@@ -2152,7 +2152,7 @@
 
   *Hanlin Zhang, Benjamin L. Edelman, Danilo Francati, Daniele Venturi, Giuseppe Ateniese and Boaz Barak.*
 
-- **WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models.** [[paper]](https://arxiv.org/pdf/2311.07138.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.11-blue)
+- **WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models.** [[paper]](https://arxiv.org/pdf/2311.07138.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2023.11-blue)
 
   *Shangqing Tu, Yuliang Sun, Yushi Bai, Jifan Yu, Lei Hou and Juanzi Li.*
 
@@ -2208,19 +2208,19 @@
 
   *Johnny Tian-Zheng Wei, Ryan Yixiang Wang and Robin Jia.*
 
-- **k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2402.11399.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2402.11399.pdf) ![](https://img.shields.io/badge/ACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi and Tianxing He.*
 
-- **Duwak: Dual Watermarks in Large Language Models.** [[paper]](https://arxiv.org/pdf/2403.13000) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Duwak: Dual Watermarks in Large Language Models.** [[paper]](https://arxiv.org/pdf/2403.13000) ![](https://img.shields.io/badge/ACL%202024%20Findings-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Chaoyi Zhu, Jeroen Galjaard, Pin-Yu Chen and Lydia Y. Chen.*
 
-- **Bypassing LLM Watermarks with Color-Aware Substitutions.** [[paper]](https://arxiv.org/pdf/2403.14719) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **Bypassing LLM Watermarks with Color-Aware Substitutions.** [[paper]](https://arxiv.org/pdf/2403.14719) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Qilong Wu and Varun Chandrasekaran.*
 
-- **GumbelSoft: Diversified Language Model Watermarking via the GumbelMax-trick.** [[paper]](https://arxiv.org/pdf/2402.12948.pdf) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.02-blue)
+- **GumbelSoft: Diversified Language Model Watermarking via the GumbelMax-trick.** [[paper]](https://arxiv.org/pdf/2402.12948.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.02-blue)
 
   *Jiayi Fu, Xuandong Zhao, Ruihan Yang, Yuansen Zhang, Jiangjie Chen and Yanghua Xiao.*
 
@@ -2256,7 +2256,7 @@
 
   *Zhongze Cai, Shang Liu, Hanzhao Wang, Huaiyang Zhong and Xiaocheng Li.*
 
-- **An Entropy-based Text Watermarking Detection Method.** [[paper]](https://arxiv.org/pdf/2403.13485) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.03-blue)
+- **An Entropy-based Text Watermarking Detection Method.** [[paper]](https://arxiv.org/pdf/2403.13485) ![](https://img.shields.io/badge/ACL%202024-orange) ![](https://img.shields.io/badge/2024.03-blue)
 
   *Yijian Lu, Aiwei Liu, Dianzhi Yu, Jingjing Li and Irwin King.*
 
