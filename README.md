@@ -464,6 +464,10 @@
 
   *Xuhong Wang, Haoyu Jiang, Yi Yu, Jingru Yu, Yilun Lin, Ping Yi, Yingchun Wang, Yu Qiao, Li Li and Fei-Yue Wang.*
 
+- **Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges.** [[paper]](https://arxiv.org/pdf/2408.08946) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.08-blue)
+
+  *Baixiang Huang, Canyu Chen and Kai Shu.*
+
 #### Human Detection
 - **Deepfake Bot Submissions to Federal Public Comment Websites Cannot Be Distinguished from Human Submissions.** [[paper]](https://techscience.org/a/2019121801/download) ![](https://img.shields.io/badge/Technology%20Science%202019-orange) ![](https://img.shields.io/badge/2019.12-blue)
 
