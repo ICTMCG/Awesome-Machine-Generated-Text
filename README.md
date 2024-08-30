@@ -1745,6 +1745,11 @@
   *Alimohammad Beigi, Zhen Tan, Nivedh Mudiam, Canyu Chen, Kai Shu and Huan Liu.*
   > Introduce the concept of model attribution as a domain generalization problem, where each prompting method represents a unique domain. We argue that an effective attribution model must be invariant to these domain-specific features. To address this, we introduce a novel approach based on Supervised Contrastive Learning. This method is designed to enhance the model's robustness to variations in prompts and focuses on distinguishing between different source LLMs.
 
+- **Toward Robust Arabic AI-Generated Text Detection: Tackling Diacritics Challenges.** [[paper]](https://www.mdpi.com/2078-2489/15/7/419/pdf?version=1721392281) ![](https://img.shields.io/badge/Information%202024-orange) ![](https://img.shields.io/badge/2024.07-blue)
+
+  *Hamed Alshammari and Khaled Elleithy.*
+  > Introduce robust Arabic text detection models using Transformer-based pre-trained models, specifically AraELECTRA, AraBERT, XLM-R, and mBERT. The primary goal is to detect AIGTs in essays and overcome the challenges posed by the diacritics that usually appear in Arabic religious texts.
+
 - **Deloitte at #SMM4H 2024: Can GPT-4 Detect COVID-19 Tweets Annotated by Itself?** [[paper]](https://aclanthology.org/2024.smm4h-1.18.pdf) ![](https://img.shields.io/badge/SMM4H%202024-orange) ![](https://img.shields.io/badge/2024.08-blue)
 
   *Harika Abburi, Nirmala Pudota, Balaji Veeramani, Edward Bowen and Sanmitra Bhattacharya.*
@@ -1758,8 +1763,13 @@
 
 - **Learning to Rewrite: Generalized LLM-Generated Text Detection.** [[paper]](https://arxiv.org/pdf/2408.04237) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.08-blue)
 
-  *Wei Hao, Ran Li, Weiliang Zhao, Junfeng Yang and Chengzhi Mao*
+  *Wei Hao, Ran Li, Weiliang Zhao, Junfeng Yang and Chengzhi Mao.*
   > Prior work shows that LLMs tend to rewrite LLM-generated content less frequently, which can be used for detection and naturally generalizes to unforeseen data. However, we find that the rewriting edit distance between human and LLM content can be indistinguishable across domains, leading to detection failures. We propose training an LLM to rewrite input text, producing minimal edits for LLM-generated content and more edits for human-written text, deriving a distinguishable and generalizable edit distance difference across different domains.
+
+- **Masking based approach to detect llm generated text.** [[paper]](https://hal.science/hal-04676730/document) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.08-blue)
+
+  *Atmadeep Sengupta.*
+  > Present a masking based approach, which we call MaskGPT, in a black box setup, to detect a text is llm generated or not. We mask a proportion of the text, then fill the masks, and calculate the proportion of masks filled accurately. The underlying hypothesis is, llms are more likely to fill masks similar as the input text if the text is llm generated than the case of human generated texts.
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -2552,6 +2562,16 @@
 
   *Gauri Anil Godghase, Rishit Agrawal, Tanush Obili and Mark Stamp.*
   > Develop a new dataset consisting of more than 750,000 human-written paragraphs, with a corresponding chatbot-generated paragraph for each. Based on this dataset, we apply Machine Learning (ML) techniques to determine the origin of text (human or chatbot). Our feature analysis approach involves extracting a collection of features from the text for classification. We also explore the use of contextual embeddings and transformer-based architectures to train classification models.
+
+- **An Evaluation of Explanation Methods for Black-Box Detectors of Machine-Generated Text.** [[paper]](https://arxiv.org/pdf/2408.14252) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.08-blue)
+
+  *Loris Schoenegger, Yuxi Xia and Benjamin Roth.*
+  > Conducts the first systematic evaluation of explanation quality for MGT detection. The dimensions of faithfulness and stability are assessed with five automated experiments, and usefulness is evaluated in a user study. Find that SHAP performs best in terms of faithfulness, stability, and in helping users to predict the detector's behavior. In contrast, LIME scores the worst in terms of user performance at predicting the detectors' behavior.
+
+- **Measuring Human Contribution in AI-Assisted Content Generation.** [[paper]](https://arxiv.org/pdf/2408.14792) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.08-blue)
+
+  *Yueqi Xie, Tao Qi, Jingwei Yi, Ryan Whalen, Junming Huang, Qian Ding, Yu Xie, Xing Xie and Fangzhao Wu.*
+  > Raise the research question of measuring human contribution in AI-assisted content generation and introduces a framework to address this question that is grounded in information theory. By calculating mutual information between human input and AI-assisted output relative to self-information of AI-assisted output, quantify the proportional information contribution of humans in content generation.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
