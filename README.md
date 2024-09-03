@@ -564,6 +564,11 @@
   *Nadège Alavoine, Maximin Coavoux, Emmanuelle Esperança-Rodier, Romane Gallienne, Carlos Gonzalez Gallardo, Jérôme Goulian, Jose G. Moreno, Aurélie Névéol, Didier Schwab, Vincent Segonne and Johanna Simoens.*
   > Propose a new corpus in French and English for the task of recognising automatically generated texts and conduct a study of how humans perceive the text. The results show that the generated texts by tools such as ChatGPT share some common characteristics but they are not clearly identifiable which generates different perceptions of these texts.
 
+- **Seeing Through AI's Lens: Enhancing Human Skepticism Towards LLM-Generated Fake News.** [[paper]](https://arxiv.org/pdf/2406.14012) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.06-blue)
+
+  *Navid Ayoobi, Sadat Shahriar and Arjun Mukherjee.*
+  > By providing cues in human-written and LLM-generated news, we can help individuals increase their skepticism towards fake LLM-generated news. This paper aims to elucidate simple markers that help individuals distinguish between articles penned by humans and those created by LLMs. Devise a metric named Entropy-Shift Authorship Signature (ESAS) based on the information theory and entropy principles.
+
 - **GPT-4 is judged more human than humans in displaced and inverted Turing tests.** [[paper]](https://arxiv.org/pdf/2407.08853) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.07-blue)
 
   *Ishika Rathi, Sydney Taylor, Benjamin K. Bergen and Cameron R. Jones.*
@@ -2572,6 +2577,11 @@
 
   *Yueqi Xie, Tao Qi, Jingwei Yi, Ryan Whalen, Junming Huang, Qian Ding, Yu Xie, Xing Xie and Fangzhao Wu.*
   > Raise the research question of measuring human contribution in AI-assisted content generation and introduces a framework to address this question that is grounded in information theory. By calculating mutual information between human input and AI-assisted output relative to self-information of AI-assisted output, quantify the proportional information contribution of humans in content generation.
+
+- **Digital tourism interpretation content quality: A comparison between AI-generated content and professional-generated content.** [[paper]](https://www.sciencedirect.com/science/article/pii/S221197362400062X/pdfft?md5=1543b43c1776dce5a83681dee1d49523&pid=1-s2.0-S221197362400062X-main.pdf) ![](https://img.shields.io/badge/Tourism%20Management%20Perspectives-orange) ![](https://img.shields.io/badge/2024.09-blue)
+
+  *Jiahua Jarrett Zhang, Ying Wendy Wang, Qian Ruan and Yang Yang.*
+  > The emerging digital tourism interpretations give rise to a novel intermediary for delivering interpretation in the form of professional-generated content (PGC) or artificial intelligence-generated content (AIGC). Unveiled three dimensions of content quality in digital tourism interpretation: informativeness, emotional appeal, and empathy. Furthermore, content analysis and ANOVA indicated that AIGC demonstrates comparatively lower levels of content quality than PGC across all three dimensions.
 
 ### Demos & Products
 - Grover [[demo]](https://grover.allenai.org/detect) [[repo]](https://github.com/rowanz/grover) ![](https://img.shields.io/badge/2019.05-blue)
