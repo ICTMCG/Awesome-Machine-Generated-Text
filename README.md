@@ -1922,6 +1922,11 @@
   *Hongyan Chang, Hamed Hassani and Reza Shokri.*
   > Introduce smoothing attacks and show that existing watermarking methods are not robust against minor modifications of text. An adversary can use weaker language models to smooth out the distribution perturbations caused by watermarks without significantly compromising the quality of the generated text. The modified text resulting from the smoothing attack remains close to the distribution of text that the original model (without watermark) would have produced.
 
+- **LLM Detectors Still Fall Short of Real World: Case of LLM-Generated Short News-Like Posts.** [[paper]](https://arxiv.org/pdf/2409.03291) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2024.09-blue)
+
+  *Henrique Da Silva Gameiro, Andrei Kucharavy and Ljiljana Dolamic.*
+  > Demonstrate that existing LLM detectors, whether zero-shot or purpose-trained, are not ready for real-world use in that setting. All tested zero-shot detectors perform inconsistently with prior benchmarks and are highly vulnerable to sampling temperature increase, a trivial attack absent from recent benchmarks. A purpose-trained detector generalizing across LLMs and unseen attacks can be developed, but it fails to generalize to new human-written texts.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
