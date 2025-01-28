@@ -2713,6 +2713,7 @@
 | CUDRT | [[paper]](https://arxiv.org/pdf/2406.09056) | 2024 | a Chinese and English dataset with 480,000 samples. | varied | [[repo]](https://github.com/TaoZhen1110/CUDRT_Benchmark) |
 | MultiSocial | [[paper]](https://arxiv.org/pdf/2406.12549) | 2024 | 58k human-written texts and 414k machine-generated texts. | varied | [[repo]](https://anonymous.4open.science/r/multisocial/) |
 | BUST | [[paper]](https://aclanthology.org/2024.naacl-long.444.pdf) | 2024 | 25K texts from humans and 7 LLMs responding to instructions across 10 tasks from 3 diverse sources. | varied | [[home]](https://bust.nlp.idsia.ch/) [[repo]](https://github.com/IDSIA-NLP/BUST) |
+| RAID | [[paper]](https://aclanthology.org/2024.acl-long.674.pdf) | 2024 | 10M texts from 11 LLMs, 11 domains, 4 decoding strategies, and 12 adversarial attacks. Has leaderboard for benchmarking | varied | [[home]](https://raid-bench.xyz/) [[repo]](https://github.com/liamdugan/raid) [[leaderboard]](https://raid-bench.xyz/leaderboard) |
 
 ### Shared Tasks
 - RuATD: Russian Artificial Text Detection [[paper]](https://arxiv.org/abs/2206.01583) [[repo]](https://github.com/dialogue-evaluation/RuATD)
@@ -2722,3 +2723,6 @@
 - SemEval-2024 Task 8 [[home]](https://github.com/mbzuai-nlp/SemEval2024-task8) [[papers]](https://aclanthology.org/volumes/2024.semeval-1/)
 - Voight-Kampff Generative AI Authorship Verification 2024 [[home]](https://pan.webis.de/clef24/pan24-web/generated-content-analysis.html) [[papers]](https://ceur-ws.org/Vol-3740/)
 - DAGPap24: Detecting automatically generated scientific papers [[home]](https://sdproc.org/2024/sharedtasks.html#dagpap) [[home]](https://www.codabench.org/competitions/2431/) [[papers]](https://aclanthology.org/volumes/2024.sdp-1/)
+- GenAI Content Detection Task 1: Binary Multilingual MGT Detection [[home]](https://genai-content-detection.gitlab.io/sharedtasks) [[github]](https://github.com/mbzuai-nlp/COLING-2025-Workshop-on-MGT-Detection-Task1/tree/main) [[paper]](https://arxiv.org/abs/2501.11012)
+- GenAI Content Detection Task 2: AI vs. Human - Academic Essay Authenticity Challenge [[home]](https://genai-content-detection.gitlab.io/sharedtasks) [[gitlab]](https://gitlab.com/genai-content-detection/genai-content-detection-coling-2025) [[paper]](https://arxiv.org/abs/2412.18274)
+- GenAI Content Detection Task 3: Cross-domain MGT detection [[home]](https://genai-content-detection.gitlab.io/sharedtasks) [[github]](https://github.com/liamdugan/COLING-2025-Workshop-on-MGT-Detection-Task-3) [[leaderboard]](https://raid-bench.xyz/shared-task) [[paper]](https://arxiv.org/abs/2501.08913)
