@@ -1,15 +1,16 @@
 # Awesome Machine Generated Text
 
 ## TOC
-- [Resource List about Machine Generated Text](#awesome-machine-generated-text)
+- [Awesome Machine Generated Text](#awesome-machine-generated-text)
+  - [TOC](#toc)
   - [Large Scale Pre-training for Language Generation](#large-scale-pre-training-for-language-generation)
-  - [Analysis ![](https://img.shields.io/badge/Building-red)](#analysis)
-    <!-- - [Comprehensive](#comprehensive)
-    - [Hallucination & Disinformation](#hallucination--disinformation)
-    - [Bias & Toxicity](#bias--toxicity)
+  - [Analysis](#analysis)
+    - [Comprehensive](#comprehensive)
+    - [Hallucination \& Disinformation](#hallucination--disinformation)
+    - [Bias \& Toxicity](#bias--toxicity)
     - [Security Risk](#security-risk)
     - [LM Attack](#lm-attack)
-    - [Environment](#environment) -->
+    - [Environment](#environment)
   - [Detection](#detection)
     - [Papers](#papers)
       - [Survey](#survey)
@@ -19,7 +20,7 @@
       - [Benchmark](#benchmark)
       - [Watermarking](#watermarking)
       - [Other Related Work](#other-related-work)
-    - [Demos & Products](#demos--products)
+    - [Demos \& Products](#demos--products)
     - [Datasets](#datasets)
     - [Shared Tasks](#shared-tasks)
 
@@ -1809,16 +1810,20 @@
   *Hoang-Quoc Nguyen-Son, Minh-Son Dao and Koji Zettsu.*
   
 - **PlagBench: Exploring the Duality of Large Language Models in Plagiarism Generation and Detection** [[paper]](https://aclanthology.org/2025.naacl-long.384/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
-  Jooyoung Lee, Toshini Agrawal, Adaku Uchendu, Thai Le, Jinghui Chen, Dongwon Lee
+  
+  *Jooyoung Lee, Toshini Agrawal, Adaku Uchendu, Thai Le, Jinghui Chen, Dongwon Lee*
 
 - **AID: Adaptive Integration of Detectors for Safe AI with Language Models**[[paper]](https://aclanthology.org/2025.naacl-long.229/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
-  Xinran Wang, Enmao Diao, Qi Le, Jie Ding, Ali Anwar
+  
+  *Xinran Wang, Enmao Diao, Qi Le, Jie Ding, Ali Anwar*
 
 - **DART: An AIGT Detector using AMR of Rephrased Text**[[paper]](https://aclanthology.org/2025.naacl-short.59/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
-  Hyeonchu Park, Byungjun Kim, Bugeun Kim
+  
+  *Hyeonchu Park, Byungjun Kim, Bugeun Kim*
 
 - **MixRevDetect: Towards Detecting AI-Generated Content in Hybrid Peer Reviews.**[[paper]](https://aclanthology.org/2025.naacl-short.79/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
-  Sandeep Kumar, Samarth Garg, Sagnik Sengupta, Tirthankar Ghosal, Asif Ekbal
+  
+  *Sandeep Kumar, Samarth Garg, Sagnik Sengupta, Tirthankar Ghosal, Asif Ekbal*
 
 #### Detector Attack
 - **Attacking Neural Text Detectors.** [[paper]](https://trustworthyiclr20.github.io/wolff.pdf) ![](https://img.shields.io/badge/ICLR%202020%20Workshop-orange) ![](https://img.shields.io/badge/2020.02-blue)
@@ -2421,10 +2426,12 @@
   *Anirudh Ajith, Sameer Singh and Danish Pruthi.*
   
 - **WaterPool: A Language Model Watermark Mitigating Trade-Offs among Imperceptibility, Efficacy and Robustness**[[paper]](https://aclanthology.org/2025.naacl-long.209/) ![](https://img.shields.io/badge/NAACL%202025%20-orange) ![](https://img.shields.io/badge/2025.04-blue)
-  Baizhou Huang, Xiaojun Wan
+  
+  *Luis Chiruzzo, Alan Ritter, Lu Wang*
 
 - **$B^4$: A Black-Box Scrubbing Attack on LLM Watermarks**[[paper]](https://aclanthology.org/2025.naacl-long.460/)![](https://img.shields.io/badge/NAACL%202025%20-orange)![](https://img.shields.io/badge/2025.04-blue)
-  Baizhou Huang, Xiao Pu, Xiaojun Wan
+  
+  *Baizhou Huang, Xiao Pu, Xiaojun Wan*
 
 #### Other Related Work
 - **MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers.** [[paper]](https://proceedings.neurips.cc/paper/2021/file/260c2432a0eecc28ce03c10dadc078a4-Paper.pdf) ![](https://img.shields.io/badge/NeurIPS%202021-orange) ![](https://img.shields.io/badge/2021.02-blue)
