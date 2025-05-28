@@ -1814,7 +1814,7 @@
 - **AID: Adaptive Integration of Detectors for Safe AI with Language Models**[[paper]](https://aclanthology.org/2025.naacl-long.229/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
   Xinran Wang, Enmao Diao, Qi Le, Jie Ding, Ali Anwar
 
-- **DART: An AIGT Detector using AMR of Rephrased Text**[[paper]](https://aclanthology.org/2025.naacl-short.59/)](https://aclanthology.org/2025.naacl-long.229/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
+- **DART: An AIGT Detector using AMR of Rephrased Text**[[paper]](https://aclanthology.org/2025.naacl-short.59/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
   Hyeonchu Park, Byungjun Kim, Bugeun Kim
 
 - **MixRevDetect: Towards Detecting AI-Generated Content in Hybrid Peer Reviews.**[[paper]](https://aclanthology.org/2025.naacl-short.79/)![](https://img.shields.io/badge/NAACL%202025-orange)![](https://img.shields.io/badge/2025.04-blue)
