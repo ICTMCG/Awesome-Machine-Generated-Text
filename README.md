@@ -2696,6 +2696,7 @@
 - Content at Scale AI Content Detector [[demo]](https://contentatscale.ai/ai-content-detector/) 
 - Writefull GPT Detector [[demo]](https://x.writefull.com/gpt-detector) 
 - Checkfor.ai [[demo]](https://checkfor.ai/product/) 
+- humanize-chinese [[repo]](https://github.com/voidborne-d/humanize-chinese) ![](https://img.shields.io/badge/2026.02-blue) — Open-source Chinese AI-text detector and rewriter. Statistical feature analysis (48 Chinese-specific patterns: 四字成语 density, 并列对称, 的地得 usage, etc.), 0-100 scoring, zero external dependencies, runs locally. Also supports CNKI/VIP/Wanfang-oriented AIGC reduction.
 
 
 ### Datasets
