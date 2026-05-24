@@ -305,6 +305,9 @@
 - **Temporary policy: ChatGPT is banned.** [[blog]](https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned) ![](https://img.shields.io/badge/2022.12-blue)
   > While the answers which ChatGPT produces have a high rate of being incorrect, they typically look like they might be good and the answers are very easy to produce.
 
+- **The AI Slop Intelligence Dashboard Problem.** [[blog]](https://labs.jamessawyer.co.uk/ai-slop-intelligence-dashboards/) ![](https://img.shields.io/badge/2026.05-blue)
+  > Evidence-led analysis of cloned AI "intelligence" dashboards, documenting fabricated data claims, unsafe control surfaces, and the difficulty of separating theatrical output from verifiable evidence.
+
 ### Bias & Toxicity
 - **On Second Thought, Let's Not Think Step by Step! Bias and Toxicity in Zero-Shot Reasoning.** [[paper]](https://arxiv.org/pdf/2212.08061) ![](https://img.shields.io/badge/Preprint-orange) ![](https://img.shields.io/badge/2023.12-blue)
 
