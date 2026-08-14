@@ -2696,6 +2696,7 @@
 - Content at Scale AI Content Detector [[demo]](https://contentatscale.ai/ai-content-detector/) 
 - Writefull GPT Detector [[demo]](https://x.writefull.com/gpt-detector) 
 - Checkfor.ai [[demo]](https://checkfor.ai/product/) 
+- Mydentify AI Watermark and Claude Checker [[demo]](https://mydentify.com/tools/ai-watermark-detector) ![](https://img.shields.io/badge/2026.08-blue)
 
 
 ### Datasets
