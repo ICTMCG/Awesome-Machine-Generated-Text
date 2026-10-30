@@ -2696,6 +2696,7 @@
 - Content at Scale AI Content Detector [[demo]](https://contentatscale.ai/ai-content-detector/) 
 - Writefull GPT Detector [[demo]](https://x.writefull.com/gpt-detector) 
 - Checkfor.ai [[demo]](https://checkfor.ai/product/) 
+- Linda (local detector for English, Polish and Russian: stylometry + fine-tuned DeBERTa models in the Assay ensemble, a smaller Loupe model for CPU; weights public on Hugging Face) [[repo]](https://github.com/Lendarixon/Linda) [[report]](https://doi.org/10.5281/zenodo.23261670) ![](https://img.shields.io/badge/2026.10-blue)
 
 
 ### Datasets
