@@ -1989,6 +1989,11 @@
 
   *Brian Tufts, Xuandong Zhao and Lei Li.*
 
+- **Unraveling Interwoven Roles of Large Language Models in Authorship Privacy: Obfuscation, Mimicking, and Verification.** [[paper]](https://aclanthology.org/2025.emnlp-main.753/) ![](https://img.shields.io/badge/EMNLP%202025-orange) ![](https://img.shields.io/badge/2025.05-blue) [[code]](https://github.com/nguyentuc/authorship_privacy)
+
+  *Tuc Nguyen, Yifan Hu and Thai Le.*
+  > Presents a unified framework for analyzing how LLM-enabled authorship obfuscation, mimicking, and verification interact, both at a single point in time and iteratively, and how demographic metadata such as gender and academic background modulates their performance and privacy risks.
+
 #### Benchmark
 - **TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation.** [[paper]](https://aclanthology.org/2021.findings-emnlp.172.pdf) ![](https://img.shields.io/badge/EMNLP%202021%20Findings-orange) ![](https://img.shields.io/badge/2021.09-blue)
 
